@@ -1,67 +1,73 @@
 /* --- STYLES FOR ALL PAGES --- */
-body {
-  /* Typography */
-  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-
-  /* Visual */
-  background-image: url("../imgs/ignasi_pattern_s.png");
-}
-
 html {
-  /* Positioning */
-  position: relative;
+  min-height: 100%;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ }
 
   /* Box-model */
-  min-height: 100%;
-}
+  
 
 /* add space for fixed nav */
 main {
-  margin: 80px 0;
+  margin: 20px;
 }
 
 /* create styles for use for all white main boxes */
 .block {
-  background-color: #fff;
-
-  padding: 30px;
-  margin-bottom: 30px;
+  background-color: #e9EEA1;
+  padding: 20px;
+  margin: 75px;
+  float: left;
 }
 
 .block-header {
   /* Typography */
-  color: #4aaaa5;
-  font-family: Georgia, Times, "Times New Roman", serif;
+  color: #9F129A;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-weight: bold;
+  float: left;
 }
 
 /* NAV START */
 #logo {
-  font-family: Georgia, Times, "Times New Roman", serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
   /* Typography */
   font-size: 24px;
   font-weight: bold;
-  color: #fff;
-
-  /* Visual */
-  background: #4aaaa5;
+  color: #e9EEA1;
+  text-align: center;
 }
+  /* Visual */
+
+.container {
+    position: relative;
+  }
+
+.row {
+  position: relative;
+}
+
+.col {
+  position: relative;
+}
+
 
 /* override bootstrap hover color and border */
-.navbar-default .navbar-nav > li > a:hover {
-  color: #4aaaa5;
-}
 
-.navbar {
-  background: white;
+.navbar 
+{
+  background: #DDEB12;
   border: none;
+  color: #2D082C;
+  position: relative;
+  float: clear;
 }
 
 /* media query for nav background color change */
 @media only screen and (max-width: 767px) {
   .navbar-header {
-    background-color: #4aaaa5;
+    background-color: #9F129A;
   }
 }
 /* END NAV */
@@ -81,7 +87,7 @@ main {
 
 #images {
   /* Box-model */
-  padding-top: 15px;
+  padding-top: 10px;
 
   /* Typography */
   text-align: center;
@@ -92,15 +98,16 @@ main {
 /* BEGIN FOOTER */
 .footer {
   /* Positioning */
-  position: absolute;
+  position: relative;
   bottom: 0;
+  float: clear;
 
   /* Box-model */
   width: 100%;
   height: 60px;
 
   /* Visual */
-  background-color: #666;
+  background-color: #2D082C;
 }
 
 .text-muted-footer {
@@ -108,7 +115,7 @@ main {
   margin-top: 15px;
 
   /* Typography */
-  color: #fff;
+  color: #E9EEA1;
 }
 
 .two-toned-footer-color {
@@ -117,7 +124,7 @@ main {
   padding-top: 3px;
 
   /* Visual */
-  background-color: #4aaaa5;
+  background-color: #9F129A;
 }
 /* END FOOTER */
 /* --- END STYLES FOR ALL PAGES --- */
@@ -127,12 +134,12 @@ main {
 .about-me-header {
   /* Positioning */
   margin-bottom: 33px;
-  font-family: Georgia, Times, "Times New Roman", serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
   /* Typography */
   font-size: 32px;
   font-weight: bold;
-  color: #4aaaa5;
+  color: #9F129A;
 }
 
 #about-image {
@@ -173,7 +180,7 @@ main {
   color: #fff;
 
   /* Visual */
-  background-color: #4aaaa5;
+  background-color: #9F129A;
   border: 0;
 }
 
