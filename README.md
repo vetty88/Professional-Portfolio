@@ -1,48 +1,34 @@
+HMWK2-Portfolio
+CSS Bootstrap Responsive Portfolio Homework (Unit 2)
 
-   * Responsive images
+Table of Contents (N/A)
+Installation
+Original source code downloaded from Gitlab: Monash Bootcamp/Trilogy Education repository: https://monash.bootcampcontent.com/monash-coding-bootcamp/monu-mel-fsf-pt-05-2020-u-c
 
-* The Bootstrap portfolio should minimize the use of media queries.
+Source code edited in VS Code
 
+Source code functionality verified in Google Chrome Browser
 
+Repository created in Github Added edited code to folder, pushed to githhub repo
 
-### Hints
+Launched via Github hosting (github.io)
 
-* Use Bootstrap's grid system (containers, rows, and columns).
+Usage
+Homework Activity. Suitable for usage of simple web portfolio
 
-* On an `xs` screen, content should take up the entire screen. On `sm` and larger screens, you should have some margins on the left and right sides of the screen. Check out various sites on your mobile device vs. your computer to see examples of these differences.
+Credits
+Code Author: Monash University/Trilogy Education: https://monash.bootcampcontent.com/monash-coding-bootcamp/monu-mel-fsf-pt-05-2020-u-c folder titled reference: "Unit 02 CSS Bootstrap Homework: Responsive Portfolio."
 
-* Use an HTML validation service to ensure that each page has valid HTML.
+Resources utilised to edit the code: Monash University ReadMe and Slide Materials: https://monash.bootcampcontent.com/monash-coding-bootcamp/monu-mel-fsf-pt-05-2020-u-c Mozilla MDN WebDocs: https://developer.mozilla.org/en-US/ W3 Schools: https://www.w3schools.com/
 
-### Minimum Requirements
+License
+2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
 
-* Functional, deployed application
+Badges
+GitHub followers
 
-* GitHub repository with README describing the project
-
-* Navbar must be consistent on each page.
-
-* Navbar on each page must contain links to Home/About, Contact, and Portfolio pages.
-
-* All links must work.
-
-* Must use semantic html.
-
-* Each page must have valid and correct HTML. (use a validation service)
-
-* Must contain your personalized information. (bio, name, images, links to social media, etc.)
-
-* Must properly utilize Bootstrap components and grid system.
-
-
-
-## Submission on BCS
-
-You are required to submit the following:
-
-* The URLs of the deployed applications
-
-* The URLs of the GitHub repositories
-
-- - -
+Tests
+Tests recommended in Google Chrome - use VS Code live server. Inspect feature (Google) utilised to tidy CSS code.
+Multiple issues were found with images titled JPG or jpg file types respectively - Github known error (found lodged tickets on Github.com), workaround used to resolve. 
 
 © 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
