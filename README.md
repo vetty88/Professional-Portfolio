@@ -26,6 +26,7 @@ License
 
 Badges
 GitHub followers
+[![GitHub followers](https://img.shields.io/github/followers/Naereen.svg?style=social&label=Follow&maxAge=2592000)](https://github.com/Naereen?tab=followers)
 
 Tests
 Tests recommended in Google Chrome - use VS Code live server. Inspect feature (Google) utilised to tidy CSS code.
