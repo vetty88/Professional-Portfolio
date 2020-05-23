@@ -94,7 +94,7 @@ z-index: 9999;
 .navbar-header {
 background-color: #9F129A;
 z-index: 9999;
-}
+}}
 
 /* END NAV */
 
@@ -109,7 +109,5 @@ width: 100%;
 margin: 10px;
 text-align: center;
 }
-
-
 /* END FOOTER */
 /* --- END STYLES FOR ALL PAGES --- */
