@@ -11,7 +11,7 @@
 - [Contact](#contact)
 - [Creator and Acknowledgements](#creator-and-acknowledgements)
 
-<h1> ## My Professional Portfolio </h1>
+## <h1>  My Professional Portfolio </h1>
 
   About Me, Resume, Portfolio - Showcasing Coding Projects
 
@@ -49,3 +49,8 @@ Vetty88
 
 --Acknowledgements
 * Yvette Waller 2020
+
+
+## Badges
+
+![Made with love in Bairnsdale ](https://madewithlove.now.sh/au?heart=true&template=plastic&text=Bairnsdale+)
