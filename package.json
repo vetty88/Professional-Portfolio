@@ -1,0 +1,38 @@
+{
+  "name": "redux-mini-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
+    "start:prod": "node server.js",
+    "start:dev": "concurrently \"nodemon --ignore 'client/*'\" \"npm run client\"",
+    "client": "cd client && npm run start",
+    "seed": "node scripts/seedDB.js",
+    "install": "cd client && npm install",
+    "build": "cd client && npm run build",
+    "heroku-PROJECTbuild": "npm run build"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^5.3.0",
+    "nodemon": "^1.18.7"
+  },
+  "dependencies": {
+    "axios": "^0.18.1",
+    "bootstrap": "^4.5.3",
+    "chokidar": "^3.4.3",
+    "core-js": "^3.7.0",
+    "eslint-webpack-plugin": "^2.2.1",
+    "express": "^4.17.1",
+    "if-env": "^1.0.4",
+    "javascript": "^1.0.0",
+    "jquery": "^3.5.1",
+    "mongo": "^0.1.0",
+    "mongoose": "^5.10.13",
+    "node": "^15.0.1",
+    "popper": "^1.0.1",
+    "react": "^17.0.1"
+  }
+}

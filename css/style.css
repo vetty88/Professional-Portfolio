@@ -8571,15 +8571,15 @@ textarea.form-control {
     float: right; }
 
 /* Blog*/
-.post-info {
+.PROJECT-info {
   font-size: 12px;
   text-transform: uppercase;
   font-weight: bold;
   color: #fff;
   letter-spacing: .1em; }
-  .post-info > div {
+  .PROJECT-info > div {
     display: inline-block; }
-    .post-info > div .seperator {
+    .PROJECT-info > div .seperator {
       display: inline-block;
       margin: 0 10px;
       opacity: .5; }

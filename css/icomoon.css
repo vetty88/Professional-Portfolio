@@ -174,10 +174,10 @@
 .icon-tags:before {
   content: "\f02c";
 }
-.icon-book:before {
+.icon-project:before {
   content: "\f02d";
 }
-.icon-bookmark:before {
+.icon-projectmark:before {
   content: "\f02e";
 }
 .icon-print:before {
@@ -426,7 +426,7 @@
 .icon-twitter-square:before {
   content: "\f081";
 }
-.icon-facebook-square:before {
+.icon-faceproject-square:before {
   content: "\f082";
 }
 .icon-camera-retro:before {
@@ -489,7 +489,7 @@
 .icon-square-o:before {
   content: "\f096";
 }
-.icon-bookmark-o:before {
+.icon-projectmark-o:before {
   content: "\f097";
 }
 .icon-phone-square:before {
@@ -498,10 +498,10 @@
 .icon-twitter:before {
   content: "\f099";
 }
-.icon-facebook:before {
+.icon-faceproject:before {
   content: "\f09a";
 }
-.icon-facebook-f:before {
+.icon-faceproject-f:before {
   content: "\f09a";
 }
 .icon-github:before {
@@ -1782,7 +1782,7 @@
 .icon-genderless:before {
   content: "\f22d";
 }
-.icon-facebook-official:before {
+.icon-faceproject-official:before {
   content: "\f230";
 }
 .icon-pinterest-p:before {
@@ -2229,10 +2229,10 @@
 .icon-linode:before {
   content: "\f2b8";
 }
-.icon-address-book:before {
+.icon-address-project:before {
   content: "\f2b9";
 }
-.icon-address-book-o:before {
+.icon-address-project-o:before {
   content: "\f2ba";
 }
 .icon-address-card:before {
@@ -2886,7 +2886,7 @@
 .icon-photo_library:before {
   content: "\e413";
 }
-.icon-collections_bookmark:before {
+.icon-collections_projectmark:before {
   content: "\e431";
 }
 .icon-palette:before {
@@ -3657,7 +3657,7 @@
 .icon-language2:before {
   content: "\e894";
 }
-.icon-laptop_chromebook:before {
+.icon-laptop_chromeproject:before {
   content: "\e31f";
 }
 .icon-laptop_mac:before {
@@ -3687,7 +3687,7 @@
 .icon-lens:before {
   content: "\e3fa";
 }
-.icon-library_books:before {
+.icon-library_projects:before {
   content: "\e02f";
 }
 .icon-library_music:before {
