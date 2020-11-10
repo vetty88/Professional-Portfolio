@@ -1,8 +1,7 @@
 import React from "react";
-import CardBtn from "../CardBtn";
 import "./style.css";
 
-function Card(props) {
+function Project(props) {
   return (
     <div
       className="card"
@@ -23,4 +22,4 @@ function Card(props) {
   );
 }
 
-export default Card;
+export default Project;

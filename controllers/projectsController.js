@@ -1,6 +1,6 @@
 const db = require("../models");
 
-// Defining methods for the ProjectsController
+// Defining methods for the projectsController
 module.exports = {
   findAll: function(req, res) {
     db.PROJECT.find(req.query)
@@ -14,12 +14,12 @@ module.exports = {
       .catch(err => res.status(422).json(err));
   },
   create: function(req, res) {
-    db.PROJECT.create(req.body)
+    db.PROJECT.create(req.description)
       .then(dbModel => res.json(dbModel))
       .catch(err => res.status(422).json(err));
   },
   update: function(req, res) {
-    db.PROJECT.findOneAndUpdate({ _id: req.params.id }, req.body)
+    db.PROJECT.findOneAndUpdate({ _id: req.params.id }, req.description)
       .then(dbModel => res.json(dbModel))
       .catch(err => res.status(422).json(err));
   },

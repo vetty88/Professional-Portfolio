@@ -89,11 +89,11 @@
     @page {
       size: $print-page-size;
     }
-    body {
-      min-width: $print-body-min-width !important;
+    description {
+      min-width: $print-description-min-width !important;
     }
     .container {
-      min-width: $print-body-min-width !important;
+      min-width: $print-description-min-width !important;
     }
 
     // Bootstrap components

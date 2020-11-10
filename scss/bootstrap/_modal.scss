@@ -1,10 +1,10 @@
-// .modal-open      - body class for killing the scroll
+// .modal-open      - description class for killing the scroll
 // .modal           - container to scroll within
 // .modal-dialog    - positioning shell for the actual modal
 // .modal-content   - actual modal w/ bg and corners and stuff
 
 
-// Kill the scroll on the body
+// Kill the scroll on the description
 .modal-open {
   overflow: hidden;
 }
@@ -111,11 +111,11 @@
   line-height: $modal-title-line-height;
 }
 
-// Modal body
+// Modal description
 // Where all modal content resides (sibling of .modal-header and .modal-footer)
-.modal-body {
+.modal-description {
   position: relative;
-  // Enable `flex-grow: 1` so that the body take up as much space as possible
+  // Enable `flex-grow: 1` so that the description take up as much space as possible
   // when should there be a fixed height on `.modal-dialog`.
   flex: 1 1 auto;
   padding: $modal-inner-padding;
@@ -134,7 +134,7 @@
   > :not(:last-child) { margin-right: .25rem; }
 }
 
-// Measure scrollbar width for padding body during modal show/hide
+// Measure scrollbar width for padding description during modal show/hide
 .modal-scrollbar-measure {
   position: absolute;
   top: -9999px;

@@ -139,12 +139,12 @@ $sizes: map-merge((
 ), $sizes);
 // stylelint-enable
 
-// Body
+// description
 //
-// Settings for the `<body>` element.
+// Settings for the `<description>` element.
 
-$body-bg:                   $white !default;
-$body-color:                $gray-900 !default;
+$description-bg:                   $white !default;
+$description-color:                $gray-900 !default;
 
 // Links
 //
@@ -230,7 +230,7 @@ $transition-collapse:         height .35s ease !default;
 
 // Fonts
 //
-// Font, line-height, and color for body text, headings, and more.
+// Font, line-height, and color for description text, headings, and more.
 
 // stylelint-disable value-keyword-case
 $font-family-sans-serif:      "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
@@ -322,7 +322,7 @@ $table-dark-bg:               $gray-900 !default;
 $table-dark-accent-bg:        rgba($white, .05) !default;
 $table-dark-hover-bg:         rgba($white, .075) !default;
 $table-dark-border-color:     lighten($gray-900, 7.5%) !default;
-$table-dark-color:            $body-bg !default;
+$table-dark-color:            $description-bg !default;
 
 $table-striped-order:         odd !default;
 
@@ -423,7 +423,7 @@ $input-focus-width:                     $input-btn-focus-width !default;
 $input-focus-box-shadow:                $input-btn-focus-box-shadow !default;
 
 $input-placeholder-color:               $gray-600 !default;
-$input-plaintext-color:                 $body-color !default;
+$input-plaintext-color:                 $description-color !default;
 
 $input-height-border:                   $input-border-width * 2 !default;
 
@@ -469,7 +469,7 @@ $custom-control-indicator-checked-bg:           $component-active-bg !default;
 $custom-control-indicator-checked-disabled-bg:  rgba(theme-color("primary"), .5) !default;
 $custom-control-indicator-checked-box-shadow:   none !default;
 
-$custom-control-indicator-focus-box-shadow:     0 0 0 1px $body-bg, $input-btn-focus-box-shadow !default;
+$custom-control-indicator-focus-box-shadow:     0 0 0 1px $description-bg, $input-btn-focus-box-shadow !default;
 
 $custom-control-indicator-active-color:         $component-active-color !default;
 $custom-control-indicator-active-bg:            lighten($component-active-bg, 35%) !default;
@@ -524,7 +524,7 @@ $custom-range-thumb-bg:               $component-active-bg !default;
 $custom-range-thumb-border:           0 !default;
 $custom-range-thumb-border-radius:    1rem !default;
 $custom-range-thumb-box-shadow:       0 .1rem .25rem rgba($black, .1) !default;
-$custom-range-thumb-focus-box-shadow: 0 0 0 1px $body-bg, $input-btn-focus-box-shadow !default;
+$custom-range-thumb-focus-box-shadow: 0 0 0 1px $description-bg, $input-btn-focus-box-shadow !default;
 $custom-range-thumb-active-bg:        lighten($component-active-bg, 35%) !default;
 
 $custom-file-height:                $input-height !default;
@@ -607,7 +607,7 @@ $nav-tabs-border-width:             $border-width !default;
 $nav-tabs-border-radius:            $border-radius !default;
 $nav-tabs-link-hover-border-color:  $gray-200 $gray-200 $nav-tabs-border-color !default;
 $nav-tabs-link-active-color:        $gray-700 !default;
-$nav-tabs-link-active-bg:           $body-bg !default;
+$nav-tabs-link-active-bg:           $description-bg !default;
 $nav-tabs-link-active-border-color: $gray-300 $gray-300 $nav-tabs-link-active-bg !default;
 
 $nav-pills-border-radius:           $border-radius !default;
@@ -739,9 +739,9 @@ $popover-header-color:              $headings-color !default;
 $popover-header-padding-y:          .5rem !default;
 $popover-header-padding-x:          .75rem !default;
 
-$popover-body-color:                $body-color !default;
-$popover-body-padding-y:            $popover-header-padding-y !default;
-$popover-body-padding-x:            $popover-header-padding-x !default;
+$popover-description-color:                $description-color !default;
+$popover-description-padding-y:            $popover-header-padding-y !default;
+$popover-description-padding-x:            $popover-header-padding-x !default;
 
 $popover-arrow-width:               1rem !default;
 $popover-arrow-height:              .5rem !default;
@@ -766,7 +766,7 @@ $badge-pill-border-radius:          10rem !default;
 
 // Modals
 
-// Padding applied to the modal body
+// Padding applied to the modal description
 $modal-inner-padding:               1rem !default;
 
 $modal-dialog-margin:               .5rem !default;
@@ -845,14 +845,14 @@ $list-group-disabled-bg:            $list-group-bg !default;
 $list-group-action-color:           $gray-700 !default;
 $list-group-action-hover-color:     $list-group-action-color !default;
 
-$list-group-action-active-color:    $body-color !default;
+$list-group-action-active-color:    $description-color !default;
 $list-group-action-active-bg:       $gray-200 !default;
 
 
 // Image thumbnails
 
 $thumbnail-padding:                 .25rem !default;
-$thumbnail-bg:                      $body-bg !default;
+$thumbnail-bg:                      $description-bg !default;
 $thumbnail-border-width:            $border-width !default;
 $thumbnail-border-color:            $gray-300 !default;
 $thumbnail-border-radius:           $border-radius !default;
@@ -927,4 +927,4 @@ $pre-scrollable-max-height:         340px !default;
 
 // Printing
 $print-page-size:                   a3 !default;
-$print-body-min-width:              map-get($grid-breakpoints, "lg") !default;
+$print-description-min-width:              map-get($grid-breakpoints, "lg") !default;

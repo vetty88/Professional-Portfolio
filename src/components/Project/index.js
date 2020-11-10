@@ -22,4 +22,4 @@ function Project(props) {
   );
 }
 
-export default Card;
+export default Project;

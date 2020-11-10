@@ -1,12 +1,10 @@
 import React, { createContext, useReducer, useContext } from "react";
 import {
   SET_CURRENT_PROJECT,
-  REMOVE_PROJECT,
+
   UPDATE_PROJECTS,
-  ADD_PROJECT,
-  ADD_FAVORITE,
-  UPDATE_FAVORITES,
-  REMOVE_FAVORITE,
+  
+
   LOADING
 } from "./actions";
 
@@ -29,42 +27,7 @@ const reducer = (state, action) => {
       loading: false
     };
 
-  case ADD_PROJECT:
-    return {
-      ...state,
-      Projects: [action.PROJECT, ...state.Projects],
-      loading: false
-    };
-
-  case REMOVE_PROJECT:
-    return {
-      ...state,
-      Projects: state.Projects.filter((PROJECT) => {
-        return PROJECT._id !== action._id; 
-      })
-    };
-
-  case ADD_FAVORITE:
-    return {
-      ...state,
-      favorites: [action.PROJECT, ...state.favorites],
-      loading: false
-    };
-
-  case UPDATE_FAVORITES:
-    return {
-      ...state,
-      favorites: [...state.favorites],
-      loading: false
-    };
-
-  case REMOVE_FAVORITE:
-    return {
-      ...state,
-      favorites: state.favorites.filter((PROJECT) => {
-        return PROJECT._id !== action._id; 
-      })
-    };
+  
 
   case LOADING:
     return {
@@ -83,10 +46,10 @@ const StoreProvider = ({ value = [], ...props }) => {
     currentPROJECT: {
       _id: 0,
       title: "",
-      body: "",
+      description: "",
       author: ""
     },
-    favorites: [],
+
     loading: false
   });
 

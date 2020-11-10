@@ -1,6 +1,6 @@
 import React from "react";
 import { Col, Row, Container } from "../components/Grid";
-import CreateProjectForm from "../components/CreateProjectForm";
+
 import ProjectsList from "../components/ProjectsList";
 
 const Home = () => {
@@ -8,7 +8,7 @@ const Home = () => {
     <Container fluid>
       <Row>
         <Col size="md-6">
-          <CreateProjectForm />
+        
         </Col>
         <Col size="md-6 sm-12">
           <ProjectsList />

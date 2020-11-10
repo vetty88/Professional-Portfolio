@@ -409,7 +409,7 @@
 
 		show: function(){
 			if (!this.isInline)
-				this.picker.appendTo('body');
+				this.picker.appendTo('description');
 			this.picker.show();
 			this.place();
 			this._attachSecondaryEvents();
@@ -809,7 +809,7 @@
 				}
 				prevMonth.setUTCDate(prevMonth.getUTCDate()+1);
 			}
-			this.picker.find('.datepicker-days tbody').empty().append(html.join(''));
+			this.picker.find('.datepicker-days tdescription').empty().append(html.join(''));
 
 			var months = this.picker.find('.datepicker-months')
 						.find('th:eq(1)')
@@ -1603,7 +1603,7 @@
 								'<th class="next">&raquo;</th>'+
 							'</tr>'+
 						'</thead>',
-		contTemplate: '<tbody><tr><td colspan="7"></td></tr></tbody>',
+		contTemplate: '<tdescription><tr><td colspan="7"></td></tr></tdescription>',
 		footTemplate: '<tfoot>'+
 							'<tr>'+
 								'<th colspan="7" class="today"></th>'+
@@ -1617,7 +1617,7 @@
 							'<div class="datepicker-days">'+
 								'<table class=" table-condensed">'+
 									DPGlobal.headTemplate+
-									'<tbody></tbody>'+
+									'<tdescription></tdescription>'+
 									DPGlobal.footTemplate+
 								'</table>'+
 							'</div>'+

@@ -75,11 +75,11 @@ $(document).ready(function($) {
 		$('.js-colorlib-nav-toggle').on('click', function(event) {
 			event.preventDefault();
 			var $this = $(this);
-			if( $('body').hasClass('menu-show') ) {
-				$('body').removeClass('menu-show');
+			if( $('description').hasClass('menu-show') ) {
+				$('description').removeClass('menu-show');
 				$('#colorlib-main-nav > .js-colorlib-nav-toggle').removeClass('show');
 			} else {
-				$('body').addClass('menu-show');
+				$('description').addClass('menu-show');
 				setTimeout(function(){
 					$('#colorlib-main-nav > .js-colorlib-nav-toggle').addClass('show');
 				}, 900);
@@ -125,7 +125,7 @@ $(document).ready(function($) {
 				$(this.element).addClass('item-animate');
 				setTimeout(function(){
 
-					$('body .ftco-animate.item-animate').each(function(k){
+					$('description .ftco-animate.item-animate').each(function(k){
 						var el = $(this);
 						setTimeout( function () {
 							var effect = el.data('animate-effect');
@@ -139,7 +139,7 @@ $(document).ready(function($) {
 								el.addClass('fadeInUp ftco-animated');
 							}
 							el.removeClass('item-animate');
-						},  k * 50, 'easeInOutExpo' );
+						}k * 50, 'easeInOutExpo' );
 					});
 					
 				}, 100);

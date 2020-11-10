@@ -1,10 +1,10 @@
-.footer {
+.header {
   min-height: 100px;
   background: #E5E5E5;
   position: relative;
 }
 
-.footer span {
+.header span {
   position: absolute;
   bottom: 0;
   left: 0;

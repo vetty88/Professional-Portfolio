@@ -20,12 +20,12 @@
     border-bottom: (2 * $table-border-width) solid $table-border-color;
   }
 
-  tbody + tbody {
+  tdescription + tdescription {
     border-top: (2 * $table-border-width) solid $table-border-color;
   }
 
   .table {
-    background-color: $body-bg;
+    background-color: $description-bg;
   }
 }
 
@@ -66,7 +66,7 @@
   th,
   td,
   thead th,
-  tbody + tbody {
+  tdescription + tdescription {
     border: 0;
   }
 }
@@ -76,7 +76,7 @@
 // Default zebra-stripe styles (alternating gray and transparent backgrounds)
 
 .table-striped {
-  tbody tr:nth-of-type(#{$table-striped-order}) {
+  tdescription tr:nth-of-type(#{$table-striped-order}) {
     background-color: $table-accent-bg;
   }
 }
@@ -87,7 +87,7 @@
 // Placed here since it has to come after the potential zebra striping
 
 .table-hover {
-  tbody tr {
+  tdescription tr {
     @include hover {
       background-color: $table-hover-bg;
     }
@@ -145,13 +145,13 @@
   }
 
   &.table-striped {
-    tbody tr:nth-of-type(odd) {
+    tdescription tr:nth-of-type(odd) {
       background-color: $table-dark-accent-bg;
     }
   }
 
   &.table-hover {
-    tbody tr {
+    tdescription tr {
       @include hover {
         background-color: $table-dark-hover-bg;
       }

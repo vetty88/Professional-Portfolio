@@ -14,12 +14,12 @@ module.exports = {
       .catch(err => res.status(422).json(err));
   },
   create: function(req, res) {
-    db.Post.create(req.body)
+    db.Post.create(req.description)
       .then(dbModel => res.json(dbModel))
       .catch(err => res.status(422).json(err));
   },
   update: function(req, res) {
-    db.Post.findOneAndUpdate({ _id: req.params.id }, req.body)
+    db.Post.findOneAndUpdate({ _id: req.params.id }, req.description)
       .then(dbModel => res.json(dbModel))
       .catch(err => res.status(422).json(err));
   },

@@ -54,7 +54,7 @@ html {
 article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block; }
 
-body {
+description {
   margin: 0;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: 1rem;
@@ -1353,7 +1353,7 @@ pre {
   .table thead th {
     vertical-align: bottom;
     border-bottom: 2px solid #dee2e6; }
-  .table tbody + tbody {
+  .table tdescription + tdescription {
     border-top: 2px solid #dee2e6; }
   .table .table {
     background-color: #fff; }
@@ -1374,13 +1374,13 @@ pre {
 .table-borderless th,
 .table-borderless td,
 .table-borderless thead th,
-.table-borderless tbody + tbody {
+.table-borderless tdescription + tdescription {
   border: 0; }
 
-.table-striped tbody tr:nth-of-type(odd) {
+.table-striped tdescription tr:nth-of-type(odd) {
   background-color: rgba(0, 0, 0, 0.05); }
 
-.table-hover tbody tr:hover {
+.table-hover tdescription tr:hover {
   background-color: rgba(0, 0, 0, 0.075); }
 
 .table-primary,
@@ -1501,9 +1501,9 @@ pre {
     border-color: #32383e; }
   .table-dark.table-bordered {
     border: 0; }
-  .table-dark.table-striped tbody tr:nth-of-type(odd) {
+  .table-dark.table-striped tdescription tr:nth-of-type(odd) {
     background-color: rgba(255, 255, 255, 0.05); }
-  .table-dark.table-hover tbody tr:hover {
+  .table-dark.table-hover tdescription tr:hover {
     background-color: rgba(255, 255, 255, 0.075); }
 
 @media (max-width: 575.98px) {
@@ -3608,7 +3608,7 @@ input[type="button"].btn-block {
     border-bottom-right-radius: 0.25rem;
     border-bottom-left-radius: 0.25rem; }
 
-.card-body {
+.card-description {
   -webkit-box-flex: 1;
   -ms-flex: 1 1 auto;
   flex: 1 1 auto;
@@ -4169,7 +4169,7 @@ input[type="button"].btn-block {
   -ms-flex-align: start;
   align-items: flex-start; }
 
-.media-body {
+.media-description {
   -webkit-box-flex: 1;
   -ms-flex: 1;
   flex: 1; }
@@ -4445,7 +4445,7 @@ button.close {
   margin-bottom: 0;
   line-height: 1.5; }
 
-.modal-body {
+.modal-description {
   position: relative;
   -webkit-box-flex: 1;
   -ms-flex: 1 1 auto;
@@ -4707,7 +4707,7 @@ button.close {
   .popover-header:empty {
     display: none; }
 
-.popover-body {
+.popover-description {
   padding: 0.5rem 0.75rem;
   color: #212529; }
 
@@ -7193,7 +7193,7 @@ a.text-light:hover, a.text-light:focus {
 a.text-dark:hover, a.text-dark:focus {
   color: #1d2124 !important; }
 
-.text-body {
+.text-description {
   color: #212529 !important; }
 
 .text-muted {
@@ -7250,7 +7250,7 @@ a.text-dark:hover, a.text-dark:focus {
     page-break-after: avoid; }
   @page {
     size: a3; }
-  body {
+  description {
     min-width: 992px !important; }
   .container {
     min-width: 992px !important; }
@@ -7267,7 +7267,7 @@ a.text-dark:hover, a.text-dark:focus {
   .table-bordered td {
     border: 1px solid #dee2e6 !important; } }
 
-body {
+description {
   font-family: "Poppins", Arial, sans-serif;
   background: #121212;
   font-size: 18px;
@@ -7275,7 +7275,7 @@ body {
   font-weight: 400;
   color: #8c8c8c;
   position: relative; }
-  body:after {
+  description:after {
     position: fixed;
     top: -150px;
     right: -50px;
@@ -7290,7 +7290,7 @@ body {
     -ms-transform: rotate(-30deg);
     -o-transform: rotate(-30deg);
     transform: rotate(-30deg); }
-  body:before {
+  description:before {
     position: fixed;
     top: 500px;
     left: -100px;
@@ -7305,12 +7305,12 @@ body {
     -ms-transform: rotate(20deg);
     -o-transform: rotate(20deg);
     transform: rotate(20deg); }
-  body.menu-show {
+  description.menu-show {
     overflow: hidden;
     position: fixed;
     height: 100%;
     width: 100%; }
-  body .KW_progressContainer {
+  description .KW_progressContainer {
     left: 0;
     width: 100%;
     height: 0.4em;
@@ -7323,7 +7323,7 @@ body {
     display: table;
     table-layout: fixed;
     z-index: 999; }
-  body .KW_progressBar {
+  description .KW_progressBar {
     width: 0%;
     float: left;
     height: 100%;
@@ -7989,7 +7989,7 @@ header {
     font-size: 40px;
     z-index: 0;
     line-height: 1.5; }
-  .services .media-body .heading {
+  .services .media-description .heading {
     font-size: 22px; }
 
 .form-group label {
@@ -8079,12 +8079,12 @@ textarea.form-control {
 
 .media-custom {
   background: #fff; }
-  .media-custom .media-body .name {
+  .media-custom .media-description .name {
     font-weight: 500;
     font-size: 16px;
     margin-bottom: 0;
     color: #2f89fc; }
-  .media-custom .media-body .position {
+  .media-custom .media-description .position {
     font-size: 13px;
     color: #ebebeb; }
 
@@ -8305,7 +8305,7 @@ textarea.form-control {
   width: 100%; }
   .block-6 .icon span:before {
     font-size: 50px; }
-  .block-6 .media-body p {
+  .block-6 .media-description p {
     font-size: 16px; }
 
 .block-18 .icon > span {
@@ -8416,7 +8416,7 @@ textarea.form-control {
       -o-transition: .3s all ease;
       transition: .3s all ease; }
 
-.block-8 .accordion-item .body-text {
+.block-8 .accordion-item .description-text {
   font-size: 16px;
   padding: 5px 0;
   padding-left: 30px; }
@@ -8621,17 +8621,17 @@ textarea.form-control {
       .comment-list li .vcard img {
         width: 50px;
         border-radius: 50%; }
-    .comment-list li .comment-body {
+    .comment-list li .comment-description {
       float: right;
       width: calc(100% - 80px); }
-      .comment-list li .comment-body h3 {
+      .comment-list li .comment-description h3 {
         font-size: 20px; }
-      .comment-list li .comment-body .meta {
+      .comment-list li .comment-description .meta {
         text-transform: uppercase;
         font-size: 13px;
         letter-spacing: .1em;
         color: #ccc; }
-      .comment-list li .comment-body .reply {
+      .comment-list li .comment-description .reply {
         padding: 5px 10px;
         background: #1f1f1f;
         color: #fff;
@@ -8640,7 +8640,7 @@ textarea.form-control {
         letter-spacing: .1em;
         font-weight: 400;
         border-radius: 4px; }
-        .comment-list li .comment-body .reply:hover {
+        .comment-list li .comment-description .reply:hover {
           color: #fff;
           background: #121212; }
 

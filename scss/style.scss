@@ -10,7 +10,7 @@ $primary: #2f89fc;
 html {
 	// overflow-x: hidden;
 }
-body {
+description {
 	font-family: $font-primary;
 	background: $black;
 	font-size: 18px;
@@ -856,7 +856,7 @@ header{
 			line-height: 1.5;
 		}
 	}
-	.media-body{
+	.media-description{
 		.heading{
 			font-size: 22px;
 			// text-transform: uppercase;
@@ -970,7 +970,7 @@ textarea.form-control {
 //ABOUT
 .media-custom{
 	background: $white;
-	.media-body{
+	.media-description{
 		.name{
 			font-weight: 500;
 			font-size: 16px;
@@ -1287,7 +1287,7 @@ textarea.form-control {
 			}
 		}
 	}
-	.media-body {
+	.media-description {
 		.heading {
 
 		}
@@ -1446,7 +1446,7 @@ textarea.form-control {
 				
 			}
 		}
-		.body-text {
+		.description-text {
 			font-size: 16px;
 			padding: 5px 0;
 			padding-left: 30px;
@@ -1709,7 +1709,7 @@ textarea.form-control {
 				border-radius: 50%;
 			}
 		}
-		.comment-body {
+		.comment-description {
 			float: right;
 			width: calc(100% - 80px);
 			h3 {
