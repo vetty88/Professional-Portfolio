@@ -1,7 +1,7 @@
 {
-  "name": "redux-mini-Project",
+  "name": "yw-projects-list-portfolio",
   "version": "1.0.0",
-  "description": "",
+  "description": "list of Web Development Projects",
   "main": "server.js",
   "scripts": {
     "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
@@ -13,8 +13,8 @@
     "build": "cd client && npm run build",
     "heroku-Projectbuild": "npm run build"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Yvette Waller",
+  "license": "MIT",
   "devDependencies": {
     "concurrently": "^5.3.0",
     "nodemon": "^1.18.7"
@@ -56,5 +56,20 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vetty88/Professional-Portfolio.git"
+  },
+  "keywords": [
+    "react",
+    "projects",
+    "portfolio",
+    "jsx",
+    "list"
+  ],
+  "bugs": {
+    "url": "https://github.com/vetty88/Professional-Portfolio/issues"
+  },
+  "homepage": "https://github.com/vetty88/Professional-Portfolio#readme"
 }
