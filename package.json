@@ -1,5 +1,5 @@
 {
-  "name": "redux-mini-project",
+  "name": "redux-mini-Project",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -11,7 +11,7 @@
     "seed": "node scripts/seedDB.js",
     "install": "cd client && npm install",
     "build": "cd client && npm run build",
-    "heroku-PROJECTbuild": "npm run build"
+    "heroku-Projectbuild": "npm run build"
   },
   "author": "",
   "license": "ISC",
@@ -20,19 +20,41 @@
     "nodemon": "^1.18.7"
   },
   "dependencies": {
-    "axios": "^0.18.1",
-    "bootstrap": "^4.5.3",
-    "chokidar": "^3.4.3",
-    "core-js": "^3.7.0",
-    "eslint-webpack-plugin": "^2.2.1",
-    "express": "^4.17.1",
-    "if-env": "^1.0.4",
-    "javascript": "^1.0.0",
-    "jquery": "^3.5.1",
-    "mongo": "^0.1.0",
+    "@testing-library/jest-dom": "^5.11.5",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "axios": "^0.21.0",
+    "babel": "^6.23.0",
+    "flow": "^0.2.3",
+    "json": "^10.0.0",
+    "jsx": "^0.9.89",
     "mongoose": "^5.10.13",
-    "node": "^15.0.1",
-    "popper": "^1.0.1",
-    "react": "^17.0.1"
+    "nodejs": "0.0.0",
+    "npm": "^7.0.9",
+    "npm-cli": "^0.1.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.0",
+    "typescript": "^4.0.5",
+    "web-vitals": "^0.2.4"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }

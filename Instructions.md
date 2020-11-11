@@ -1,12 +1,12 @@
 # Unit 20 React Homework: React Portfolio
 
-Now that you've worked with React and have multiple Projects to share, you'll be updating your portfolio and other materials to build toward being employer competitive. Creating a portfolio using React will help set you apart from other developers whose portfolios do not use some of the latest technologies.
+Now that you've worked with React and have multiple PROJECTS to share, you'll be updating your portfolio and other materials to build toward being employer competitive. Creating a portfolio using React will help set you apart from other developers whose portfolios do not use some of the latest technologies.
 
-If you are opting out of career services, this is *still a required assignment*. Part of being a web developer means being a part of a community. Having a place to share your Projects is *necessary* if you're applying for jobs, but is still *critical* on your journey as a developer.
+If you are opting out of career services, this is *still a required assignment*. Part of being a web developer means being a part of a community. Having a place to share your PROJECTS is *necessary* if you're applying for jobs, but is still *critical* on your journey as a developer.
 
 ## Requirements
 
-* Updated portfolio featuring 6 total Projects
+* Updated portfolio featuring 6 total PROJECTS
 
 * Use React
 
@@ -18,7 +18,7 @@ If you are opting out of career services, this is *still a required assignment*.
 
 * A `Footer` component that appears on multiple pages
 
-* Update GitHub profile with pinned repositories featuring those same Projects
+* Update GitHub profile with pinned repositories featuring those same PROJECTS
 
 * Deploy this site to GitHub Pages using the [Create React App docs for deployment.](https://create-react-app.dev/docs/deployment/#github-pages)
 
@@ -48,9 +48,9 @@ Your updated site should still have all of the content it previously had:
 
 * Links to your GitHub profile & LinkedIn page as well as your email address and phone number
 
-* A link to a PDF of your resume with updated Projects
+* A link to a PDF of your resume with updated PROJECTS
 
-* A list of Projects. For each project, make sure you have the following:
+* A list of PROJECTS. For each Project, make sure you have the following:
 
   * Project title
 

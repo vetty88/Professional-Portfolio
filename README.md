@@ -13,7 +13,7 @@
 
 ## <h1>  My Professional Portfolio </h1>
 
-  About Me, Resume, Portfolio - Showcasing Coding Projects
+  About Me, Resume, Portfolio - Showcasing Coding PROJECTS
 
   Screenshot of Project (Google Chrome): 
   ![Screenshot](./Screen.PNG?raw=true)

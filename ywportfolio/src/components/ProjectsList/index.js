@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
 import { ListItem, List } from "../List";
-
 import { Link } from "react-router-dom";
 import { useStoreContext } from "../../utils/GlobalState";
 import { UPDATE_PROJECTS, LOADING } from "../../utils/actions";
@@ -10,14 +9,13 @@ function ProjectsList() {
   const [state, dispatch] = useStoreContext();
 
   
-
   const getProjects = () => {
     dispatch({ type: LOADING });
     API.getProjects()
       .then(results => {
         dispatch({
           type: UPDATE_PROJECTS,
-          Projects: results.data
+          projects: results.data
         });
       })
       .catch(err => console.log(err));
@@ -29,28 +27,24 @@ function ProjectsList() {
 
   return (
     <div>
-      <h1>All Blog Projects</h1>
-      <h3 className="mb-5 mt-5">Click on a PROJECT to view</h3>
-      {state.Projects.length ? (
+      <h1> All Projects </h1> 
+        <h3 className="mb-5 mt-5"> Click on a Project to view </h3> 
+          {state.projects.length ? (
         <List>
-          {state.Projects.map(PROJECT => (
-            <ListItem key={PROJECT._id}>
-              <Link to={"/Projects/" + PROJECT._id}>
-                <strong>
-                  {PROJECT.title} by {PROJECT.author}
-                </strong>
-              </Link>
-        
+          {state.projects.map(project => (
+            <ListItem key={project._id}>
+              <Link to={"/projects/" + project._id}>
+            <strong>
+              {project.title} by {project.author}
+            </strong>
+            </Link>
             </ListItem>
           ))}
         </List>
       ) : (
-        <h3>You haven't added any Projects yet!</h3>
+        <h3>You haven't added any projects yet!</h3>
       )}
-      <div className="mt-5">
-    
-      </div>
-    </div>
+  </div>
   );
 }
 

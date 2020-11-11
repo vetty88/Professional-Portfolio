@@ -1,7 +1,7 @@
-This project was bootstrapped with [Create React App](https://github.com/faceprojectincubator/create-react-app).
+This Project was bootstrapped with [Create React App](https://github.com/faceProjectincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
-You can find the most recent version of this guide [here](https://github.com/faceprojectincubator/create-react-app/blob/master/packages/react-scripts/template/README.md).
+You can find the most recent version of this guide [here](https://github.com/faceProjectincubator/create-react-app/blob/master/packages/react-scripts/template/README.md).
 
 ## Table of Contents
 
@@ -31,7 +31,7 @@ You can find the most recent version of this guide [here](https://github.com/fac
 - [Adding a Stylesheet](#adding-a-stylesheet)
   - [`Button.css`](#buttoncss)
   - [`Button.js`](#buttonjs-1)
-- [PROJECT-Processing CSS](#project-processing-css)
+- [Project-Processing CSS](#Project-processing-css)
 - [Adding a CSS Preprocessor (Sass, Less etc.)](#adding-a-css-preprocessor-sass-less-etc)
 - [Adding Images, Fonts, and Files](#adding-images-fonts-and-files)
 - [Using the `public` Folder](#using-the-public-folder)
@@ -85,7 +85,7 @@ You can find the most recent version of this guide [here](https://github.com/fac
   - [Snapshot Testing](#snapshot-testing)
   - [Editor Integration](#editor-integration)
 - [Developing Components in Isolation](#developing-components-in-isolation)
-  - [Getting Started with Storyproject](#getting-started-with-storyproject)
+  - [Getting Started with StoryProject](#getting-started-with-storyProject)
   - [Getting Started with Styleguidist](#getting-started-with-styleguidist)
 - [Making a Progressive Web App](#making-a-progressive-web-app)
   - [Opting Out of Caching](#opting-out-of-caching)
@@ -104,7 +104,7 @@ You can find the most recent version of this guide [here](https://github.com/fac
     - [Step 1: Add `homepage` to `package.json`](#step-1-add-homepage-to-packagejson)
     - [Step 2: Install `gh-pages` and add `deploy` to `scripts` in `package.json`](#step-2-install-gh-pages-and-add-deploy-to-scripts-in-packagejson)
     - [Step 3: Deploy the site by running `npm run deploy`](#step-3-deploy-the-site-by-running-npm-run-deploy)
-    - [Step 4: Ensure your project’s settings use `gh-pages`](#step-4-ensure-your-projects-settings-use-gh-pages)
+    - [Step 4: Ensure your Project’s settings use `gh-pages`](#step-4-ensure-your-PROJECTS-settings-use-gh-pages)
     - [Step 5: Optionally, configure the domain](#step-5-optionally-configure-the-domain)
     - [Notes on client-side routing](#notes-on-client-side-routing)
   - [Heroku](#heroku)
@@ -130,26 +130,26 @@ You can find the most recent version of this guide [here](https://github.com/fac
 
 Create React App is divided into two packages:
 
-* `create-react-app` is a command-line utility that you use to create new Projects. `npx` is used to run this.
-* `react-scripts` is a development dependency in the generated Projects (including this one).
+* `create-react-app` is a command-line utility that you use to create new PROJECTS. `npx` is used to run this.
+* `react-scripts` is a development dependency in the generated PROJECTS (including this one).
 
 You almost never need to update `create-react-app` itself: it delegates all the setup to `react-scripts`.
 
-When you run `npx create-react-app`, it always creates the project with the latest version of `react-scripts` so you’ll get all the new features and improvements in newly created apps automatically.
+When you run `npx create-react-app`, it always creates the Project with the latest version of `react-scripts` so you’ll get all the new features and improvements in newly created apps automatically.
 
-To update an existing project to a new version of `react-scripts`, [open the changelog](https://github.com/faceprojectincubator/create-react-app/blob/master/CHANGELOG.md), find the version you’re currently on (check `package.json` in this folder if you’re not sure), and apply the migration instructions for the newer versions.
+To update an existing Project to a new version of `react-scripts`, [open the changelog](https://github.com/faceProjectincubator/create-react-app/blob/master/CHANGELOG.md), find the version you’re currently on (check `package.json` in this folder if you’re not sure), and apply the migration instructions for the newer versions.
 
-In most cases bumping the `react-scripts` version in `package.json` and running `npm install` in this folder should be enough, but it’s good to consult the [changelog](https://github.com/faceprojectincubator/create-react-app/blob/master/CHANGELOG.md) for potential breaking changes.
+In most cases bumping the `react-scripts` version in `package.json` and running `npm install` in this folder should be enough, but it’s good to consult the [changelog](https://github.com/faceProjectincubator/create-react-app/blob/master/CHANGELOG.md) for potential breaking changes.
 
 We commit to keeping the breaking changes minimal so you can upgrade `react-scripts` painlessly.
 
 ## Sending Feedback
 
-We are always open to [your feedback](https://github.com/faceprojectincubator/create-react-app/issues).
+We are always open to [your feedback](https://github.com/faceProjectincubator/create-react-app/issues).
 
 ## Folder Structure
 
-After creation, your project should look like this:
+After creation, your Project should look like this:
 
 ```
 my-app/
@@ -168,7 +168,7 @@ my-app/
     logo.svg
 ```
 
-For the project to build, **these files must exist with exact filenames**:
+For the Project to build, **these files must exist with exact filenames**:
 
 * `public/index.html` is the page template;
 * `src/index.js` is the JavaScript entry point.
@@ -186,7 +186,7 @@ They will not be included in the production build so you can use them for things
 
 ## Available Scripts
 
-In the project directory, you can run:
+In the Project directory, you can run:
 
 ### `npm start`
 
@@ -215,15 +215,15 @@ See the section about [deployment](#deployment) for more information.
 
 **Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your Project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your Project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
 ## Supported Language Features and Polyfills
 
-This project supports a superset of the latest JavaScript standard.<br>
+This Project supports a superset of the latest JavaScript standard.<br>
 In addition to [ES6](https://github.com/lukehoban/es6features) syntax features, it also supports:
 
 * [Exponentiation Operator](https://github.com/rwaldron/exponentiation-operator) (ES2016).
@@ -231,13 +231,13 @@ In addition to [ES6](https://github.com/lukehoban/es6features) syntax features, 
 * [Object Rest/Spread Properties](https://github.com/sebmarkbage/ecmascript-rest-spread) (stage 3 proposal).
 * [Dynamic import()](https://github.com/tc39/proposal-dynamic-import) (stage 3 proposal)
 * [Class Fields and Static Properties](https://github.com/tc39/proposal-class-public-fields) (stage 2 proposal).
-* [JSX](https://faceproject.github.io/react/docs/introducing-jsx.html) and [Flow](https://flowtype.org/) syntax.
+* [JSX](https://faceProject.github.io/react/docs/introducing-jsx.html) and [Flow](https://flowtype.org/) syntax.
 
 Learn more about [different proposal stages](https://babeljs.io/docs/plugins/#presets-stage-x-experimental-presets-).
 
-While we recommend to use experimental proposals with some caution, Faceproject heavily uses these features in the product code, so we intend to provide [codemods](https://medium.com/@cpojer/effective-javascript-codemods-5a6686bb46fb) if any of these proposals change in the future.
+While we recommend to use experimental proposals with some caution, FaceProject heavily uses these features in the product code, so we intend to provide [codemods](https://medium.com/@cpojer/effective-javascript-codemods-5a6686bb46fb) if any of these proposals change in the future.
 
-Note that **the project only includes a few ES6 [polyfills](https://en.wikipedia.org/wiki/Polyfill)**:
+Note that **the Project only includes a few ES6 [polyfills](https://en.wikipedia.org/wiki/Polyfill)**:
 
 * [`Object.assign()`](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Object/assign) via [`object-assign`](https://github.com/sindresorhus/object-assign).
 * [`Promise`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise) via [`promise`](https://github.com/then/promise).
@@ -258,7 +258,7 @@ Some editors, including Sublime Text, Atom, and Visual Studio Code, provide plug
 
 They are not required for linting. You should see the linter output right in your terminal as well as the browser console. However, if you prefer the lint results to appear right in your editor, there are some extra steps you can do.
 
-You would need to install an ESLint plugin for your editor first. Then, add a file called `.eslintrc` to the project root:
+You would need to install an ESLint plugin for your editor first. Then, add a file called `.eslintrc` to the Project root:
 
 ```js
 {
@@ -270,7 +270,7 @@ Now your editor should report the linting warnings.
 
 Note that even if you edit your `.eslintrc` file further, these changes will **only affect the editor integration**. They won’t affect the terminal and in-browser lint output. This is because Create React App intentionally provides a minimal set of rules that find common mistakes.
 
-If you want to enforce a coding style for your project, consider using [Prettier](https://github.com/jlongster/prettier) instead of ESLint style rules.
+If you want to enforce a coding style for your Project, consider using [Prettier](https://github.com/jlongster/prettier) instead of ESLint style rules.
 
 ## Debugging in the Editor
 
@@ -303,7 +303,7 @@ Start your app by running `npm start`, and start debugging in VS Code by pressin
 
 ## Formatting Code Automatically
 
-Prettier is an opinionated code formatter with support for JavaScript, CSS and JSON. With Prettier you can format the code you write automatically to ensure a code style within your project. See the [Prettier's GitHub page](https://github.com/prettier/prettier) for more information, and look at this [page to see it in action](https://prettier.github.io/prettier/).
+Prettier is an opinionated code formatter with support for JavaScript, CSS and JSON. With Prettier you can format the code you write automatically to ensure a code style within your Project. See the [Prettier's GitHub page](https://github.com/prettier/prettier) for more information, and look at this [page to see it in action](https://prettier.github.io/prettier/).
 
 To format our code whenever we make a commit in git, we need to install the following dependencies:
 
@@ -318,10 +318,10 @@ yarn add husky lint-staged prettier
 ```
 
 * `husky` makes it easy to use githooks as if they are npm scripts.
-* `lint-staged` allows us to run scripts on staged files in git. See this [blog PROJECT about lint-staged to learn more about it](https://medium.com/@okonetchnikov/make-linting-great-again-f3890e1ad6b8).
+* `lint-staged` allows us to run scripts on staged files in git. See this [blog Project about lint-staged to learn more about it](https://medium.com/@okonetchnikov/make-linting-great-again-f3890e1ad6b8).
 * `prettier` is the JavaScript formatter we will run before commits.
 
-Now we can make sure every file is formatted correctly by adding a few lines to the `package.json` in the project root.
+Now we can make sure every file is formatted correctly by adding a few lines to the `package.json` in the Project root.
 
 Add the following line to `scripts` section:
 
@@ -347,13 +347,13 @@ Next we add a 'lint-staged' field to the `package.json`, for example:
   "scripts": {
 ```
 
-Now, whenever you make a commit, Prettier will format the changed files automatically. You can also run `./node_modules/.bin/prettier --single-quote --write "src/**/*.{js,jsx}"` to format your entire project for the first time.
+Now, whenever you make a commit, Prettier will format the changed files automatically. You can also run `./node_modules/.bin/prettier --single-quote --write "src/**/*.{js,jsx}"` to format your entire Project for the first time.
 
 Next you might want to integrate Prettier in your  editor. Read the section on [Editor Integration](https://github.com/prettier/prettier#editor-integration) on the Prettier GitHub page.
 
 ## Changing the Page `<title>`
 
-You can find the source HTML file in the `public` folder of the generated project. You may edit the `<title>` tag in it to change the title from “React App” to anything else.
+You can find the source HTML file in the `public` folder of the generated Project. You may edit the `<title>` tag in it to change the title from “React App” to anything else.
 
 Note that normally you wouldn’t edit files in the `public` folder very often. For example, [adding a stylesheet](#adding-a-stylesheet) is done without touching the HTML.
 
@@ -363,7 +363,7 @@ If you use a custom server for your app in production and want to modify the tit
 
 ## Installing a Dependency
 
-The generated project includes React and ReactDOM as dependencies. It also includes a set of scripts used by Create React App as a development dependency. You may install other dependencies (for example, React Router) with `npm`:
+The generated Project includes React and ReactDOM as dependencies. It also includes a set of scripts used by Create React App as a development dependency. You may install other dependencies (for example, React Router) with `npm`:
 
 ```sh
 npm install --save react-router
@@ -379,7 +379,7 @@ This works for any library, not just `react-router`.
 
 ## Importing a Component
 
-This project setup supports ES6 modules thanks to Babel.<br>
+This Project setup supports ES6 modules thanks to Babel.<br>
 While you can still use `require()` and `module.exports`, we encourage you to use [`import` and `export`](http://exploringjs.com/es6/ch_modules.html) instead.
 
 For example:
@@ -430,7 +430,7 @@ Learn more about ES6 modules:
 
 Instead of downloading the entire app before users can use it, code splitting allows you to split your code into small chunks which you can then load on demand.
 
-This project setup supports code splitting via [dynamic `import()`](http://2ality.com/2017/01/import-operator.html#loading-code-on-demand). Its [proposal](https://github.com/tc39/proposal-dynamic-import) is in stage 3. The `import()` function-like form takes the module name as an argument and returns a [`Promise`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise) which always resolves to the namespace object of the module.
+This Project setup supports code splitting via [dynamic `import()`](http://2ality.com/2017/01/import-operator.html#loading-code-on-demand). Its [proposal](https://github.com/tc39/proposal-dynamic-import) is in stage 3. The `import()` function-like form takes the module name as an argument and returns a [`Promise`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise) which always resolves to the namespace object of the module.
 
 Here is an example:
 
@@ -479,7 +479,7 @@ If you are using React Router check out [this tutorial](http://serverless-stack.
 
 ## Adding a Stylesheet
 
-This project setup uses [Webpack](https://webpack.js.org/) for handling all assets. Webpack offers a custom way of “extending” the concept of `import` beyond JavaScript. To express that a JavaScript file depends on a CSS file, you need to **import the CSS from the JavaScript file**:
+This Project setup uses [Webpack](https://webpack.js.org/) for handling all assets. Webpack offers a custom way of “extending” the concept of `import` beyond JavaScript. To express that a JavaScript file depends on a CSS file, you need to **import the CSS from the JavaScript file**:
 
 ### `Button.css`
 
@@ -509,9 +509,9 @@ In development, expressing dependencies this way allows your styles to be reload
 
 If you are concerned about using Webpack-specific semantics, you can put all your CSS right into `src/index.css`. It would still be imported from `src/index.js`, but you could always remove that import if you later migrate to a different build tool.
 
-## PROJECT-Processing CSS
+## Project-Processing CSS
 
-This project setup minifies your CSS and adds vendor prefixes to it automatically through [Autoprefixer](https://github.com/PROJECTcss/autoprefixer) so you don’t need to worry about it.
+This Project setup minifies your CSS and adds vendor prefixes to it automatically through [Autoprefixer](https://github.com/Projectcss/autoprefixer) so you don’t need to worry about it.
 
 For example, this:
 
@@ -540,11 +540,11 @@ becomes this:
 }
 ```
 
-If you need to disable autoprefixing for some reason, [follow this section](https://github.com/PROJECTcss/autoprefixer#disabling).
+If you need to disable autoprefixing for some reason, [follow this section](https://github.com/Projectcss/autoprefixer#disabling).
 
 ## Adding a CSS Preprocessor (Sass, Less etc.)
 
-Generally, we recommend that you don’t reuse the same CSS classes across different components. For example, instead of using a `.Button` CSS class in `<AcceptButton>` and `<RejectButton>` components, we recommend creating a `<Button>` component with its own `.Button` styles, that both `<AcceptButton>` and `<RejectButton>` can render (but [not inherit](https://faceproject.github.io/react/docs/composition-vs-inheritance.html)).
+Generally, we recommend that you don’t reuse the same CSS classes across different components. For example, instead of using a `.Button` CSS class in `<AcceptButton>` and `<RejectButton>` components, we recommend creating a `<Button>` component with its own `.Button` styles, that both `<AcceptButton>` and `<RejectButton>` can render (but [not inherit](https://faceProject.github.io/react/docs/composition-vs-inheritance.html)).
 
 Following this rule often makes CSS preprocessors less useful, as features like mixins and nesting are replaced by component composition. You can, however, integrate a CSS preprocessor if you find it valuable. In this walkthrough, we will be using Sass, but you can also use Less, or another alternative.
 
@@ -629,7 +629,7 @@ Now running `npm start` and `npm run build` also builds Sass files.
 
 - `node-sass --watch` has been reported to have *performance issues* in certain conditions when used in a virtual machine or with docker.
 
-- Infinite styles compiling [#1939](https://github.com/faceprojectincubator/create-react-app/issues/1939)
+- Infinite styles compiling [#1939](https://github.com/faceProjectincubator/create-react-app/issues/1939)
 
 - `node-sass` has been reported as having issues with detecting new files in a directory [#1891](https://github.com/sass/node-sass/issues/1891)
 
@@ -641,7 +641,7 @@ With Webpack, using static assets like images and fonts works similarly to CSS.
 
 You can **`import` a file right in a JavaScript module**. This tells Webpack to include that file in the bundle. Unlike CSS imports, importing a file gives you a string value. This value is the final path you can reference in your code, e.g. as the `src` attribute of an image or the `href` of a link to a PDF.
 
-To reduce the number of requests to the server, importing images that are less than 10,000 bytes returns a [data URI](https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/Data_URIs) instead of a path. This applies to the following file extensions: bmp, gif, jpg, jpeg, and png. SVG files are excluded due to [#1153](https://github.com/faceprojectincubator/create-react-app/issues/1153).
+To reduce the number of requests to the server, importing images that are less than 10,000 bytes returns a [data URI](https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/Data_URIs) instead of a path. This applies to the following file extensions: bmp, gif, jpg, jpeg, and png. SVG files are excluded due to [#1153](https://github.com/faceProjectincubator/create-react-app/issues/1153).
 
 Here is an example:
 
@@ -659,7 +659,7 @@ function Header() {
 export default Header;
 ```
 
-This ensures that when the project is built, Webpack will correctly move the images into the build folder, and provide us with correct paths.
+This ensures that when the Project is built, Webpack will correctly move the images into the build folder, and provide us with correct paths.
 
 This works in CSS too:
 
@@ -709,7 +709,7 @@ Inside `index.html`, you can use it like this:
 
 Only files inside the `public` folder will be accessible by `%PUBLIC_URL%` prefix. If you need to use a file from `src` or `node_modules`, you’ll have to copy it there to explicitly specify your intention to make this file a part of the build.
 
-When you run `npm run build`, Create React App will substitute `%PUBLIC_URL%` with a correct absolute path so your project works even if you use client-side routing or host it at a non-root URL.
+When you run `npm run build`, Create React App will substitute `%PUBLIC_URL%` with a correct absolute path so your Project works even if you use client-side routing or host it at a non-root URL.
 
 In JavaScript code, you can use `process.env.PUBLIC_URL` for similar purposes:
 
@@ -724,7 +724,7 @@ render() {
 
 Keep in mind the downsides of this approach:
 
-* None of the files in `public` folder get PROJECT-processed or minified.
+* None of the files in `public` folder get Project-processed or minified.
 * Missing files will not be called at compilation time, and will cause 404 errors for your users.
 * Result filenames won’t include content hashes so you’ll need to add query arguments or rename them every time they change.
 
@@ -802,9 +802,9 @@ Here is an example of adding a [customized Bootstrap](https://medium.com/@tacoma
 
 Flow is a static type checker that helps you write code with fewer bugs. Check out this [introduction to using static types in JavaScript](https://medium.com/@preethikasireddy/why-use-static-types-in-javascript-part-1-8382da1e0adb) if you are new to this concept.
 
-Recent versions of [Flow](http://flowtype.org/) work with Create React App Projects out of the box.
+Recent versions of [Flow](http://flowtype.org/) work with Create React App PROJECTS out of the box.
 
-To add Flow to a Create React App project, follow these steps:
+To add Flow to a Create React App Project, follow these steps:
 
 1. Run `npm install --save flow-bin` (or `yarn add flow-bin`).
 2. Add `"flow": "flow"` to the `scripts` section of your `package.json`.
@@ -821,20 +821,20 @@ To learn more about Flow, check out [its documentation](https://flowtype.org/).
 
 >Note: this feature is available with `react-scripts@0.2.3` and higher.
 
-Your project can consume variables declared in your environment as if they were declared locally in your JS files. By
+Your Project can consume variables declared in your environment as if they were declared locally in your JS files. By
 default you will have `NODE_ENV` defined for you, and any other environment variables starting with
 `REACT_APP_`.
 
 **The environment variables are embedded during the build time**. Since Create React App produces a static HTML/CSS/JS bundle, it can’t possibly read them at runtime. To read them at runtime, you would need to load HTML into memory on the server and replace placeholders in runtime, just like [described here](#injecting-data-from-the-server-into-the-page). Alternatively you can rebuild the app on the server anytime you change them.
 
->Note: You must create custom environment variables beginning with `REACT_APP_`. Any other variables except `NODE_ENV` will be ignored to avoid accidentally [exposing a private key on the machine that could have the same name](https://github.com/faceprojectincubator/create-react-app/issues/865#issuecomment-252199527). Changing any environment variables will require you to restart the development server if it is running.
+>Note: You must create custom environment variables beginning with `REACT_APP_`. Any other variables except `NODE_ENV` will be ignored to avoid accidentally [exposing a private key on the machine that could have the same name](https://github.com/faceProjectincubator/create-react-app/issues/865#issuecomment-252199527). Changing any environment variables will require you to restart the development server if it is running.
 
 These environment variables will be defined for you on `process.env`. For example, having an environment
 variable named `REACT_APP_SECRET_CODE` will be exposed in your JS as `process.env.REACT_APP_SECRET_CODE`.
 
 There is also a special built-in environment variable called `NODE_ENV`. You can read it from `process.env.NODE_ENV`. When you run `npm start`, it is always equal to `'development'`, when you run `npm test` it is always equal to `'test'`, and when you run `npm run build` to make a production bundle, it is always equal to `'production'`. **You cannot override `NODE_ENV` manually.** This prevents developers from accidentally deploying a slow development build to production.
 
-These environment variables can be useful for displaying information conditionally based on where the project is
+These environment variables can be useful for displaying information conditionally based on where the Project is
 deployed or consuming sensitive data that lives outside of version control.
 
 First, you need to have environment variables defined. For example, let’s say you wanted to consume a secret defined
@@ -918,7 +918,7 @@ REACT_APP_SECRET_CODE=abcdef npm start
 
 >Note: this feature is available with `react-scripts@0.5.0` and higher.
 
-To define permanent environment variables, create a file called `.env` in the root of your project:
+To define permanent environment variables, create a file called `.env` in the root of your Project:
 
 ```
 REACT_APP_SECRET_CODE=abcdef
@@ -954,13 +954,13 @@ Create React App doesn’t support decorator syntax at the moment because:
 
 * It is an experimental proposal and is subject to change.
 * The current specification version is not officially supported by Babel.
-* If the specification changes, we won’t be able to write a codemod because we don’t use them internally at Faceproject.
+* If the specification changes, we won’t be able to write a codemod because we don’t use them internally at FaceProject.
 
 However in many cases you can rewrite decorator-based code without decorators just as fine.<br>
 Please refer to these two threads for reference:
 
-* [#214](https://github.com/faceprojectincubator/create-react-app/issues/214)
-* [#411](https://github.com/faceprojectincubator/create-react-app/issues/411)
+* [#214](https://github.com/faceProjectincubator/create-react-app/issues/214)
+* [#411](https://github.com/faceProjectincubator/create-react-app/issues/411)
 
 Create React App will add decorator support when the specification advances to a stable stage.
 
@@ -1020,11 +1020,11 @@ If the `proxy` option is **not** flexible enough for you, alternatively you can:
 
 When you enable the `proxy` option, you opt into a more strict set of host checks. This is necessary because leaving the backend open to remote hosts makes your computer vulnerable to DNS rebinding attacks. The issue is explained in [this article](https://medium.com/webpack/webpack-dev-server-middleware-security-issues-1489d950874a) and [this issue](https://github.com/webpack/webpack-dev-server/issues/887).
 
-This shouldn’t affect you when developing on `localhost`, but if you develop remotely like [described here](https://github.com/faceprojectincubator/create-react-app/issues/2271), you will see this error in the browser after enabling the `proxy` option:
+This shouldn’t affect you when developing on `localhost`, but if you develop remotely like [described here](https://github.com/faceProjectincubator/create-react-app/issues/2271), you will see this error in the browser after enabling the `proxy` option:
 
 >Invalid Host header
 
-To work around it, you can specify your public development host in a file called `.env.development` in the root of your project:
+To work around it, you can specify your public development host in a file called `.env.development` in the root of your Project:
 
 ```
 HOST=myPublicDevHost.com
@@ -1198,9 +1198,9 @@ Then, on the server, you can replace `__SERVER_DATA__` with a JSON of real data 
 ## Running Tests
 
 >Note: this feature is available with `react-scripts@0.3.0` and higher.<br>
->[Read the migration guide to learn how to enable it in older Projects!](https://github.com/faceprojectincubator/create-react-app/blob/master/CHANGELOG.md#migrating-from-023-to-030)
+>[Read the migration guide to learn how to enable it in older PROJECTS!](https://github.com/faceProjectincubator/create-react-app/blob/master/CHANGELOG.md#migrating-from-023-to-030)
 
-Create React App uses [Jest](https://faceproject.github.io/jest/) as its test runner. To prepare for this integration, we did a [major revamp](https://faceproject.github.io/jest/blog/2016/09/01/jest-15.html) of Jest so if you heard bad things about it years ago, give it another try.
+Create React App uses [Jest](https://faceProject.github.io/jest/) as its test runner. To prepare for this integration, we did a [major revamp](https://faceProject.github.io/jest/blog/2016/09/01/jest-15.html) of Jest so if you heard bad things about it years ago, give it another try.
 
 Jest is a Node-based runner. This means that the tests always run in a Node environment and not in a real browser. This lets us enable fast iteration speed and prevent flakiness.
 
@@ -1218,7 +1218,7 @@ Jest will look for test files with any of the following popular naming conventio
 
 The `.test.js` / `.spec.js` files (or the `__tests__` folders) can be located at any depth under the `src` top level folder.
 
-We recommend to put the test files (or `__tests__` folders) next to the code they are testing so that relative imports appear shorter. For example, if `App.test.js` and `App.js` are in the same folder, the test just needs to `import App from './App'` instead of a long relative path. Colocation also helps find tests more quickly in larger Projects.
+We recommend to put the test files (or `__tests__` folders) next to the code they are testing so that relative imports appear shorter. For example, if `App.test.js` and `App.js` are in the same folder, the test just needs to `import App from './App'` instead of a long relative path. Colocation also helps find tests more quickly in larger PROJECTS.
 
 ### Command Line Interface
 
@@ -1226,7 +1226,7 @@ When you run `npm test`, Jest will launch in the watch mode. Every time you save
 
 The watcher includes an interactive command-line interface with the ability to run all tests, or focus on a search pattern. It is designed this way so that you can keep it open and enjoy fast re-runs. You can learn the commands from the “Watch Usage” note that the watcher prints after every run:
 
-![Jest watch mode](http://faceproject.github.io/jest/img/blog/15-watch.gif)
+![Jest watch mode](http://faceProject.github.io/jest/img/blog/15-watch.gif)
 
 ### Version Control Integration
 
@@ -1234,7 +1234,7 @@ By default, when you run `npm test`, Jest will only run the tests related to fil
 
 Jest will always explicitly mention that it only ran tests related to the files changed since the last commit. You can also press `a` in the watch mode to force Jest to run all tests.
 
-Jest will always run all tests on a [continuous integration](#continuous-integration) server or if the project is not inside a Git or Mercurial repository.
+Jest will always run all tests on a [continuous integration](#continuous-integration) server or if the Project is not inside a Git or Mercurial repository.
 
 ### Writing Tests
 
@@ -1251,14 +1251,14 @@ it('sums numbers', () => {
 });
 ```
 
-All `expect()` matchers supported by Jest are [extensively documented here](http://faceproject.github.io/jest/docs/expect.html).<br>
-You can also use [`jest.fn()` and `expect(fn).toBeCalled()`](http://faceproject.github.io/jest/docs/expect.html#tohavebeencalled) to create “spies” or mock functions.
+All `expect()` matchers supported by Jest are [extensively documented here](http://faceProject.github.io/jest/docs/expect.html).<br>
+You can also use [`jest.fn()` and `expect(fn).toBeCalled()`](http://faceProject.github.io/jest/docs/expect.html#tohavebeencalled) to create “spies” or mock functions.
 
 ### Testing Components
 
 There is a broad spectrum of component testing techniques. They range from a “smoke test” verifying that a component renders without throwing, to shallow rendering and testing some of the output, to full rendering and testing component lifecycle and state changes.
 
-Different Projects choose different testing tradeoffs based on how often components change, and how much logic they contain. If you haven’t decided on a testing strategy yet, we recommend that you start with creating simple smoke tests for your components:
+Different PROJECTS choose different testing tradeoffs based on how often components change, and how much logic they contain. If you haven’t decided on a testing strategy yet, we recommend that you start with creating simple smoke tests for your components:
 
 ```js
 import React from 'react';
@@ -1318,7 +1318,7 @@ it('renders welcome message', () => {
 });
 ```
 
-All Jest matchers are [extensively documented here](http://faceproject.github.io/jest/docs/expect.html).<br>
+All Jest matchers are [extensively documented here](http://faceProject.github.io/jest/docs/expect.html).<br>
 Nevertheless you can use a third-party assertion library like [Chai](http://chaijs.com/) if you want to, as described below.
 
 Additionally, you might find [jest-enzyme](https://github.com/blainekasten/enzyme-matchers) helpful to simplify your tests with readable matchers. The above `contains` code can be written simpler with jest-enzyme.
@@ -1347,7 +1347,7 @@ import 'jest-enzyme';
 
 ### Using Third Party Assertion Libraries
 
-We recommend that you use `expect()` for assertions and `jest.fn()` for spies. If you are having issues with them please [file those against Jest](https://github.com/faceproject/jest/issues/new), and we’ll fix them. We intend to keep making them better for React, supporting, for example, [pretty-printing React elements as JSX](https://github.com/faceproject/jest/pull/1566).
+We recommend that you use `expect()` for assertions and `jest.fn()` for spies. If you are having issues with them please [file those against Jest](https://github.com/faceProject/jest/issues/new), and we’ll fix them. We intend to keep making them better for React, supporting, for example, [pretty-printing React elements as JSX](https://github.com/faceProject/jest/pull/1566).
 
 However, if you are used to other libraries, such as [Chai](http://chaijs.com/) and [Sinon](http://sinonjs.org/), or if you have existing code using them that you’d like to port over, you can import them normally like this:
 
@@ -1362,7 +1362,7 @@ and then use them in your tests like you normally do.
 
 >Note: this feature is available with `react-scripts@0.4.0` and higher.
 
-If your app uses a browser API that you need to mock in your tests or if you just need a global setup before running your tests, add a `src/setupTests.js` to your project. It will be automatically executed before running your tests.
+If your app uses a browser API that you need to mock in your tests or if you just need a global setup before running your tests, add a `src/setupTests.js` to your Project. It will be automatically executed before running your tests.
 
 For example:
 
@@ -1419,7 +1419,7 @@ script:
 
 #### CircleCI
 
-Follow [this article](https://medium.com/@knowdescription/circleci-and-zeits-now-sh-c9b7eebcd3c1) to set up CircleCI with a Create React App project.
+Follow [this article](https://medium.com/@knowdescription/circleci-and-zeits-now-sh-c9b7eebcd3c1) to set up CircleCI with a Create React App Project.
 
 ### On your own environment
 ##### Windows (cmd.exe)
@@ -1446,13 +1446,13 @@ CI=true npm run build
 
 The test command will force Jest to run tests once instead of launching the watcher.
 
->  If you find yourself doing this often in development, please [file an issue](https://github.com/faceprojectincubator/create-react-app/issues/new) to tell us about your use case because we want to make watcher the best experience and are open to changing how it works to accommodate more workflows.
+>  If you find yourself doing this often in development, please [file an issue](https://github.com/faceProjectincubator/create-react-app/issues/new) to tell us about your use case because we want to make watcher the best experience and are open to changing how it works to accommodate more workflows.
 
 The build command will check for linter warnings and fail if any are found.
 
 ### Disabling jsdom
 
-By default, the `package.json` of the generated project looks like this:
+By default, the `package.json` of the generated Project looks like this:
 
 ```js
   "scripts": {
@@ -1474,20 +1474,20 @@ If you know that none of your tests depend on [jsdom](https://github.com/tmpvar/
 To help you make up your mind, here is a list of APIs that **need jsdom**:
 
 * Any browser globals like `window` and `document`
-* [`ReactDOM.render()`](https://faceproject.github.io/react/docs/top-level-api.html#reactdom.render)
-* [`TestUtils.renderIntoDocument()`](https://faceproject.github.io/react/docs/test-utils.html#renderintodocument) ([a shortcut](https://github.com/faceproject/react/blob/34761cf9a252964abfaab6faf74d473ad95d1f21/src/test/ReactTestUtils.js#L83-L91) for the above)
+* [`ReactDOM.render()`](https://faceProject.github.io/react/docs/top-level-api.html#reactdom.render)
+* [`TestUtils.renderIntoDocument()`](https://faceProject.github.io/react/docs/test-utils.html#renderintodocument) ([a shortcut](https://github.com/faceProject/react/blob/34761cf9a252964abfaab6faf74d473ad95d1f21/src/test/ReactTestUtils.js#L83-L91) for the above)
 * [`mount()`](http://airbnb.io/enzyme/docs/api/mount.html) in [Enzyme](http://airbnb.io/enzyme/index.html)
 
 In contrast, **jsdom is not needed** for the following APIs:
 
-* [`TestUtils.createRenderer()`](https://faceproject.github.io/react/docs/test-utils.html#shallow-rendering) (shallow rendering)
+* [`TestUtils.createRenderer()`](https://faceProject.github.io/react/docs/test-utils.html#shallow-rendering) (shallow rendering)
 * [`shallow()`](http://airbnb.io/enzyme/docs/api/shallow.html) in [Enzyme](http://airbnb.io/enzyme/index.html)
 
-Finally, jsdom is also not needed for [snapshot testing](http://faceproject.github.io/jest/blog/2016/07/27/jest-14.html).
+Finally, jsdom is also not needed for [snapshot testing](http://faceProject.github.io/jest/blog/2016/07/27/jest-14.html).
 
 ### Snapshot Testing
 
-Snapshot testing is a feature of Jest that automatically generates text snapshots of your components and saves them on the disk so if the UI output changes, you get notified without manually writing any assertions on the component output. [Read more about snapshot testing.](http://faceproject.github.io/jest/blog/2016/07/27/jest-14.html)
+Snapshot testing is a feature of Jest that automatically generates text snapshots of your components and saves them on the disk so if the UI output changes, you get notified without manually writing any assertions on the component output. [Read more about snapshot testing.](http://faceProject.github.io/jest/blog/2016/07/27/jest-14.html)
 
 ### Editor Integration
 
@@ -1506,40 +1506,40 @@ For an example, a simple button component could have following states:
 
 Usually, it’s hard to see these states without running a sample app or some examples.
 
-Create React App doesn’t include any tools for this by default, but you can easily add [Storyproject for React](https://storyproject.js.org) ([source](https://github.com/storyprojects/storyproject)) or [React Styleguidist](https://react-styleguidist.js.org/) ([source](https://github.com/styleguidist/react-styleguidist)) to your project. **These are third-party tools that let you develop components and see all their states in isolation from your app**.
+Create React App doesn’t include any tools for this by default, but you can easily add [StoryProject for React](https://storyProject.js.org) ([source](https://github.com/storyPROJECTS/storyProject)) or [React Styleguidist](https://react-styleguidist.js.org/) ([source](https://github.com/styleguidist/react-styleguidist)) to your Project. **These are third-party tools that let you develop components and see all their states in isolation from your app**.
 
-![Storyproject for React Demo](http://i.imgur.com/7CIAWpB.gif)
+![StoryProject for React Demo](http://i.imgur.com/7CIAWpB.gif)
 
-You can also deploy your Storyproject or style guide as a static app. This way, everyone in your team can view and review different states of UI components without starting a backend server or creating an account in your app.
+You can also deploy your StoryProject or style guide as a static app. This way, everyone in your team can view and review different states of UI components without starting a backend server or creating an account in your app.
 
-### Getting Started with Storyproject
+### Getting Started with StoryProject
 
-Storyproject is a development environment for React UI components. It allows you to browse a component library, view the different states of each component, and interactively develop and test components.
+StoryProject is a development environment for React UI components. It allows you to browse a component library, view the different states of each component, and interactively develop and test components.
 
 First, install the following npm package globally:
 
 ```sh
-npm install -g @storyproject/cli
+npm install -g @storyProject/cli
 ```
 
 Then, run the following command inside your app’s directory:
 
 ```sh
-getstoryproject
+getstoryProject
 ```
 
 After that, follow the instructions on the screen.
 
-Learn more about React Storyproject:
+Learn more about React StoryProject:
 
-* Screencast: [Getting Started with React Storyproject](https://egghead.io/lessons/react-getting-started-with-react-storyproject)
-* [GitHub Repo](https://github.com/storyprojects/storyproject)
-* [Documentation](https://storyproject.js.org/basics/introduction/)
-* [Snapshot Testing UI](https://github.com/storyprojects/storyproject/tree/master/addons/storyshots) with Storyproject + addon/storyshot
+* Screencast: [Getting Started with React StoryProject](https://egghead.io/lessons/react-getting-started-with-react-storyProject)
+* [GitHub Repo](https://github.com/storyPROJECTS/storyProject)
+* [Documentation](https://storyProject.js.org/basics/introduction/)
+* [Snapshot Testing UI](https://github.com/storyPROJECTS/storyProject/tree/master/addons/storyshots) with StoryProject + addon/storyshot
 
 ### Getting Started with Styleguidist
 
-Styleguidist combines a style guide, where all your components are presented on a single page with their props documentation and usage examples, with an environment for developing components in isolation, similar to Storyproject. In Styleguidist you write examples in Markdown, where each code snippet is rendered as a live editable playground.
+Styleguidist combines a style guide, where all your components are presented on a single page with their props documentation and usage examples, with an environment for developing components in isolation, similar to StoryProject. In Styleguidist you write examples in Markdown, where each code snippet is rendered as a live editable playground.
 
 First, install Styleguidist:
 
@@ -1590,7 +1590,7 @@ The [`sw-precache-webpack-plugin`](https://github.com/goldhand/sw-precache-webpa
 is integrated into production configuration,
 and it will take care of generating a service worker file that will automatically
 precache all of your local assets and keep them up to date as you deploy updates.
-The service worker will use a [cache-first strategy](https://developers.google.com/web/fundamentals/instant-and-offline/offline-cookproject/#cache-falling-back-to-network)
+The service worker will use a [cache-first strategy](https://developers.google.com/web/fundamentals/instant-and-offline/offline-cookProject/#cache-falling-back-to-network)
 for handling all requests for local assets, including the initial HTML, ensuring
 that your web app is reliably fast, even on a slow or unreliable network.
 
@@ -1684,7 +1684,7 @@ will affect your users' experience.
 JavaScript bundles using the source maps. This helps you understand where code
 bloat is coming from.
 
-To add Source map explorer to a Create React App project, follow these steps:
+To add Source map explorer to a Create React App Project, follow these steps:
 
 ```sh
 npm install --save source-map-explorer
@@ -1737,7 +1737,7 @@ serve -h
 
 ### Other Solutions
 
-You don’t necessarily need a static server in order to run a Create React App project in production. It works just as fine integrated into an existing dynamic one.
+You don’t necessarily need a static server in order to run a Create React App Project in production. It works just as fine integrated into an existing dynamic one.
 
 Here’s a programmatic example using [Node](https://nodejs.org/) and [Express](http://expressjs.com/):
 
@@ -1834,22 +1834,22 @@ This will make sure that all the asset paths are relative to `index.html`. You w
 
 ### Azure
 
-See [this](https://medium.com/@to_pe/deploying-create-react-app-on-microsoft-azure-c0f6686a4321) blog PROJECT on how to deploy your React app to [Microsoft Azure](https://azure.microsoft.com/).
+See [this](https://medium.com/@to_pe/deploying-create-react-app-on-microsoft-azure-c0f6686a4321) blog Project on how to deploy your React app to [Microsoft Azure](https://azure.microsoft.com/).
 
 ### Firebase
 
-Install the Firebase CLI if you haven’t already by running `npm install -g firebase-tools`. Sign up for a [Firebase account](https://console.firebase.google.com/) and create a new project. Run `firebase login` and login with your previous created Firebase account.
+Install the Firebase CLI if you haven’t already by running `npm install -g firebase-tools`. Sign up for a [Firebase account](https://console.firebase.google.com/) and create a new Project. Run `firebase login` and login with your previous created Firebase account.
 
-Then run the `firebase init` command from your project’s root. You need to choose the **Hosting: Configure and deploy Firebase Hosting sites** and choose the Firebase project you created in the previous step. You will need to agree with `database.rules.json` being created, choose `build` as the public directory, and also agree to **Configure as a single-page app** by replying with `y`.
+Then run the `firebase init` command from your Project’s root. You need to choose the **Hosting: Configure and deploy Firebase Hosting sites** and choose the Firebase Project you created in the previous step. You will need to agree with `database.rules.json` being created, choose `build` as the public directory, and also agree to **Configure as a single-page app** by replying with `y`.
 
 ```sh
     === Project Setup
 
-    First, let's associate this project directory with a Firebase project.
-    You can create multiple project aliases by running firebase use --add,
-    but for now we'll just set up a default project.
+    First, let's associate this Project directory with a Firebase Project.
+    You can create multiple Project aliases by running firebase use --add,
+    but for now we'll just set up a default Project.
 
-    ? What Firebase project do you want to associate as default? Example app (example-app-fd690)
+    ? What Firebase Project do you want to associate as default? Example app (example-app-fd690)
 
     === Database Setup
 
@@ -1863,7 +1863,7 @@ Then run the `firebase init` command from your project’s root. You need to cho
 
     === Hosting Setup
 
-    Your public directory is the folder (relative to your project directory) that
+    Your public directory is the folder (relative to your Project directory) that
     will contain Hosting assets to uploaded with firebase deploy. If you
     have a build process for your assets, use your build's output directory.
 
@@ -1872,7 +1872,7 @@ Then run the `firebase init` command from your project’s root. You need to cho
     ✔  Wrote build/index.html
 
     i  Writing configuration info to firebase.json...
-    i  Writing project information to .firebaserc...
+    i  Writing Project information to .firebaserc...
 
     ✔  Firebase initialization complete!
 ```
@@ -1891,7 +1891,7 @@ Now, after you create a production build with `npm run build`, you can deploy it
 
     ✔  Deploy complete!
 
-    Project Console: https://console.firebase.google.com/project/example-app-fd690/overview
+    Project Console: https://console.firebase.google.com/Project/example-app-fd690/overview
     Hosting URL: https://example-app-fd690.firebaseapp.com
 ```
 
@@ -1950,9 +1950,9 @@ Then run:
 npm run deploy
 ```
 
-#### Step 4: Ensure your project’s settings use `gh-pages`
+#### Step 4: Ensure your Project’s settings use `gh-pages`
 
-Finally, make sure **GitHub Pages** option in your GitHub project settings is set to use the `gh-pages` branch:
+Finally, make sure **GitHub Pages** option in your GitHub Project settings is set to use the `gh-pages` branch:
 
 <img src="http://i.imgur.com/HUjEr9l.png" width="500" alt="gh-pages branch setting">
 
@@ -1962,10 +1962,10 @@ You can configure a custom domain with GitHub Pages by adding a `CNAME` file to 
 
 #### Notes on client-side routing
 
-GitHub Pages doesn’t support routers that use the HTML5 `pushState` history API under the hood (for example, React Router using `browserHistory`). This is because when there is a fresh page load for a url like `http://user.github.io/todomvc/todos/42`, where `/todos/42` is a frontend route, the GitHub Pages server returns 404 because it knows nothing of `/todos/42`. If you want to add a router to a project hosted on GitHub Pages, here are a couple of solutions:
+GitHub Pages doesn’t support routers that use the HTML5 `pushState` history API under the hood (for example, React Router using `browserHistory`). This is because when there is a fresh page load for a url like `http://user.github.io/todomvc/todos/42`, where `/todos/42` is a frontend route, the GitHub Pages server returns 404 because it knows nothing of `/todos/42`. If you want to add a router to a Project hosted on GitHub Pages, here are a couple of solutions:
 
 * You could switch from using HTML5 history API to routing with hashes. If you use React Router, you can switch to `hashHistory` for this effect, but the URL will be longer and more verbose (for example, `http://user.github.io/todomvc/#/todos/42?_k=yknaj`). [Read more](https://reacttraining.com/react-router/web/api/Router) about different history implementations in React Router.
-* Alternatively, you can use a trick to teach GitHub Pages to handle 404 by redirecting to your `index.html` page with a special redirect parameter. You would need to add a `404.html` file with the redirection code to the `build` folder before deploying your project, and you’ll need to add code handling the redirect parameter to `index.html`. You can find a detailed explanation of this technique [in this guide](https://github.com/rafrex/spa-github-pages).
+* Alternatively, you can use a trick to teach GitHub Pages to handle 404 by redirecting to your `index.html` page with a special redirect parameter. You would need to add a `404.html` file with the redirection code to the `build` folder before deploying your Project, and you’ll need to add code handling the redirect parameter to `index.html`. You can find a detailed explanation of this technique [in this guide](https://github.com/rafrex/spa-github-pages).
 
 ### Heroku
 
@@ -1988,7 +1988,7 @@ MyDirectory in /tmp/build_1234/src
 
 It means you need to ensure that the lettercase of the file or directory you `import` matches the one you see on your filesystem or on GitHub.
 
-This is important because Linux (the operating system used by Heroku) is case sensitive. So `MyDirectory` and `mydirectory` are two distinct directories and thus, even though the project builds locally, the difference in case breaks the `import` statements on Heroku remotes.
+This is important because Linux (the operating system used by Heroku) is case sensitive. So `MyDirectory` and `mydirectory` are two distinct directories and thus, even though the Project builds locally, the difference in case breaks the `import` statements on Heroku remotes.
 
 ##### "Could not find a required file."
 
@@ -2007,7 +2007,7 @@ In this case, ensure that the file is there with the proper lettercase and that�
 
 ### Modulus
 
-See the [Modulus blog PROJECT](http://blog.modulus.io/deploying-react-apps-on-modulus) on how to deploy your react app to Modulus.
+See the [Modulus blog Project](http://blog.modulus.io/deploying-react-apps-on-modulus) on how to deploy your react app to Modulus.
 
 ### Netlify
 
@@ -2024,7 +2024,7 @@ Choose `build` as the path to deploy.
 
 With this setup Netlify will build and deploy when you push to git or open a pull request:
 
-1. [Start a new netlify project](https://app.netlify.com/signup)
+1. [Start a new netlify Project](https://app.netlify.com/signup)
 2. Pick your Git hosting service and select your repository
 3. Click `Build your site`
 
@@ -2036,7 +2036,7 @@ To support `pushState`, make sure to create a `public/_redirects` file with the 
 /*  /index.html  200
 ```
 
-When you build the project, Create React App will place the `public` folder contents into the build output.
+When you build the Project, Create React App will place the `public` folder contents into the build output.
 
 ### Now
 
@@ -2048,10 +2048,10 @@ When you build the project, Create React App will place the `public` folder cont
 
 3. Move into the build directory by running `cd build`.
 
-4. Run `now --name your-project-name` from within the build directory. You will see a **now.sh** URL in your output like this:
+4. Run `now --name your-Project-name` from within the build directory. You will see a **now.sh** URL in your output like this:
 
     ```
-    > Ready! https://your-project-name-tpspyhtdtk.now.sh (copied to clipboard)
+    > Ready! https://your-Project-name-tpspyhtdtk.now.sh (copied to clipboard)
     ```
 
     Paste that URL into your browser when the build is complete, and you will see your deployed app.
@@ -2060,16 +2060,16 @@ Details are available in [this article.](https://zeit.co/blog/unlimited-static)
 
 ### S3 and CloudFront
 
-See this [blog PROJECT](https://medium.com/@omgwtfmarc/deploying-create-react-app-to-s3-or-cloudfront-48dae4ce0af) on how to deploy your React app to Amazon Web Services [S3](https://aws.amazon.com/s3) and [CloudFront](https://aws.amazon.com/cloudfront/).
+See this [blog Project](https://medium.com/@omgwtfmarc/deploying-create-react-app-to-s3-or-cloudfront-48dae4ce0af) on how to deploy your React app to Amazon Web Services [S3](https://aws.amazon.com/s3) and [CloudFront](https://aws.amazon.com/cloudfront/).
 
 ### Surge
 
 Install the Surge CLI if you haven’t already by running `npm install -g surge`. Run the `surge` command and log in you or create a new account.
 
-When asked about the project path, make sure to specify the `build` folder, for example:
+When asked about the Project path, make sure to specify the `build` folder, for example:
 
 ```sh
-       project path: /path/to/project/build
+       Project path: /path/to/Project/build
 ```
 
 Note that in order to support routers that use HTML5 `pushState` API, you may want to rename the `index.html` in your build folder to `200.html` before deploying to Surge. This [ensures that every URL falls back to that file](https://surge.sh/help/adding-a-200-page-for-client-side-routing).
@@ -2086,7 +2086,7 @@ PORT | :white_check_mark: | :x: | By default, the development web server will at
 HTTPS | :white_check_mark: | :x: | When set to `true`, Create React App will run the development server in `https` mode.
 PUBLIC_URL | :x: | :white_check_mark: | Create React App assumes your application is hosted at the serving web server's root or a subpath as specified in [`package.json` (`homepage`)](#building-for-relative-paths). Normally, Create React App ignores the hostname. You may use this variable to force assets to be referenced verbatim to the url you provide (hostname included). This may be particularly useful when using a CDN to host your application.
 CI | :large_orange_diamond: | :white_check_mark: | When set to `true`, Create React App treats warnings as failures in the build. It also makes the test runner non-watching. Most CIs set this flag by default.
-REACT_EDITOR | :white_check_mark: | :x: | When an app crashes in development, you will see an error overlay with clickable stack trace. When you click on it, Create React App will try to determine the editor you are using based on currently running processes, and open the relevant source file. You can [send a pull request to detect your editor of choice](https://github.com/faceprojectincubator/create-react-app/issues/2636). Setting this environment variable overrides the automatic detection. If you do it, make sure your systems [PATH](https://en.wikipedia.org/wiki/PATH_(variable)) environment variable points to your editor’s bin folder.
+REACT_EDITOR | :white_check_mark: | :x: | When an app crashes in development, you will see an error overlay with clickable stack trace. When you click on it, Create React App will try to determine the editor you are using based on currently running processes, and open the relevant source file. You can [send a pull request to detect your editor of choice](https://github.com/faceProjectincubator/create-react-app/issues/2636). Setting this environment variable overrides the automatic detection. If you do it, make sure your systems [PATH](https://en.wikipedia.org/wiki/PATH_(variable)) environment variable points to your editor’s bin folder.
 CHOKIDAR_USEPOLLING | :white_check_mark: | :x: | When set to `true`, the watcher runs in polling mode, as necessary inside a VM. Use this option if `npm start` isn't detecting changes.
 GENERATE_SOURCEMAP | :x: | :white_check_mark: | When set to `false`, source maps are not generated for a production build. This solves OOM issues on some smaller machines.
 
@@ -2097,23 +2097,23 @@ GENERATE_SOURCEMAP | :x: | :white_check_mark: | When set to `false`, source maps
 When you save a file while `npm start` is running, the browser should refresh with the updated code.<br>
 If this doesn’t happen, try one of the following workarounds:
 
-* If your project is in a Dropbox folder, try moving it out.
-* If the watcher doesn’t see a file called `index.js` and you’re referencing it by the folder name, you [need to restart the watcher](https://github.com/faceprojectincubator/create-react-app/issues/1164) due to a Webpack bug.
+* If your Project is in a Dropbox folder, try moving it out.
+* If the watcher doesn’t see a file called `index.js` and you’re referencing it by the folder name, you [need to restart the watcher](https://github.com/faceProjectincubator/create-react-app/issues/1164) due to a Webpack bug.
 * Some editors like Vim and IntelliJ have a “safe write” feature that currently breaks the watcher. You will need to disable it. Follow the instructions in [“Adjusting Your Text Editor”](https://webpack.js.org/guides/development/#adjusting-your-text-editor).
-* If your project path contains parentheses, try moving the project to a path without them. This is caused by a [Webpack watcher bug](https://github.com/webpack/watchpack/issues/42).
+* If your Project path contains parentheses, try moving the Project to a path without them. This is caused by a [Webpack watcher bug](https://github.com/webpack/watchpack/issues/42).
 * On Linux and macOS, you might need to [tweak system settings](https://webpack.github.io/docs/troubleshooting.html#not-enough-watchers) to allow more watchers.
-* If the project runs inside a virtual machine such as (a Vagrant provisioned) VirtualBox, create an `.env` file in your project directory if it doesn’t exist, and add `CHOKIDAR_USEPOLLING=true` to it. This ensures that the next time you run `npm start`, the watcher uses the polling mode, as necessary inside a VM.
+* If the Project runs inside a virtual machine such as (a Vagrant provisioned) VirtualBox, create an `.env` file in your Project directory if it doesn’t exist, and add `CHOKIDAR_USEPOLLING=true` to it. This ensures that the next time you run `npm start`, the watcher uses the polling mode, as necessary inside a VM.
 
-If none of these solutions help please leave a comment [in this thread](https://github.com/faceprojectincubator/create-react-app/issues/659).
+If none of these solutions help please leave a comment [in this thread](https://github.com/faceProjectincubator/create-react-app/issues/659).
 
 ### `npm test` hangs on macOS Sierra
 
-If you run `npm test` and the console gets stuck after printing `react-scripts test --env=jsdom` to the console there might be a problem with your [Watchman](https://faceproject.github.io/watchman/) installation as described in [faceprojectincubator/create-react-app#713](https://github.com/faceprojectincubator/create-react-app/issues/713).
+If you run `npm test` and the console gets stuck after printing `react-scripts test --env=jsdom` to the console there might be a problem with your [Watchman](https://faceProject.github.io/watchman/) installation as described in [faceProjectincubator/create-react-app#713](https://github.com/faceProjectincubator/create-react-app/issues/713).
 
-We recommend deleting `node_modules` in your project and running `npm install` (or `yarn` if you use it) first. If it doesn't help, you can try one of the numerous workarounds mentioned in these issues:
+We recommend deleting `node_modules` in your Project and running `npm install` (or `yarn` if you use it) first. If it doesn't help, you can try one of the numerous workarounds mentioned in these issues:
 
-* [faceproject/jest#1767](https://github.com/faceproject/jest/issues/1767)
-* [faceproject/watchman#358](https://github.com/faceproject/watchman/issues/358)
+* [faceProject/jest#1767](https://github.com/faceProject/jest/issues/1767)
+* [faceProject/watchman#358](https://github.com/faceProject/watchman/issues/358)
 * [ember-cli/ember-cli#6259](https://github.com/ember-cli/ember-cli/issues/6259)
 
 It is reported that installing Watchman 4.7.0 or newer fixes the issue. If you use [Homebrew](http://brew.sh/), you can run these commands to update it:
@@ -2124,19 +2124,19 @@ brew update
 brew reinstall watchman
 ```
 
-You can find [other installation methods](https://faceproject.github.io/watchman/docs/install.html#build-install) on the Watchman documentation page.
+You can find [other installation methods](https://faceProject.github.io/watchman/docs/install.html#build-install) on the Watchman documentation page.
 
-If this still doesn’t help, try running `launchctl unload -F ~/Library/LaunchAgents/com.github.faceproject.watchman.plist`.
+If this still doesn’t help, try running `launchctl unload -F ~/Library/LaunchAgents/com.github.faceProject.watchman.plist`.
 
 There are also reports that *uninstalling* Watchman fixes the issue. So if nothing else helps, remove it from your system and try again.
 
 ### `npm run build` exits too early
 
-It is reported that `npm run build` can fail on machines with limited memory and no swap space, which is common in cloud environments. Even with small Projects this command can increase RAM usage in your system by hundreds of megabytes, so if you have less than 1 GB of available memory your build is likely to fail with the following message:
+It is reported that `npm run build` can fail on machines with limited memory and no swap space, which is common in cloud environments. Even with small PROJECTS this command can increase RAM usage in your system by hundreds of megabytes, so if you have less than 1 GB of available memory your build is likely to fail with the following message:
 
 >  The build failed because the process exited too early. This probably means the system ran out of memory or someone called `kill -9` on the process.
 
-If you are completely sure that you didn't terminate the process, consider [adding some swap space](https://www.digitalocean.com/community/tutorials/how-to-add-swap-on-ubuntu-14-04) to the machine you’re building on, or build the project locally.
+If you are completely sure that you didn't terminate the process, consider [adding some swap space](https://www.digitalocean.com/community/tutorials/how-to-add-swap-on-ubuntu-14-04) to the machine you’re building on, or build the Project locally.
 
 ### `npm run build` fails on Heroku
 
@@ -2181,4 +2181,4 @@ To resolve this:
 
 ## Something Missing?
 
-If you have ideas for more “How To” recipes that should be on this page, [let us know](https://github.com/faceprojectincubator/create-react-app/issues) or [contribute some!](https://github.com/faceprojectincubator/create-react-app/edit/master/packages/react-scripts/template/README.md)
+If you have ideas for more “How To” recipes that should be on this page, [let us know](https://github.com/faceProjectincubator/create-react-app/issues) or [contribute some!](https://github.com/faceProjectincubator/create-react-app/edit/master/packages/react-scripts/template/README.md)

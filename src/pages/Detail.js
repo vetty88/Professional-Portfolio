@@ -10,21 +10,21 @@ const Detail = props => {
   const [state, dispatch] = useStoreContext();
 
   useEffect(() => {
-    API.getPROJECT(props.match.params.id)
-      .then(res => dispatch({ type: SET_CURRENT_PROJECT, PROJECT: res.data }))
+    API.getProject(props.match.params.id)
+      .then(res => dispatch({ type: SET_CURRENT_PROJECT, Project: res.data }))
       .catch(err => console.log(err));
-  }, []);
+
 
   
 
   return (
-    <>{state.currentPROJECT ? (
+    <>{state.currentProject ? (
       <Container fluid>
         <Row>
           <Col size="md-12">
             <Jumbotron>
               <h1>
-                {state.currentPROJECT.title} by {state.currentPROJECT.author}
+                {state.currentproject.title} by {state.currentproject.author}
               </h1>
             </Jumbotron>
           </Col>
@@ -33,10 +33,10 @@ const Detail = props => {
           <Col size="md-10 md-offset-1">
             <article>
               <h1>Content:</h1>
-              <p>{state.currentPROJECT.description}</p>
+              <p>{state.currentProject.description}</p>
             </article>
           </Col>
-          {state..indexOf(state.currentPROJECT) !== -1 ? (
+          {state..indexOf(state.currentProject) !== -1 ? (
           
           ) : (
            

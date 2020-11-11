@@ -10,7 +10,7 @@ function Footer() {
                 <div class="ftco-footer-widget mb-5">
                     <ul class="ftco-footer-social list-unstyled">
                         <li class="ftco-animate"><a href="https://github.com/vetty88"><span class="icon-git"></span></a></li>
-                        <li class="ftco-animate"><a href="https://www.faceproject.com/cosmoyvette"><span class="icon-faceproject"></span></a></li>
+                        <li class="ftco-animate"><a href="https://www.faceProject.com/cosmoyvette"><span class="icon-faceProject"></span></a></li>
                         <li class="ftco-animate"><a href="https://www.instagram.com/vetteskii/"><span class="icon-instagram"></span></a></li>
 
                     </ul>

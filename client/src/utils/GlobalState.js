@@ -1,10 +1,7 @@
 import React, { createContext, useReducer, useContext } from "react";
 import {
   SET_CURRENT_PROJECT,
-
   UPDATE_PROJECTS,
-  
-
   LOADING
 } from "./actions";
 
@@ -16,18 +13,16 @@ const reducer = (state, action) => {
   case SET_CURRENT_PROJECT:
     return {
       ...state,
-      currentPROJECT: action.PROJECT,
+      currentProject: action.project,
       loading: false
     };
 
   case UPDATE_PROJECTS:
     return {
       ...state,
-      Projects: [...action.Projects],
+      projects: [...action.projects],
       loading: false
     };
-
-  
 
   case LOADING:
     return {
@@ -42,8 +37,8 @@ const reducer = (state, action) => {
 
 const StoreProvider = ({ value = [], ...props }) => {
   const [state, dispatch] = useReducer(reducer, {
-    Projects: [],
-    currentPROJECT: {
+    projects: [],
+    currentProject: {
       _id: 0,
       title: "",
       description: "",

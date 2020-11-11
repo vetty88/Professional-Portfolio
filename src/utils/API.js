@@ -1,8 +1,8 @@
 import axios from "axios";
 
 export default {
-  // Gets all Projects
+  // Gets All Projects
   getProjects: function() {
-    return axios.get("/api/Projects");
+    return axios.get("/api/projects");
   }
 };

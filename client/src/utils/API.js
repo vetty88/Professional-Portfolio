@@ -1,20 +1,20 @@
 import axios from "axios";
 
 export default {
-  // Gets all Projects
+  // Gets All Projects
   getProjects: function() {
-    return axios.get("/api/Projects");
+    return axios.get("/api/projects");
   },
-  // Gets the PROJECT with the given id
-  getPROJECT: function(id) {
-    return axios.get("/api/Projects/" + id);
+  // Gets the Project with the given id
+  getProject: function(id) {
+    return axios.get("/api/projects/" + id);
   },
-  // Deletes the PROJECT with the given id
-  deletePROJECT: function(id) {
-    return axios.delete("/api/Projects/" + id);
+  // Deletes the Project with the given id
+  deleteProject: function(id) {
+    return axios.delete("/api/projects/" + id);
   },
-  // Saves a PROJECT to the database
-  savePROJECT: function(PROJECTData) {
-    return axios.PROJECT("/api/Projects", PROJECTData);
+  // Saves a Project to the database
+  saveProject: function(ProjectData) {
+    return axios.Project("/api/projects", ProjectData);
   }
 };

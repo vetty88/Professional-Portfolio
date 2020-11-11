@@ -7,47 +7,43 @@ import { useStoreContext } from "../utils/GlobalState";
 import { SET_CURRENT_PROJECT } from "../utils/actions";
 
 const Detail = props => {
-  const [state, dispatch] = useStoreContext();
+      const [state, dispatch] = useStoreContext();
 
-  useEffect(() => {
-    API.getPROJECT(props.match.params.id)
-      .then(res => dispatch({ type: SET_CURRENT_PROJECT, PROJECT: res.data }))
-      .catch(err => console.log(err));
-  }, []);
+      useEffect(() => {
+                  API.getProject(props.match.params.id)
+                      .then(res => dispatch({
+                          type: SET_CURRENT_PROJECT,  project: res.data }))
+                      .catch(err => console.log(err));
+                    }, []);
 
-  
+                  return ( 
+                  <> {state.currentProject ? (
+                    <Container fluid>
+                      <Row>
+                        <Col size="md-12">
+                          <Jumbotron>
+                            <h1> {state.currentproject.title} </h1>
+                          </Jumbotron>
+                        </Col>
+                      </Row>
+                      <Row>
+                        <Col size="md-10 md-offset-1">
+                          <article>
+                            <h1> Content: </h1>
+                              <p> {state.currentProject.description} </p>
+                          </article>
+                        </Col>
+                      </Row>
+                      <Row>
+                        <Col size="md-2">
+                          <Link to="/"> ←Back to PROJECTS </Link>
+                        </Col>
+                      </Row>
+                    </Container>
+         ) : (
+          <div>loading...</div>
+        )}</>
+      );
+    };                                                  
 
-  return (
-    <>{state.currentPROJECT ? (
-      <Container fluid>
-        <Row>
-          <Col size="md-12">
-            <Jumbotron>
-              <h1>
-                {state.currentPROJECT.title} by {state.currentPROJECT.author}
-              </h1>
-            </Jumbotron>
-          </Col>
-        </Row>
-        <Row>
-          <Col size="md-10 md-offset-1">
-            <article>
-              <h1>Content:</h1>
-              <p>{state.currentPROJECT.description}</p>
-            </article>
-          </Col>
-          
-        </Row>
-        <Row>
-          <Col size="md-2">
-            <Link to="/">← Back to Projects</Link>
-          </Col>
-        </Row>
-      </Container>
-    ) : (
-      <div>loading...</div>
-    )}</>
-  );
-};
-
-export default Detail;
+                          export default Detail;

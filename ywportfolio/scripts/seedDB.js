@@ -7,10 +7,10 @@ mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/reactcms");
 
 const projectSeed = [
   {
-    title: "Hello World",
-    author: "admin",
+    title: "Project 1",
+    author: "Y Waller",
     description:
-      "Welcome to your first Project! To create PROJECTS create a title and description. Don't forget to include your screen name!",
+      "My project 1",
     date: new Date(Date.now())
   },
   {

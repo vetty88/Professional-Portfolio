@@ -26,7 +26,7 @@ $(document).ready(function($) {
 			if($('#ftco-loader').length > 0) {
 				$('#ftco-loader').removeClass('show');
 			}
-		}, 1);
+		1);
 	};
 	loader();
 
@@ -82,7 +82,7 @@ $(document).ready(function($) {
 				$('description').addClass('menu-show');
 				setTimeout(function(){
 					$('#colorlib-main-nav > .js-colorlib-nav-toggle').addClass('show');
-				}, 900);
+				900);
 			}
 		})
 	};
@@ -103,7 +103,7 @@ $(document).ready(function($) {
 					  {
 					    number: num,
 					    numberStep: comma_separator_number_step
-					  }, 7000
+					  7000
 					);
 				});
 				
@@ -142,7 +142,7 @@ $(document).ready(function($) {
 						}k * 50, 'easeInOutExpo' );
 					});
 					
-				}, 100);
+				100);
 				
 			}
 

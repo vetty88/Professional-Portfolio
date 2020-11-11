@@ -7,11 +7,8 @@ const Home = () => {
   return (
     <Container fluid>
       <Row>
-        <Col size="md-6">
-        
-        </Col>
         <Col size="md-6 sm-12">
-          <ProjectsList />
+          <ProjectsList/>
         </Col>
       </Row>
     </Container>

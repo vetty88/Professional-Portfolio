@@ -145,9 +145,9 @@
 
 		_process_options: function(opts){
 			// Store raw options for reference
-			this._o = $.extend({}, this._o, opts);
+			this._o = $.extend({this._o, opts);
 			// Processed options
-			var o = this.o = $.extend({}, this._o);
+			var o = this.o = $.extend({this._o);
 
 			// Check if "de-DE" style date is available, if not language should
 			// fallback to 2 letter code eg "de"
@@ -301,7 +301,7 @@
 						keyup: $.proxy(function(e){
 							if ($.inArray(e.keyCode, [27,37,39,38,40,32,13,9]) === -1)
 								this.update();
-						}, this),
+						this),
 						keydown: $.proxy(this.keydown, this)
 					}]
 				];
@@ -314,7 +314,7 @@
 						keyup: $.proxy(function(e){
 							if ($.inArray(e.keyCode, [27,37,39,38,40,32,13,9]) === -1)
 								this.update();
-						}, this),
+						this),
 						keydown: $.proxy(this.keydown, this)
 					}],
 					[this.component, {
@@ -337,13 +337,13 @@
 				[this.element, '*', {
 					blur: $.proxy(function(e){
 						this._focused_from = e.target;
-					}, this)
+					this)
 				}],
 				// Input: listen for blur on element
 				[this.element, {
 					blur: $.proxy(function(e){
 						this._focused_from = e.target;
-					}, this)
+					this)
 				}]
 			);
 
@@ -365,7 +365,7 @@
 						)){
 							this.hide();
 						}
-					}, this)
+					this)
 				}]
 			];
 		},
@@ -403,7 +403,7 @@
 					format = format || this.o.format;
 					var date = this.dates.get(ix);
 					return DPGlobal.formatDate(date, format, this.o.language);
-				}, this)
+				this)
 			});
 		},
 
@@ -615,7 +615,7 @@
 					if (date instanceof Date)
 						date = this._local_to_utc(date);
 					dates.push(date);
-				}, this));
+				this));
 				fromArgs = true;
 			}
 			else {
@@ -631,14 +631,14 @@
 
 			dates = $.map(dates, $.proxy(function(date){
 				return DPGlobal.parseDate(date, this.o.format, this.o.language);
-			}, this));
+			this));
 			dates = $.grep(dates, $.proxy(function(date){
 				return (
 					date < this.o.startDate ||
 					date > this.o.endDate ||
 					!date
 				);
-			}, this), true);
+			this), true);
 			this.dates.replace(dates);
 
 			if (this.dates.length)
@@ -1318,7 +1318,7 @@
 	function opts_from_el(el, prefix){
 		// Derive options from element data-attrs
 		var data = $(el).data(),
-			out = {}, inkey,
+			out = {inkey,
 			replace = new RegExp('^' + prefix.toLowerCase() + '([A-Z])');
 		prefix = new RegExp('^' + prefix.toLowerCase());
 		function re_lower(_,a){
@@ -1362,10 +1362,10 @@
 			if (!data){
 				var elopts = opts_from_el(this, 'date'),
 					// Preliminary otions
-					xopts = $.extend({}, defaults, elopts, options),
+					xopts = $.extend({defaults, elopts, options),
 					locopts = opts_from_locale(xopts.language),
 					// Options priority: js args, data-attrs, locales, defaults
-					opts = $.extend({}, defaults, locopts, elopts, options);
+					opts = $.extend({defaults, locopts, elopts, options);
 				if ($this.is('.input-daterange') || opts.inputs){
 					var ropts = {
 						inputs: opts.inputs || $this.find('input').toArray()
