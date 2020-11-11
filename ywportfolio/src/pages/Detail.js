@@ -18,6 +18,7 @@ const Detail = props => {
 
                   return ( 
                   <> {state.currentProject ? (
+                    
                     <Container fluid>
                       <Row>
                         <Col size="md-12">
@@ -36,10 +37,11 @@ const Detail = props => {
                       </Row>
                       <Row>
                         <Col size="md-2">
-                          <Link to="/"> ←Back to PROJECTS </Link>
+                          <Link to="/"> ←Back to PROJECTS </Link> 
                         </Col>
                       </Row>
                     </Container>
+                    
          ) : (
           <div>loading...</div>
         )}</>

@@ -7,7 +7,7 @@ function Nav() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <a className="navbar-brand" href="/">
-        Your personal CMS
+        Projects
       </a>
       {store.loading ? <a className="navbar-brand ml-auto">Loading...</a> : <></>}
     </nav>

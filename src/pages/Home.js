@@ -4,6 +4,7 @@ import ProjectsList from "../components/ProjectsList";
 
 const Home = () => {
   return (
+    
     <Container fluid>
       <Row>
         <Col size="md-6">
@@ -14,6 +15,7 @@ const Home = () => {
         </Col>
       </Row>
     </Container>
+    
   );
 };
 
