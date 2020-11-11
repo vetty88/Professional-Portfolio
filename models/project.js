@@ -4,8 +4,10 @@ const Schema = mongoose.Schema;
 const projectSchema = new Schema({
   title: { type: String, required: true },
   author: { type: String, required: true },
+  subtitle: String,
   description: String,
-  date: { type: Date, default: Date.now }
+  weblink: String,
+  datelastupdated: { type: Date, default: Date.now }
 });
 
 const Project = mongoose.model("Project", projectSchema);

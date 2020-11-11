@@ -7,25 +7,40 @@ mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/reactcms");
 
 const projectSeed = [
   {
-    title: "Hello World",
-    author: "admin",
+    title: "Employee Directory",
+    author: "Y Waller",
+    subtitle: "Sample Employee Directory application using React, API and Node/NPM",
     description:
-      "Welcome to your first Project! To create PROJECTS create a title and description. Don't forget to include your screen name!",
-    date: new Date(Date.now())
+      "Sample application that uses React, Node and NPM features to retrieve and display a table of employees on a User Database - this table can be searched by name and sorted by name and age",
+    weblink: "https://github.com/vetty88/Employee-Directory",
+    datelastupdated: "2020-11-09"
   },
   {
-    title: "The Second Project",
-    author: "admin",
+    title: "Business Page",
+    author: "Y Waller",
+    subtitle: "Web Design, creation, content updates and maintenance.",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    date: new Date(Date.now())
+      "My Equine Myofunctional therapy business 'Equusential Therapies",
+      weblink: "https://vetty88.github.io/Equusential-Web-Page/",
+      datelastupdated: "2020-08-23"
   },
   {
-    title: "Another One",
-    author: "admin",
+    title: "Scheduling Tool",
+    author: "Y Waller",
+    subtitle: "Daily Scheduling Tool. Web hosted. Daily activity Planner",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    date: new Date(Date.now())
+      "Interactive sheduling tool for every work day. Schedule, save, delete and clear your daily work tasks",
+      weblink: "https://github.com/vetty88/WorkDay-Scheduler",
+      datelastupdated: "2020-07-05"
+  },
+  {
+    title: "Weather Forecast App",
+    author: "Y Waller",
+    subtitle: "Weather Forecast Application using APIs",
+    description:
+      "Web design, application and use of third party data from 'OpenWeather' API. Daily and weekly weather forecast for cities.",
+      weblink: "https://github.com/vetty88/Weather-App",
+      datelastupdated: "2020-07-18"
   }
 ];
 

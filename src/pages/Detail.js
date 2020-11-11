@@ -24,7 +24,7 @@ const Detail = props => {
           <Col size="md-12">
             <Jumbotron>
               <h1>
-                {state.currentproject.title} by {state.currentproject.author}
+                {state.currentProject.title} by {state.currentProject.author}
               </h1>
             </Jumbotron>
           </Col>
