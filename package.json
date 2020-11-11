@@ -1,78 +1,58 @@
 {
-    "name": "yw-projects-list-portfolio",
-    "version": "1.0.0",
-    "description": "list of Web Development Projects",
-    "main": "server.js",
-    "engines": {
-        "node": "14.6.0"
-    },
-    "scripts": {
-        "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
-        "start:prod": "node server.js",
-        "start:dev": "concurrently \"nodemon --ignore 'client/*'\" \"npm run client\"",
-        "client": "cd client && npm run start",
-        "seed": "node scripts/seedDB.js",
-        "install": "cd client && npm install",
-        "build": "cd client && npm run build",
-        "heroku-Projectbuild": "npm run build"
-    },
-    "author": "Yvette Waller",
-    "license": "MIT",
-    "devDependencies": {
-        "concurrently": "^5.3.0",
-        "nodemon": "^1.18.7"
-    },
-    "dependencies": {
-        "@testing-library/jest-dom": "^5.11.5",
-        "@testing-library/react": "^11.1.0",
-        "@testing-library/user-event": "^12.1.10",
-        "axios": "^0.21.0",
-        "babel": "^6.23.0",
-        "flow": "^0.2.3",
-        "json": "^10.0.0",
-        "jsx": "^0.9.89",
-        "mongoose": "^5.10.13",
-        "nodejs": "0.0.0",
-        "npm": "^7.0.9",
-        "npm-cli": "^0.1.0",
-        "react": "^17.0.1",
-        "react-dom": "^17.0.1",
-        "react-router-dom": "^5.2.0",
-        "react-scripts": "4.0.0",
-        "typescript": "^4.0.5",
-        "web-vitals": "^0.2.4"
-    },
-    "eslintConfig": {
-        "extends": [
-            "react-app",
-            "react-app/jest"
-        ]
-    },
-    "browserslist": {
-        "production": [
-            ">0.2%",
-            "not dead",
-            "not op_mini all"
-        ],
-        "development": [
-            "last 1 chrome version",
-            "last 1 firefox version",
-            "last 1 safari version"
-        ]
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/vetty88/Professional-Portfolio"
-    },
-    "keywords": [
-        "react",
-        "projects",
-        "portfolio",
-        "jsx",
-        "list"
+  "name": "professional-portfolio",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "3": "^2.1.0",
+    "@testing-library/jest-dom": "^5.11.5",
+    "@testing-library/react": "^11.1.1",
+    "@testing-library/user-event": "^12.2.0",
+    "axios": "^0.21.0",
+    "babel": "^6.23.0",
+    "babel-cli": "^6.26.0",
+    "bootstrap": "^4.5.3",
+    "chokidar": "^3.4.3",
+    "eslint": "^7.12.1",
+    "github": "^14.0.0",
+    "heroku": "^7.47.0",
+    "joi": "^17.3.0",
+    "jquery": "^3.5.1",
+    "jsx": "^0.9.89",
+    "popper": "^1.0.1",
+    "popper.js": "^1.16.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-scripts": "^4.0.0",
+    "sudo": "^1.0.3",
+    "typescript": "^4.0.5",
+    "web-vitals": "^0.2.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
     ],
-    "bugs": {
-        "url": "https://github.com/vetty88/Professional-Portfolio/issues"
-    },
-    "homepage": "https://github.com/vetty88/Professional-Portfolio#readme"
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/preset-react": "^7.12.5",
+    "optimize-css-assets-webpack-plugin": "^5.0.4"
+  }
 }
