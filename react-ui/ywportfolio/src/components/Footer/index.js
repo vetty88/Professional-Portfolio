@@ -3,20 +3,20 @@ import "./style.css";
 
 function Footer() {
   return (
-    <footer class="ftco-footer ftco-bg-dark ftco-section">
-    <div class="container">
-        <div class="row mb-5 justify-content-center">
-            <div class="col-md-5 text-center">
-                <div class="ftco-footer-widget mb-5">
+    <footer className="ftco-footer ftco-bg-dark ftco-section">
+    <div className="container">
+        <div className="row mb-5 justify-content-center">
+            <div className="col-md-5 text-center">
+                <div className="ftco-footer-widget mb-5">
                 </div>
-                <div class="ftco-footer-widget">
-                    <h2 class="mb-3">Contact Us</h2>
-                    <p class="h3 email"><a href="#">vetty88@gmail.com</a></p>
+                <div className="ftco-footer-widget">
+                    <h2 className="mb-3">Contact Us</h2>
+                    <p className="h3 email"><a href="#">vetty88@gmail.com</a></p>
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-md-12 text-center">
+        <div className="row">
+            <div className="col-md-12 text-center">
 
                 <p>
 Yvette Waller 2020
