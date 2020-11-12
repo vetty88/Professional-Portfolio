@@ -1,4 +1,7 @@
 const express = require("express");
+const bodyParser = require("body-parser");
+
+
 
 const mongoose = require("mongoose");
 const connection = "mongodb+srv://vetty88:fXP1EMS6Ww0nANsY@cluster0.0cv9z.gcp.mongodb.net/reactcms?retryWrites=true&w=majority";
@@ -8,6 +11,7 @@ mongoose.connect(connection,{ useNewUrlParser: true, useUnifiedTopology: true, u
 
 const routes = require("./routes");
 const app = express();
+app.use(bodyParser.json());
 const PORT = process.env.PORT || 3001;
 
 // Define middleware here
@@ -35,6 +39,6 @@ mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/reactcms");
 // );
 
 // Start the API server
-app.listen(PORT, function() {
-  console.log(`🌎  ==> API Server now listening on PORT ${PORT}!`);
+app.listen(PORT, () => {
+  console.log("Express server listening on port %d in %s mode", this.address().port, app.settings.env);
 });
