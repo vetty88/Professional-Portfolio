@@ -27,7 +27,7 @@ const projectSeed = [
     subtitle: "Sample Employee Directory application using React, API and Node/NPM",
     description:
       "Sample application that uses React, Node and NPM features to retrieve and display a table of employees on a User Database - this table can be searched by name and sorted by name and age",
-    weblink: "https://github.com/vetty88/Employee-Directory",
+    weblink: "https://github.com/vetty88/employee-directory",
     datelastupdated: "2020-11-09"
   },
   {

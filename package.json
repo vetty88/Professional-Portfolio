@@ -1,7 +1,8 @@
 {
   "name": "professional-portfolio",
   "version": "0.1.0",
-  "homepage": "https://vetty88.github.io/Professional-Portfolio/",
+  "main": "server.js",
+  
   "private": true,
   "dependencies": {
     "3": "^2.1.0",
@@ -39,10 +40,14 @@
     "web-vitals": "^0.2.4"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "start": "react-scripts start",
-    "build": "react-scripts build"
+    "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
+    "start:prod": "node server.js",
+    "start:dev": "concurrently \"nodemon --ignore 'client/*'\" \"npm run client\"",
+    "client": "cd client && npm run start",
+    "seed": "node scripts/seedDB.js",
+    "install": "cd client && npm install",
+    "build": "cd client && npm run build",
+    "heroku-postbuild": "npm run build"
   },
   "eslintConfig": {
     "extends": [
