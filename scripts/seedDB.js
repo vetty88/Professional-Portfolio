@@ -1,24 +1,15 @@
-const mongoose = require("mongoose");
-const connection = "mongodb+srv://vetty88:fXP1EMS6Ww0nANsY@cluster0.0cv9z.gcp.mongodb.net/reactcms?retryWrites=true&w=majority";
-mongoose.connect(connection,{ useNewUrlParser: true, useUnifiedTopology: true, useFindAndModify: false})
-    .then(() => console.log("Database Connected Successfully"))
-    .catch(err => console.log(err));
+let mongoose = require("mongoose");
+let db = require("../models");
 
-const Schema = mongoose.Schema;
-const db = require("../models");
-
-// This file empties the PROJECTS collection and inserts the PROJECTS below
-
-// Connect to the Mongo DB
-// mongoose.connect(
-//   process.env.MONGODB_URI || 'mongodb://localhost/reactcms',
-//   {
-//     useNewUrlParser: true,
-//     useUnifiedTopology: true,
-//     useCreateIndex: true,
-//     useFindAndModify: false
-//   }
-// );
+mongoose.connect(
+  process.env.MONGODB_URI || 'mongodb://localhost/reactcms',
+  {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+    useCreateIndex: true,
+    useFindAndModify: false
+  }
+);
 
 const projectSeed = [
   {

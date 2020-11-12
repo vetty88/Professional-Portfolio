@@ -12,7 +12,7 @@ mongoose.connect(connection,{ useNewUrlParser: true, useUnifiedTopology: true, u
 const routes = require("./routes");
 const app = express();
 app.use(bodyParser.json());
-const PORT = process.env.PORT || 3001;
+
 
 // Define middleware here
 app.use(express.urlencoded({ extended: true }));
@@ -25,7 +25,7 @@ if (process.env.NODE_ENV === "production") {
 app.use(routes);
 
 // Connect to the Mongo DB
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/reactcms");
+// mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/reactcms");
 
 // Connect to the Mongo DB
 // mongoose.connect(
@@ -39,6 +39,7 @@ mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/reactcms");
 // );
 
 // Start the API server
-app.listen(PORT, () => {
-  console.log("Express server listening on port %d in %s mode", this.address().port, app.settings.env);
+let server = app.listen(process.env.PORT || 3000, function () {
+  let port = server.address().port;
+  console.log("App now running on port", port);
 });
