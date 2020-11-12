@@ -3,7 +3,16 @@ const db = require("../models");
 
 // This file empties the PROJECTS collection and inserts the PROJECTS below
 
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/reactcms");
+// Connect to the Mongo DB
+mongoose.connect(
+  process.env.MONGODB_URI || 'mongodb://localhost/reactcms',
+  {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+    useCreateIndex: true,
+    useFindAndModify: false
+  }
+);
 
 const projectSeed = [
   {
