@@ -26,7 +26,7 @@
   React App (Projects List): https://sheltered-shore-80735.herokuapp.com/ ** not generating as at 13/11/2020) MongoDB connection errors
   App was working locally see screenshots:
   ![ScreenshotApp1](./ScreenReactProjectItem.PNG?raw=true)
-  ![ScreenshotApp2](./ScreenReactProjectList.PNG?raw=true)
+  ![ScreenshotApp2](./ScreenReactProjectsList.PNG?raw=true)
 
 
 
