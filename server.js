@@ -1,13 +1,17 @@
-const express = require("express");
-const bodyParser = require("body-parser");
+const express  = require('express'), app = express(), mongoose = require('mongoose');
+require('dotenv').config(); // configures dotenv
+app.use(express.json());
+// MongoDB connection with ATLAS and Mongoose
+// connects to the value within the .env file
+const uri = process.env.ATLAS_URI;
+// connects mongoose to the uri and sets some mongoose keys to true to combat mongoose's deprecation warnings
+mongoose.connect(uri, { useNewUrlParser: true, useCreateIndex: true, useUnifiedTopology: true});
+const connection = mongoose.connection;
+// make sure that MongoDB connected successfully
+connection.once('open', () => {
+console.log("MongoDB database connected!!");
+});
 
-
-
-const mongoose = require("mongoose");
-const connection = "mongodb+srv://vetty88:fXP1EMS6Ww0nANsY@cluster0.0cv9z.gcp.mongodb.net/reactcms?retryWrites=true&w=majority";
-mongoose.connect(connection,{ useNewUrlParser: true, useUnifiedTopology: true, useFindAndModify: false})
-    .then(() => console.log("Database Connected Successfully"))
-    .catch(err => console.log(err));
 
 const routes = require("./routes");
 const app = express();
