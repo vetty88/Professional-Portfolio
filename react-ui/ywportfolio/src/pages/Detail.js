@@ -10,7 +10,7 @@ const Detail = props => {
       const [state, dispatch] = useStoreContext();
 
       useEffect(() => {
-                  API.getProject(props.match.params.id)
+                  API.getProject(props.match.params.name)
                       .then(res => dispatch({
                           type: SET_CURRENT_PROJECT,  project: res.data }))
                       .catch(err => console.log(err));
@@ -19,11 +19,11 @@ const Detail = props => {
                   return ( 
                   <> {state.currentProject ? (
                     
-                    <Container fluid>
+                    <Container fluname>
                       <Row>
                         <Col size="md-12">
                           <Jumbotron>
-                            <h1> {state.currentProject.title} </h1>
+                            <h1> {state.currentProject.name} </h1>
                           </Jumbotron>
                         </Col>
                       </Row>
@@ -48,4 +48,4 @@ const Detail = props => {
       );
     };                                                  
 
-                          export default Detail;
+export default Detail;

@@ -1,12 +1,10 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import Home from "./pages/Home";
-import Detail from "./pages/Detail";
-import NoMatch from "./pages/NoMatch";
-import Nav from "./components/Nav";
+import { BrowserRouter as Router } from "react-router-dom";
+
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-import { StoreProvider } from "./utils/GlobalState";
+import "./App.css";
+import { Repos } from "./Repos";
 
 
 function App() {
@@ -14,15 +12,11 @@ function App() {
     <Router>
       <div>
       <Header />
-        <StoreProvider>
-           <Nav />
-          <Switch>
-            <Route exact path="/home" component={Home} />
-            <Route exact path="/projects/:id" component={Detail} />
-            <Route component={NoMatch} />
-          </Switch>
+
+           <div className="App">
+              <Repos />
+          </div>
           
-        </StoreProvider>
         <Footer />
       </div>
     </Router>

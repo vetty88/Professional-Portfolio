@@ -8,17 +8,6 @@ import API from "../../utils/API";
 function ProjectsList() {
   const [state, dispatch] = useStoreContext();
 
-  // const removeProject = id => {
-  //   API.deleteProject(id)
-  //     .then(() => {
-  //       dispatch({
-  //         type: REMOVE_PROJECT,
-  //         _id: id
-  //       });
-  //     })
-  //     .catch(err => console.log(err));
-  // };
-
   const getProjects = () => {
     dispatch({ type: LOADING });
     API.getProjects()
@@ -42,10 +31,10 @@ function ProjectsList() {
       {state.projects.length ? (
         <List>
           {state.projects.map(project => (
-            <ListItem key={project._id}>
-              <Link to={"/projects/" + project._id}>
+            <ListItem key={project.name}>
+              <Link to={"/projects/" + project.name}>
                 <strong>
-                  {project.title} by {project.author}
+                  {project.url} by {project.description}
                 </strong>
               </Link>
             

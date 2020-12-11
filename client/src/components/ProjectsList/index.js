@@ -9,11 +9,11 @@ function ProjectsList() {
   const [state, dispatch] = useStoreContext();
 
   // const removeProject = id => {
-  //   API.deleteProject(id)
+  //   API.deleteProject(name)
   //     .then(() => {
   //       dispatch({
   //         type: REMOVE_PROJECT,
-  //         _id: id
+  //         name: id
   //       });
   //     })
   //     .catch(err => console.log(err));
@@ -42,10 +42,10 @@ function ProjectsList() {
       {state.projects.length ? (
         <List>
           {state.projects.map(project => (
-            <ListItem key={project._id}>
-              <Link to={"/projects/" + project._id}>
+            <ListItem key={project.name}>
+              <Link to={"/projects/" + project.name}>
                 <strong>
-                  {project.title} by {project.author}
+                  {project.url} by {project.description}
                 </strong>
               </Link>
             

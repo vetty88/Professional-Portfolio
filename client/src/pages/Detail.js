@@ -23,7 +23,7 @@ const Detail = props => {
                       <Row>
                         <Col size="md-12">
                           <Jumbotron>
-                            <h1> {state.currentProject.title} </h1>
+                            <h1> {state.currentProject.url} </h1>
                           </Jumbotron>
                         </Col>
                       </Row>
@@ -42,10 +42,10 @@ const Detail = props => {
                       </Row>
                     </Container>
                     
-         ) : (
+    ) : (
           <div>loading...</div>
         )}</>
       );
     };                                                  
 
-                          export default Detail;
+export default Detail;

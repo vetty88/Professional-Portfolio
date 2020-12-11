@@ -1,20 +1,9 @@
-const express  = require('express'), app = express(), mongoose = require('mongoose');
-require('dotenv').config(); // configures dotenv
-app.use(express.json());
-// MongoDB connection with ATLAS and Mongoose
-// connects to the value within the .env file
-const uri = process.env.ATLAS_URI;
-// connects mongoose to the uri and sets some mongoose keys to true to combat mongoose's deprecation warnings
-mongoose.connect(uri, { useNewUrlParser: true, useCreateIndex: true, useUnifiedTopology: true});
-const connection = mongoose.connection;
-// make sure that MongoDB connected successfully
-connection.once('open', () => {
-console.log("MongoDB database connected!!");
-});
-
-
-const routes = require("./routes");
+const routes = require("routes");
+const express = require('express');
+// const path = require('path');
 const app = express();
+const bodyParser = require("body-parser");
+
 app.use(bodyParser.json());
 
 
@@ -27,20 +16,6 @@ if (process.env.NODE_ENV === "production") {
 }
 // Add routes, both API and view
 app.use(routes);
-
-// Connect to the Mongo DB
-// mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/reactcms");
-
-// Connect to the Mongo DB
-// mongoose.connect(
-//   process.env.MONGODB_URI || 'mongodb://localhost/reactcms',
-//   {
-//     useNewUrlParser: true,
-//     useUnifiedTopology: true,
-//     useCreateIndex: true,
-//     useFindAndModify: false
-//   }
-// );
 
 // Start the API server
 let server = app.listen(process.env.PORT || 3000, function () {

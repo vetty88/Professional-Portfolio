@@ -1,28 +1,36 @@
-const express  = require('express'), app = express(), mongoose = require('mongoose');
-require('dotenv').config(); // configures dotenv
-app.use(express.json());
-// MongoDB connection with ATLAS and Mongoose
-// connects to the value within the .env file
-const uri = process.env.ATLAS_URI;
-// connects mongoose to the uri and sets some mongoose keys to true to combat mongoose's deprecation warnings
-mongoose.connect(uri, { useNewUrlParser: true, useCreateIndex: true, useUnifiedTopology: true});
-const connection = mongoose.connection;
-// make sure that MongoDB connected successfully
-connection.once('open', () => {
-console.log("MongoDB database connected!!");
-});
+import React,{useState,useEffect} from 'react';
+import './App.css';
 
-const Schema = mongoose.Schema;
+function App() {
+  const [data,setData]=useState([]);
+  const getData=()=>{
+    fetch('data.json'
+    ,{
+      headers : { 
+        'Content-Type': 'application/json',
+        'Accept': 'application/json'
+       }
+    }
+    )
+      .then(function(response){
+        console.log(response)
+        return response.json();
+      })
+      .then(function(myJson) {
+        console.log(myJson);
+        setData(myJson)
+      });
+  }
+  useEffect(()=>{
+    getData()
+  },[])
+  return (
+    <div className="App">
+     {
+       data && data.length>0 && data.map((item)=><p>{item.about}</p>)
+     }
+    </div>
+  );
+}
 
-const projectSchema = new Schema({
-  title: { type: String, required: true },
-  author: { type: String, required: true },
-  subtitle: String,
-  description: String,
-  weblink: String,
-  datelastupdated: { type: Date, default: Date.now }
-});
-
-const Project = mongoose.model("Project", projectSchema);
-
-module.exports = Project;
+export default App;

@@ -39,11 +39,10 @@ const StoreProvider = ({ value = [], ...props }) => {
   const [state, dispatch] = useReducer(reducer, {
     projects: [],
     currentProject: {
-      _id: 0,
-      title: "",
+      name: 0,
+      url: "",
       description: "",
-      author: ""
-    },
+      },
 
     loading: false
   });

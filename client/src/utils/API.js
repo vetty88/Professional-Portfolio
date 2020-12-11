@@ -6,11 +6,11 @@ export default {
     return axios.get("/api/projects");
   },
   // Gets the Project with the given id
-  getProject: function(id) {
+  getProject: function(name) {
     return axios.get("/api/projects/" + id);
   },
   // Deletes the Project with the given id
-  deleteProject: function(id) {
+  deleteProject: function(name) {
     return axios.delete("/api/projects/" + id);
   },
   // Saves a Project to the database

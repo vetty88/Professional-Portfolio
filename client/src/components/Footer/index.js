@@ -11,7 +11,7 @@ function Footer() {
                 </div>
                 <div className="ftco-footer-widget">
                     <h2 className="mb-3">Contact Us</h2>
-                    <p className="h3 email"><a href="#">vetty88@gmail.com</a></p>
+    
                 </div>
             </div>
         </div>
