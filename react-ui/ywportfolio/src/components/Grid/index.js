@@ -21,8 +21,8 @@ export function Col({ size, children }) {
         .split(" ")
         .map(size => "col-" + size)
         .join(" ")}
-    >
+      >
       {children}
     </div>
-  );
+);
 }

@@ -1,26 +1,45 @@
-import React from "react";
-import { BrowserRouter as Router } from "react-router-dom";
-
+import React, { Component } from "react";
 import Header from "./components/Header";
+import Repos from "./components/Repos";
+import RepoData from "./RepoData";
 import Footer from "./components/Footer";
 import "./App.css";
-import { Repos } from "./Repos";
 
 
-function App() {
-  return (
-    <Router>
-      <div>
-      <Header />
-
-           <div className="App">
-              <Repos />
+class App extends Component {
+  render() {
+      return (
+          <div className="App">
+            <Header></Header>
+            <Repos></Repos>
+            {
+              RepoData.Names.map((name, i) => {
+                return (
+                  <div key={i}>
+                    <div>
+                      <a href={name.url}>
+                      </a>
+                      <div>
+                        <div>
+                          <a href={name.url}>{name.description}</a>
+                        </div>
+                          {name.map(function (role, i) { 
+                            return <div key={i}>
+                              <h5>{name}</h5>
+                              <span>{url}</span>
+                              <p>{description}</p>
+                            </div>
+                          })}
+                      </div>
+                    </div>
+                  </div>
+                );
+              })
+				}
+            <Footer></Footer>
           </div>
-          
-        <Footer />
-      </div>
-    </Router>
-  );
+      );
+  }
 }
 
 export default App;

@@ -9,8 +9,8 @@ router
 
 // Matches with "/api/projects/:id"
 router
-  .route("/:id")
-  .get(projectsController.findById)
+  .route("/:name")
+  .get(projectsController.findByName)
   // .put(projectsController.update)
 
 

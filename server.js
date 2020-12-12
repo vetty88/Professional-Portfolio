@@ -1,11 +1,10 @@
-const routes = require("routes");
-const express = require('express');
-// const path = require('path');
-const app = express();
+const express = require("express");
+const path = require("path");
+const PORT = process.env.PORT || 3001;
+const routes = require("./routes");
 const bodyParser = require("body-parser");
 
 app.use(bodyParser.json());
-
 
 // Define middleware here
 app.use(express.urlencoded({ extended: true }));
@@ -17,8 +16,6 @@ if (process.env.NODE_ENV === "production") {
 // Add routes, both API and view
 app.use(routes);
 
-// Start the API server
-let server = app.listen(process.env.PORT || 3000, function () {
-  let port = server.address().port;
-  console.log("App now running on port", port);
-});
+app.listen(PORT, () => {
+  console.log(`🌎 ==> API server now on port ${PORT}!`);
+});y

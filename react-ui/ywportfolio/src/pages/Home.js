@@ -1,7 +1,6 @@
 import React from "react";
 import { Col, Row, Container } from "../components/Grid";
-
-import ProjectsList from "../components/ProjectsList";
+import Repos from "../components/Repos";
 
 const Home = () => {
   return (
@@ -9,7 +8,7 @@ const Home = () => {
     <Container fluid>
       <Row>
         <Col size="md-6 sm-12">
-          <ProjectsList/>
+          <Repos/>
         </Col>
       </Row>
     </Container>
