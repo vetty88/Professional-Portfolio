@@ -1,3 +1,5 @@
+const repoDatas = 
+  
 [
 
   {
@@ -250,8 +252,9 @@
   "name": "google-books",
   "description": "Google Books Search App",
   "website": null
-  }
+  },
 
-]
+];
 
+export {repoDatas};
 

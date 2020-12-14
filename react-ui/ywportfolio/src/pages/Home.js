@@ -1,6 +1,6 @@
 import React from "react";
 import { Col, Row, Container } from "../components/Grid";
-import Repos from "../components/Repos";
+import RepoList from "../components/RepoList";
 
 const Home = () => {
   return (
@@ -8,7 +8,7 @@ const Home = () => {
     <Container fluid>
       <Row>
         <Col size="md-6 sm-12">
-          <Repos/>
+          <RepoList/>
         </Col>
       </Row>
     </Container>
