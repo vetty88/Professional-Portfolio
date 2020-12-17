@@ -1,7 +1,7 @@
 {
   "name": "professional-portfolio",
   "version": "0.1.0",
-  "main": "server.js",
+  "main": "main.js",
   "type": "module",
   "private": true,
   "dependencies": {
@@ -25,6 +25,7 @@
     "if-env": "^1.0.4",
     "joi": "^17.3.0",
     "jquery": "^3.5.1",
+    "js-data": "^3.0.9",
     "jsx": "^0.9.89",
     "marked": "^1.2.6",
     "mongo": "^0.1.0",
@@ -43,11 +44,8 @@
     "web-vitals": "^0.2.4"
   },
   "scripts": {
-    "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
-    "start:prod": "node server.js",
-    "start:dev": "concurrently \"nodemon --ignore 'client/*'\" \"npm run client\"",
+    "start": "nodemon server/index.js",
     "client": "cd client && npm run start",
-    "seed": "node scripts/seedDB.js",
     "install": "cd client && npm install",
     "build": "cd client && npm run build",
     "heroku-postbuild": "npm run build"

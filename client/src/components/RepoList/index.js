@@ -1,9 +1,9 @@
 import React from 'react';
-import {repoDatas} from "./RepoDatas.js";
+import {RepoDatas} from "../RepoDatas.js";
 
-export default class RepoList extends React.Component{
+export default class RepoList extends React.Component {
     render() {
-      const repoData = repoDatas[0];
+      const repoData = RepoDatas[0];
       return(
         <div>
           <RepoList 

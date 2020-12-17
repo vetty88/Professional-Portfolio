@@ -9058,8 +9058,8 @@ jQuery.extend( {
 
 		accepts: {
 			"*": allTypes,
-			text: "text/plain",
-			html: "text/html",
+			text: "text/javascript",
+			html: "text/javascript",
 			xml: "application/xml, text/xml",
 			json: "application/json, text/javascript"
 		},
