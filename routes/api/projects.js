@@ -4,14 +4,14 @@ const projectsController = require("../../controllers/projectsController");
 // Matches with "/api/projects"
 router
   .route("/")
-  .get(projectsController.findAll)
-  // .post(projectsController.create);
+  .get(projectsController.findAll);
+
 
 // Matches with "/api/projects/:id"
 router
   .route("/:name")
-  .get(projectsController.findByName)
-  // .put(projectsController.update)
+  .get(projectsController.findByName);
+
 
 
 module.exports = router;
