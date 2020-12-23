@@ -5,7 +5,7 @@ import RepoList from "../components/RepoList";
 const Home = () => {
   return (
     
-    <Container fluid>
+    <Container>
       <Row>
         <Col size="md-6 sm-12">
           <RepoList/>

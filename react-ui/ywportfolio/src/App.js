@@ -7,9 +7,19 @@ import './App.css';
 function App() {
   return (
     <div className="App"> 
-      <Footer />
+
+      <div>
       <Header />
+      </div> 
+
+      <div>
       <RepoList />
+      </div>
+
+      <div>
+      <Footer />
+      </div>
+
     </div>
   );
 }
