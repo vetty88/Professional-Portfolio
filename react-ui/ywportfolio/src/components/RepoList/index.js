@@ -1,17 +1,54 @@
 import React from 'react';
-import {RepoDatas} from "../RepoDatas.js";
+import RepoData from "../RepoDatas.js";
 
 export default class RepoList extends React.Component {
-    render() {
-      const repoData = RepoDatas[0];
-      return(
-        <div>
-       
-          name = {repoData.name}
-          url = {repoData.url}
-          description = {repoData.description}
   
-        </div>
+    render() {
+      return (
+        <ul>
+          {RepoData.map(item => {
+          return <li> {item[0]} </li>;
+          })}
+        </ul>
       );
+      
     }
   }
+
+
+// import ReactList from 'react-list';
+
+
+// export default class RepoList extends React.Component {
+//   state = {
+//     RepoDatas: []
+//   };
+
+//   componentWillMount() {
+//     RepoDatas(this.handleRepoDatas);
+//   }
+ 
+//   handleRepoDatas(RepoDatas) {
+//     this.setState({RepoDatas});
+//   }
+ 
+//   renderName(index, url) {
+//     return 
+//       <div url={url}>
+//         {this.state.RepoDatas[index].name}
+//       </div>;
+//   };
+ 
+//   render() {
+//     return (
+//       <div>
+//         <h1>RepoDatas</h1>
+//         <div style={{overflow: 'auto', maxHeight: 400}}>
+//           <ReactList
+//             nameRenderer={this.renderName}
+//             length={this.state.RepoDatas.length}
+//           />
+//         </div>
+//       </div>
+//     );
+//   }
