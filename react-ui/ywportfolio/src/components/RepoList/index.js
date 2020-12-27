@@ -7,7 +7,12 @@ export default class RepoList extends React.Component {
       return (
         <ul>
           {RepoData.map(item => {
-          return <li key={item.id}> {item.url} </li>;
+          return <div key={item.id}> 
+          <h2>{item.name}</h2>
+          <a>{item.url}</a>
+          <p>{item.description}</p>
+          
+           </div>;
           })}
         </ul>
       );

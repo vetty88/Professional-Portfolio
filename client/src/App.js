@@ -1,15 +1,25 @@
 import React from "react";
-import './App.css'; 
 import Header from "./components/Header";
 import RepoList from "./components/RepoList";
 import Footer from "./components/Footer";
+import "./App.css"; 
 
 function App() {
   return (
     <div className="App"> 
-      <Footer />
+
+      <div>
       <Header />
+      </div> 
+
+      <div>
       <RepoList />
+      </div>
+
+      <div>
+      <Footer />
+      </div>
+
     </div>
   );
 }
