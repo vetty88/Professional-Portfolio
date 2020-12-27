@@ -3555,7 +3555,7 @@
 .icon-hourglass_full:before {
   content: "\e88c";
 }
-.icon-http:before {
+.icon-https:before {
   content: "\e902";
 }
 .icon-lock2:before {
