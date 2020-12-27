@@ -1,8 +1,6 @@
 {
   "name": "cms",
   "version": "0.1.0",
-  "private": true,
-  "proxy": "https://localhost:6000/",
   "dependencies": {
     "axios": "^0.18.0",
     "react": "^16.6.3",
