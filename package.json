@@ -1,7 +1,7 @@
 {
-  "name": "professional-portfolio",
-  "version": "0.1.0",
-  "main": "main.js",
+  "name": "server",
+  "version": "1.0.0",
+  "main": "index.js",
   "type": "module",
   "private": true,
   "dependencies": {
@@ -16,6 +16,7 @@
     "body-parser": "^1.19.0",
     "bootstrap": "^4.5.3",
     "chokidar": "^3.4.3",
+    "cors": "2.8.5",
     "create-react-app": "^4.0.1",
     "debug": "^4.3.1",
     "dotenv": "^8.2.0",
