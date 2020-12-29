@@ -1,7 +1,7 @@
 {
-  "name": "cms",
-  "homepage": "./",
+  "name": "yw-portfolio",
   "version": "0.1.0",
+  "private": true,
   "license": "MIT",
   "dependencies": {
     "axios": "^0.18.0",
@@ -28,13 +28,22 @@
     "eject": "react-scripts eject",
     "start": "cd server && yarn start"
   },
-  "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not ie <= 11",
-    "not op_mini all"
-  ],
-  "devDependencies": {
-    "@babel/plugin-proposal-class-properties": "^7.12.1"
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ],
+    "devDependencies": {
+      "@babel/plugin-proposal-class-properties": "^7.12.1"
+    }
   }
 }
