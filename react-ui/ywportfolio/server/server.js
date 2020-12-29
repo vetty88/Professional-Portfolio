@@ -1,18 +1,14 @@
 const path = require('path');
-const axios = require('axios');
 const express = require('express');
 const app = express();
 
 const PORT = process.env.PORT || 5000;
 
-// const buildPath = path.join(__dirname, '..', 'build');
-// app.use(express.static(buildPath));
-
 if(process.env.NODE_ENV === 'production'){
   const path  =  require('path');
   app.get('/*',(req,res)=>{
-      res.sendfile(path.resolve(__dirname,'client','build','index.html'))
-  })
+      res.sendfile(path.resolve(__dirname,'client','build','index.html'));
+  });
 }
 
 app.listen(PORT, () => {
