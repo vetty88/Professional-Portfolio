@@ -11,7 +11,7 @@
     "eslint-config-react-app": "^6.0.0",
     "git": "^0.1.5",
     "heroku": "^7.47.6",
-    "nodemon": "^2.0.6",
+    "node": "^15.4.0",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
     "react-list": "^0.8.16",
@@ -38,12 +38,12 @@
       "not op_mini all"
     ]
   },
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ],
-    "devDependencies": {
-      "@babel/plugin-proposal-class-properties": "^7.12.1"
-    }
+  "development": [
+    "last 1 chrome version",
+    "last 1 firefox version",
+    "last 1 safari version"
+  ],
+  "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.12.1"
   }
+}
