@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "license": "MIT",
+  "engines": {
+    "node": "12.11.1"
+    },
   "dependencies": {
     "axios": "^0.18.0",
     "babel-eslint": "^10.1.0",
