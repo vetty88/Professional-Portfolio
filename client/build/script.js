@@ -1,3 +1,0 @@
-import { hello } from './module.js';
-...
-// alert(hello());
