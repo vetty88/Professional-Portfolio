@@ -1,19 +1,27 @@
 import React from "react";
-import { Col, Row, Container } from "../components/Grid";
-import RepoList from "../components/RepoList";
+import Header from "./components/Header";
+import RepoList from "./components/RepoList";
+import Footer from "./components/Footer";
+import "./App.css"; 
 
-const Home = () => {
+function App() {
   return (
-    
-    <Container>
-      <Row>
-        <Col size="md-6 sm-12">
-          <RepoList/>
-        </Col>
-      </Row>
-    </Container>
-    
-  );
-};
+    <div className="App"> 
 
-export default Home;
+      <div>
+      <Header />
+      </div> 
+
+      <div>
+      <RepoList />
+      </div>
+
+      <div>
+      <Footer />
+      </div>
+
+    </div>
+  );
+}
+
+export default App;
