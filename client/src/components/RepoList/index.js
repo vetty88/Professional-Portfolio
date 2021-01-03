@@ -6,6 +6,7 @@ export default class RepoList extends React.Component {
   
     render() {
       return (
+        <container>
         <ul className="list-group">
           {RepoData.map(item => {
           return <div className="list-overflow-container" key={item.id}> 
@@ -15,6 +16,7 @@ export default class RepoList extends React.Component {
           </div>;
           })}
         </ul>
+        </container>
       );
       
     }
