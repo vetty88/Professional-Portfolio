@@ -1,27 +1,18 @@
 import React from "react";
-import Header from "./components/Header";
-import RepoList from "./components/RepoList";
-import Footer from "./components/Footer";
-import "./App.css"; 
+import Header from "../components/Header";
+import RepoList from "../components/RepoList";
+import Footer from "../components/Footer";
+import "../App.css"; 
 
-function App() {
+function Home() {
   return (
-    <div className="App"> 
+  <div>
+  <Header />
+  <RepoList />
+  <Footer />
+  </div>
 
-      <div>
-      <Header />
-      </div> 
-
-      <div>
-      <RepoList />
-      </div>
-
-      <div>
-      <Footer />
-      </div>
-
-    </div>
   );
 }
 
-export default App;
+export default Home;
