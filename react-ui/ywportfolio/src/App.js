@@ -5,7 +5,6 @@ import Jumbotron from "./components/Jumbotron";
 import Home from "./pages/Home";
 import NoMatch from "./pages/NoMatch";
 import Footer from "./components/Footer";
-
 import "./App.css"; 
 
 function App() {
