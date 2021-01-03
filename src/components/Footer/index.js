@@ -9,7 +9,7 @@ import "./style.css";
                     <div className="col-md-5 text-center">
                         <div className="ftco-footer-widget mb-5"> </div>
                             <div className="ftco-footer-widget">
-                            <h2 className="mb-3">Contact Us</h2>
+                            <h3 className="mb-3">Contact Us</h3>
                             </div>
                     </div>
                 </div>
