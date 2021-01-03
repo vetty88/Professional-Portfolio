@@ -1,14 +1,7 @@
 .header {
-  min-height: 100px;
-  background: #E5E5E5;
-  position: relative;
-}
-
-.header span {
-  position: absolute;
-  bottom: 3px;
-  left: 3px;
-  right: 3px;
-  padding: 3px;
-  background: #B8B8B8;
+  padding: 60px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+  font-size: 30px;
 }
