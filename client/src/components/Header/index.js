@@ -5,7 +5,7 @@ function Header() {
   return (
     <header>
       <title>Yvette Waller - Portfolio</title> 
-      <h1> Yvette Waller - Projects List </h1>
+      <h1><strong>Yvette Waller - Projects List</strong></h1>
     </header>
   );
 }

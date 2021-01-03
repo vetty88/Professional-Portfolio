@@ -22,7 +22,7 @@ function App() {
           </Switch>
           </Jumbotron>
           <br></br>
-          < Footer />
+          <Footer />
 
       </div>
     </Router>
