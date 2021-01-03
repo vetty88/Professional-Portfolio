@@ -1,5 +1,4 @@
 import React from "react";
-import React from "react";
 import Header from "./components/Header";
 import { Col, Row, Container } from "../components/Grid";
 import RepoList from "./components/RepoList";
@@ -8,7 +7,10 @@ import "./App.css";
 
 const Home = () => {
   return (
+  <>
   <Header />
+  </>
+    <>
     <Container fluid>
       <Row>
         <Col size="md-6 sm-12">
@@ -16,9 +18,14 @@ const Home = () => {
         </Col>
       </Row>
     </Container>
+    </>
+  <>
   <Footer />
-
+  </>
   );
 }
+
+export default Home;
+
 
 export default Home;
