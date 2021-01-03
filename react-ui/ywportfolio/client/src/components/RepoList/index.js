@@ -11,7 +11,7 @@ export default class RepoList extends React.Component {
           {RepoData.map(item => {
           return <div className="list-overflow-container" key={item.id}> 
           <h3 className="table-row" color="black">{item.name}</h3>
-          <a href={item.url}></a>
+          <a href={item.url}>Project Link</a>
           <p>{item.description}</p>
           </div>;
           })}
