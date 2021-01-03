@@ -7,10 +7,10 @@ import "./App.css";
 
 const Home = () => {
   return (
-  <>
+  
   <Header />
-  </>
-    <>
+    
+<React.Fragment>
     <Container fluid>
       <Row>
         <Col size="md-6 sm-12">
@@ -18,14 +18,13 @@ const Home = () => {
         </Col>
       </Row>
     </Container>
-    </>
-  <>
+</React.Fragment>
+
+
+
   <Footer />
-  </>
+
   );
 }
-
-export default Home;
-
 
 export default Home;
