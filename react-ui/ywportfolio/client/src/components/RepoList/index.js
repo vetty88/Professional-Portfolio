@@ -1,4 +1,5 @@
-import React from 'react';
+import React from "react";
+import "./style.css";
 import RepoData from "../RepoDatas.js";
 
 export default class RepoList extends React.Component {
@@ -7,8 +8,8 @@ export default class RepoList extends React.Component {
       return (
         <ul>
           {RepoData.map(item => {
-          return <div key={item.id}> 
-          <h2>{item.name}</h2>
+          return <div className="list-overflow-container" key={item.id}> 
+          <h2 className="list-group">{item.name}</h2>
           <a>{item.url}</a>
           <p>{item.description}</p>
           </div>;
