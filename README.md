@@ -38,11 +38,7 @@ Please request my permission
 
 ## Tests
 
- Tested on Google Chrome, within VS Code, in Heroku App, MongoDB Atlas and MongoDB CompassCommunity applications
-
- **CURRENT ISSUES ** with deployment to Heroku (  React App (Projects List): https://sheltered-shore-80735.herokuapp.com/ ** not generating as at 13/11/2020) MongoDB connection errors). App worked locally (see screenshot, connects to cloud db Mongo locally but not through Heroku, since attempting to fix this the local connection is no longer working. Requires more work!)
- ** Project list application is not yet formatted in same theme as webpage. Will get mongo connection working then begin styling.
- ** Once the above is working will then work on getting an API connection direct from my Github Repositories to the React App!
+ Tested on Google Chrome, within VS Code, in Heroku App.
  
 ## License
 Content -copyright Yvette Waller
