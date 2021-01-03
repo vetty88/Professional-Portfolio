@@ -5,7 +5,7 @@ function Header() {
   return (
     <header>
       <title>Yvette Waller - Portfolio</title> 
-      <h1 style={{color: "black"}}>
+      <h1 style={{color: "black", textAlign: "center"}}>
       <strong>Yvette Waller - Projects List</strong></h1>
     </header>
   );
