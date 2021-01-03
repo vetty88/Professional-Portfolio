@@ -4,7 +4,7 @@
 ## Table of Contents
 
 - [Table of Contents](#table-of-contents)
-- [<h1>  My Professional Portfolio </h1>](#h1-my-professional-portfolio-h1)
+- [<h1>  My Professional Portfolio </h1>](#h1--my-professional-portfolio-h1)
 - [Installation](#installation)
 - [Contributing](#contributing)
 - [Tests](#tests)
@@ -23,10 +23,8 @@
   Website: https://vetty88.github.io/Professional-Portfolio/
   Repo: https://github.com/Vetty88/Professional-Portfolio
 
-  React App (Projects List): https://sheltered-shore-80735.herokuapp.com/ ** not generating as at 13/11/2020) MongoDB connection errors
-  App was working locally see screenshots:
-  ![ScreenshotApp1](./ScreenReactProjectItem.PNG?raw=true)
-  ![ScreenshotApp2](./ScreenReactProjectsList.PNG?raw=true)
+  React App (Projects List): https://projects-portfolio-yw.herokuapp.com/ 
+  ![ScreenshotProjectsList](./ScreenReactProjectsList.PNG?raw=true)
 
 
 
