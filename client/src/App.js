@@ -14,13 +14,13 @@ function App() {
 
           <Header />
           <br></br>
-          
+          <Jumbotron>
           <Switch>
             <Route exact path="/" component={Home} />
             <Route exact path="/home" component={Home} />
             <Route component={NoMatch} />
           </Switch>
-          
+          </Jumbotron>
           <br></br>
           < Footer />
 
