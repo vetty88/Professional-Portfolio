@@ -5,7 +5,6 @@ import Jumbotron from "./components/Jumbotron";
 import Home from "./pages/Home";
 import NoMatch from "./pages/NoMatch";
 import Footer from "./components/Footer";
-
 import "./App.css"; 
 
 function App() {
@@ -13,6 +12,7 @@ function App() {
     <Router>
       <div>
           <Header />
+          <br></br>
           <Jumbotron>
           <Switch>
             <Route exact path="/" component={Home} />
@@ -20,6 +20,7 @@ function App() {
             <Route component={NoMatch} />
           </Switch>
           </Jumbotron>
+          <br></br>
           < Footer />
       </div>
     </Router>
