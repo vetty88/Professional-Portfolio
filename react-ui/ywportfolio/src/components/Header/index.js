@@ -3,9 +3,9 @@ import "./style.css";
 
 function Header() {
   return (
-    <header> 
+    <header>
       <title>Yvette Waller - Portfolio</title> 
-      <h1><strong> Yvette Waller - Projects List </strong></h1>
+      <h1><strong>Yvette Waller - Projects List</strong></h1>
     </header>
   );
 }
