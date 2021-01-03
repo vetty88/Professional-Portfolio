@@ -6,7 +6,7 @@ const RepoData =
     "owner": "https://github.com/vetty88",
     "name": "About-Me",
     "description": "About Me Web Page",
-    "website": <a>"https://vetty88.github.io/prework-about-me/"</a>
+    "website": <a href = "https://vetty88.github.io/prework-about-me/">Project Link</a>
     },
     {
     "type": "repository",
