@@ -3,7 +3,7 @@ import "./style.css";
 
     function Footer() {
         return (
-        <footer className="ftco-footer ftco-bg-dark ftco-section">
+        <footer>
             <div className="container">
                 <div className="row mb-5 justify-content-center">
                     <div className="col-md-5 text-center">

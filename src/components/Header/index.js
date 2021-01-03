@@ -3,7 +3,7 @@ import "./style.css";
 
 function Header() {
   return (
-    <header className="ftco-header ftco-bg-dark ftco-section">
+    <header>
       <title>Yvette Waller - Portfolio</title> 
       <h1> Yvette Waller - Projects List </h1>
     </header>
