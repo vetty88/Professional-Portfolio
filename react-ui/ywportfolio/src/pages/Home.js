@@ -11,7 +11,7 @@ class Home extends React.Component {
   <Header />
   </div>
 
-    <React.Fragment>
+    <div>
     <Container fluid>
       <Row>
         <Col size="md-6 sm-12">
@@ -19,7 +19,7 @@ class Home extends React.Component {
         </Col>
       </Row>
     </Container>
-    </React.Fragment>
+    </div>
 
   <div>
   <Footer />
