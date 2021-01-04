@@ -5114,7 +5114,7 @@ button.bg-dark:focus {
 .d-table-cell {
   display: table-cell !important; }
 
-.d-flex {
+.flex {
   display: box !important;
   display: flexbox !important;
   display: flex !important; }
@@ -5163,7 +5163,7 @@ button.bg-dark:focus {
     display: table-row !important; }
   .d-md-table-cell {
     display: table-cell !important; }
-  .d-md-flex {
+  .flex {
     display: box !important;
     display: flexbox !important;
     display: flex !important; }

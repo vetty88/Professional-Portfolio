@@ -925,7 +925,7 @@ html {
 .d-table-cell {
   display: table-cell !important; }
 
-.d-flex {
+.flex {
   display: box !important;
   display: flexbox !important;
   display: flex !important; }
@@ -974,7 +974,7 @@ html {
     display: table-row !important; }
   .d-md-table-cell {
     display: table-cell !important; }
-  .d-md-flex {
+  .flex {
     display: box !important;
     display: flexbox !important;
     display: flex !important; }

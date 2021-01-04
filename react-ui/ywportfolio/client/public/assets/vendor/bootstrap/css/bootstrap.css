@@ -6734,7 +6734,7 @@ button.bg-dark:focus {
   display: table-cell !important;
 }
 
-.d-flex {
+.flex {
   display: flexbox !important;
   display: flex !important;
 }
@@ -6798,7 +6798,7 @@ button.bg-dark:focus {
   .d-md-table-cell {
     display: table-cell !important;
   }
-  .d-md-flex {
+  .flex {
     display: flexbox !important;
     display: flex !important;
   }

@@ -1009,7 +1009,7 @@ html {
   display: table-cell !important;
 }
 
-.d-flex {
+.flex {
   display: flexbox !important;
   display: flex !important;
 }
@@ -1073,7 +1073,7 @@ html {
   .d-md-table-cell {
     display: table-cell !important;
   }
-  .d-md-flex {
+  .flex {
     display: flexbox !important;
     display: flex !important;
   }
