@@ -6,7 +6,7 @@
   width: 100%;
   max-width: 100%;
   margin-bottom: $spacer;
-  {background-color: $table-bg; // Reset for nesting within parents with `background-color`.
+  background-color: $table-bg; // Reset for nesting within parents with `background-color`.
 
   th,
   td {
@@ -132,7 +132,7 @@
 
 .table-dark {
   color: $table-dark-color;
-  {background-color: $table-dark-bg;
+  background-color: $table-dark-bg;
 
   th,
   td,
@@ -175,8 +175,8 @@
         display: block;
         width: 100%;
         overflow-x: auto;
-        -webkit-overflow-scrolling: touch;
-        -ms-overflow-style: -ms-autohiding-scrollbar; // See https://github.com/twbs/bootstrap/pull/10057
+        
+        overflow-style: autohiding-scrollbar; // See https://github.com/twbs/bootstrap/pull/10057
 
         // Prevent double border on horizontal scroll due to use of `display: block;`
         > .table-bordered {

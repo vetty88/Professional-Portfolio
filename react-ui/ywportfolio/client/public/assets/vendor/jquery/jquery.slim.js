@@ -3996,7 +3996,7 @@ var access = function( elems, fn, key, value, chainable, emptyGet, raw ) {
 
 
 // Matches dashed string for camelizing
-var rmsPrefix = /^-ms-/,
+var rmsPrefix = /^/,
 	rdashAlpha = /-([a-z])/g;
 
 // Used by camelCase as callback to replace()

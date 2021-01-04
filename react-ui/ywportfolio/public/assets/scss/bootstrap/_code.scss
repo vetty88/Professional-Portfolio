@@ -22,7 +22,7 @@ code {
   padding: $padding-y $padding-x;
   font-size: $font-size;
   color: $color;
-  {background-color: $bg;
+  background-color: $bg;
   @include border-radius($border-radius-sm);
   @include box-shadow($box-shadow);
 

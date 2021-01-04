@@ -14,7 +14,7 @@
   font-style: normal;
 }
 
-@media screen and (-webkit-min-device-pixel-ratio:0) {
+@media screen and (min-device-pixel-ratio:0) {
   @font-face {
     font-family: "Flaticon";
     src: url("../fonts/flaticon/font/Flaticon.svg#Flaticon") format("svg");
@@ -31,8 +31,8 @@
   line-height: 1;
 
   /* Better Font Rendering =========== */
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  osx-font-smoothing: grayscale;
 }
 
 .flaticon-yoga:before { content: "\f100"; }

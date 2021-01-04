@@ -8,7 +8,7 @@
   height: $progress-height;
   overflow: hidden; // force rounded corners by cropping it
   font-size: $progress-font-size;
-  {background-color: $progress-bg;
+  background-color: $progress-bg;
   @include border-radius($progress-border-radius);
   @include box-shadow($progress-box-shadow);
 }
@@ -20,7 +20,7 @@
   color: $progress-bar-color;
   text-align: center;
   white-space: nowrap;
-  {background-color: $progress-bar-bg;
+  background-color: $progress-bar-bg;
   @include transition($progress-bar-transition);
 }
 

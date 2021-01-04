@@ -183,7 +183,7 @@
     outline: 0;
     box-shadow: $custom-select-focus-box-shadow;
 
-    &::-ms-value {
+    &::value {
       // For visual consistency with other platforms/browsers,
       // suppress the default white text on blue background highlight given to
       // the selected option text when the (still closed) <select> receives focus
@@ -207,7 +207,7 @@
   }
 
   // Hides the default caret in IE11
-  &::-ms-expand {
+  &::expand {
     opacity: 0;
   }
 }
@@ -273,7 +273,7 @@
   padding: $custom-file-padding-y $custom-file-padding-x;
   line-height: $custom-file-line-height;
   color: $custom-file-color;
-  {background-color: $custom-file-bg;
+  background-color: $custom-file-bg;
   border: $custom-file-border-width solid $custom-file-border-color;
   @include border-radius($custom-file-border-radius);
   @include box-shadow($custom-file-box-shadow);
@@ -305,18 +305,18 @@
 .custom-range {
   width: 100%;
   padding-left: 0; // Firefox specific
-  {background-color: transparent;
+  background-color: transparent;
   appearance: none;
 
   &:focus {
     outline: none;
   }
 
-  &::-moz-focus-outer {
+  &::focus-outer {
     border: 0;
   }
 
-  &::-webkit-slider-thumb {
+  &::slider-thumb {
     width: $custom-range-thumb-width;
     height: $custom-range-thumb-height;
     margin-top: -($custom-range-thumb-width * .25); // Webkit specific?
@@ -336,7 +336,7 @@
     }
   }
 
-  &::-webkit-slider-runnable-track {
+  &::slider-runnable-track {
     width: $custom-range-track-width;
     height: $custom-range-track-height;
     color: transparent; // Why?
@@ -347,7 +347,7 @@
     @include box-shadow($custom-range-track-box-shadow);
   }
 
-  &::-moz-range-thumb {
+  &::range-thumb {
     width: $custom-range-thumb-width;
     height: $custom-range-thumb-height;
     @include gradient-bg($custom-range-thumb-bg);
@@ -366,7 +366,7 @@
     }
   }
 
-  &::-moz-range-track {
+  &::range-track {
     width: $custom-range-track-width;
     height: $custom-range-track-height;
     color: transparent;
@@ -377,7 +377,7 @@
     @include box-shadow($custom-range-track-box-shadow);
   }
 
-  &::-ms-thumb {
+  &::thumb {
     width: $custom-range-thumb-width;
     height: $custom-range-thumb-height;
     @include gradient-bg($custom-range-thumb-bg);
@@ -396,7 +396,7 @@
     }
   }
 
-  &::-ms-track {
+  &::track {
     width: $custom-range-track-width;
     height: $custom-range-track-height;
     color: transparent;
@@ -407,12 +407,12 @@
     @include box-shadow($custom-range-track-box-shadow);
   }
 
-  &::-ms-fill-lower {
+  &::fill-lower {
     background-color: $custom-range-track-bg;
     @include border-radius($custom-range-track-border-radius);
   }
 
-  &::-ms-fill-upper {
+  &::fill-upper {
     margin-right: 15px; // arbitrary?
     background-color: $custom-range-track-bg;
     @include border-radius($custom-range-track-border-radius);
