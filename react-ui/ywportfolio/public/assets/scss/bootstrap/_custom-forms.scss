@@ -273,7 +273,7 @@
   padding: $custom-file-padding-y $custom-file-padding-x;
   line-height: $custom-file-line-height;
   color: $custom-file-color;
-  background-color: $custom-file-bg;
+  {background-color: $custom-file-bg;
   border: $custom-file-border-width solid $custom-file-border-color;
   @include border-radius($custom-file-border-radius);
   @include box-shadow($custom-file-box-shadow);
@@ -305,7 +305,7 @@
 .custom-range {
   width: 100%;
   padding-left: 0; // Firefox specific
-  background-color: transparent;
+  {background-color: transparent;
   appearance: none;
 
   &:focus {

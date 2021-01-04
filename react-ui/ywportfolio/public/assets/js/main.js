@@ -72,16 +72,16 @@ $(document).ready(function($) {
 
 	var burgerMenu = function() {
 
-		$('.js-colorlib-nav-toggle').on('click', function(event) {
+		$('.js-nav-toggle').on('click', function(event) {
 			event.preventDefault();
 			var $this = $(this);
 			if( $('description').hasClass('menu-show') ) {
 				$('description').removeClass('menu-show');
-				$('#colorlib-main-nav > .js-colorlib-nav-toggle').removeClass('show');
+				$('#main-nav > .js-nav-toggle').removeClass('show');
 			} else {
 				$('description').addClass('menu-show');
 				setTimeout(function(){
-					$('#colorlib-main-nav > .js-colorlib-nav-toggle').addClass('show');
+					$('#main-nav > .js-nav-toggle').addClass('show');
 				900);
 			}
 		})
@@ -195,7 +195,7 @@ $(document).ready(function($) {
 	    // console.log(wintop);
 	    var totalScroll = (wintop/(docheight-winheight))*100;
 	    // console.log("total scroll" + totalScroll);
-	    $(".KW_progressBar").css("width",totalScroll+"%");
+	    $(".progressBar").css("width",totalScroll+"%");
 	  });
 
 	};

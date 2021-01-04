@@ -290,8 +290,8 @@ $mark-padding:                .2em !default;
 
 $dt-font-weight:              $font-weight-bold !default;
 
-$kbd-box-shadow:              inset 0 -.1rem 0 rgba($black, .25) !default;
-$nested-kbd-font-weight:      $font-weight-bold !default;
+$box-shadow:              inset 0 -.1rem 0 rgba($black, .25) !default;
+$nested-font-weight:      $font-weight-bold !default;
 
 $list-inline-padding:         .5rem !default;
 
@@ -915,11 +915,11 @@ $close-text-shadow:                 0 1px 0 $white !default;
 $code-font-size:                    87.5% !default;
 $code-color:                        $pink !default;
 
-$kbd-padding-y:                     .2rem !default;
-$kbd-padding-x:                     .4rem !default;
-$kbd-font-size:                     $code-font-size !default;
-$kbd-color:                         $white !default;
-$kbd-bg:                            $gray-900 !default;
+$padding-y:                     .2rem !default;
+$padding-x:                     .4rem !default;
+$font-size:                     $code-font-size !default;
+$color:                         $white !default;
+$bg:                            $gray-900 !default;
 
 $pre-color:                         $gray-900 !default;
 $pre-scrollable-max-height:         340px !default;

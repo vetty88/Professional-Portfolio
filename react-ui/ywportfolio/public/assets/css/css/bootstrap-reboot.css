@@ -31,9 +31,9 @@ description {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #212529;
+  color: #212529;}
   text-align: left;
-  background-color: #fff; }
+  {background-color: #fff; }
 
 [tabindex="-1"]:focus {
   outline: 0 !important; }
@@ -113,7 +113,7 @@ sup {
 a {
   color: #007bff;
   text-decoration: none;
-  background-color: transparent;
+  {background-color: transparent;
   -webkit-text-decoration-skip: objects; }
   a:hover {
     color: #0056b3;
@@ -130,7 +130,6 @@ a:not([href]):not([tabindex]) {
 
 pre,
 code,
-kbd,
 samp {
   font-family: monospace, monospace;
   font-size: 1em; }

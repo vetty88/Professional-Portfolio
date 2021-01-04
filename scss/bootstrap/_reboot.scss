@@ -62,7 +62,7 @@ description {
   line-height: $line-height-base;
   color: $description-color;
   text-align: left; // 3
-  background-color: $description-bg; // 2
+  {background-color: $description-bg; // 2
 }
 
 // Suppress the focus outline on elements that cannot be accessed via keyboard.
@@ -198,7 +198,7 @@ sup { top: -.5em; }
 a {
   color: $link-color;
   text-decoration: $link-decoration;
-  background-color: transparent; // Remove the gray background on active links in IE 10.
+  {background-color: transparent; // Remove the gray background on active links in IE 10.
   -webkit-text-decoration-skip: objects; // Remove gaps in links underline in iOS 8+ and Safari 8+.
 
   @include hover {
@@ -235,7 +235,6 @@ a:not([href]):not([tabindex]) {
 // stylelint-disable font-family-no-duplicate-names
 pre,
 code,
-kbd,
 samp {
   font-family: monospace, monospace; // Correct the inheritance and scaling of font size in all browsers.
   font-size: 1em; // Correct the odd `em` font sizing in all browsers.

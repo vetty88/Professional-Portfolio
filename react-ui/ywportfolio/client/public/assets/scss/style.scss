@@ -58,7 +58,7 @@ description {
 		width: 100%;
 	}
 
-	.KW_progressContainer {
+	.progressContainer {
 	   left:0;
 	   width: 100%;
 	   height: 0.4em;
@@ -73,7 +73,7 @@ description {
 		z-index: 999;
 	}
 
-	.KW_progressBar {
+	.progressBar {
 	  width: 0%;
 	  float: left;
 	  height: 100%;
@@ -105,7 +105,7 @@ h1, h2, h3, h4, h5,
 }
 
 
-#colorlib-main-nav {
+#main-nav {
 	position: absolute;
 	top: 0;
 	bottom: 0;
@@ -130,7 +130,7 @@ h1, h2, h3, h4, h5,
 	transform: scale(0.0);
 	// overflow-y: scroll;
 	@include transition(.3s);
-	.colorlib-table{
+	.table{
 		display: table;
 		width: 100%;
 		height: 100%;
@@ -155,13 +155,13 @@ h1, h2, h3, h4, h5,
 				opacity: 1;
 			}
 		}
-		.colorlib-table-cell{
+		.table-cell{
 			display: table-cell;
 			vertical-align: middle;
 			position: relative;
 		}
 	}
-	.colorlib-nav-toggle {
+	.nav-toggle {
 		position: absolute;
 		top: 40px;
 		right: 40px;
@@ -298,9 +298,9 @@ header{
 		padding: 2em 0;
 		position: absolute;
 	}
-	.colorlib-navbar-brand{
+	.navbar-brand{
 		float: left;
-		.colorlib-logo{
+		.logo{
 			font-size: 20px;
 			text-transform: uppercase;
 			color: $white;
@@ -332,7 +332,7 @@ header{
 
 
 
-.colorlib-nav-toggle {
+.nav-toggle {
    cursor: pointer;
    text-decoration: none;
    &.active i {
@@ -393,22 +393,22 @@ header{
   }
 }
 
-.colorlib-nav-toggle i::before {
+.nav-toggle i::before {
   top: -7px;
 }
-.colorlib-nav-toggle i::after {
+.nav-toggle i::after {
   bottom: -7px;
 }
-.colorlib-nav-toggle:hover i::before {
+.nav-toggle:hover i::before {
   top: -10px;
 }
-.colorlib-nav-toggle:hover i::after {
+.nav-toggle:hover i::after {
   bottom: -10px;
 }
-.colorlib-nav-toggle.active i {
+.nav-toggle.active i {
 	background: transparent;
 }
-.colorlib-nav-toggle.active i::before {
+.nav-toggle.active i::before {
   top:0;
   -webkit-transform: rotateZ(45deg);
      -moz-transform: rotateZ(45deg);
@@ -416,7 +416,7 @@ header{
        -o-transform: rotateZ(45deg);
           transform: rotateZ(45deg);
 }
-.colorlib-nav-toggle.active i::after {
+.nav-toggle.active i::after {
   bottom:0;
   -webkit-transform: rotateZ(-45deg);
      -moz-transform: rotateZ(-45deg);
@@ -424,7 +424,7 @@ header{
        -o-transform: rotateZ(-45deg);
           transform: rotateZ(-45deg);
 }
-.colorlib-nav-toggle {
+.nav-toggle {
 	float: right;
 	z-index: 1003;
 	position: relative;

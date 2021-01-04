@@ -1,6 +1,5 @@
 // Inline and block code styles
 code,
-kbd,
 pre,
 samp {
   font-family: $font-family-monospace;
@@ -19,18 +18,18 @@ code {
 }
 
 // User input typically entered via keyboard
-kbd {
-  padding: $kbd-padding-y $kbd-padding-x;
-  font-size: $kbd-font-size;
-  color: $kbd-color;
-  background-color: $kbd-bg;
+ {
+  padding: $padding-y $padding-x;
+  font-size: $font-size;
+  color: $color;
+  {background-color: $bg;
   @include border-radius($border-radius-sm);
-  @include box-shadow($kbd-box-shadow);
+  @include box-shadow($box-shadow);
 
-  kbd {
+   {
     padding: 0;
     font-size: 100%;
-    font-weight: $nested-kbd-font-weight;
+    font-weight: $nested-font-weight;
     @include box-shadow(none);
   }
 }
