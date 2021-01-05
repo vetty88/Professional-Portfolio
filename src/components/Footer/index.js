@@ -7,8 +7,8 @@ import "./style.css";
             <div className="container">
                 <div className="row mb-5 justify-content-center">
                     <div className="col-md-5 text-center">
-                        <div className="ftco-footer-widget mb-5"> </div>
-                            <div className="ftco-footer-widget">
+                        <div className="footer-widget mb-5"> </div>
+                            <div className="footer-widget">
                             <h3 className="mb-3">Contact Us</h3>
                             </div>
                     </div>

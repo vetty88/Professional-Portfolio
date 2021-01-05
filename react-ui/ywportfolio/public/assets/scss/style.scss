@@ -311,7 +311,7 @@ header{
 			text-align: center;
 			position: relative;
 			padding-left: 62px;
-			.logo-img{
+			.img-fluid{
 				width: 50px;
 				height: 50px;
 				position: absolute;
@@ -716,7 +716,7 @@ header{
 		font-weight: 300;
 		letter-spacing: 1px;
 	}
-	.author-img{
+	.img-fluid{
 		@include media-breakpoint-down(sm){
 			display: block;
 			height: 300px;
@@ -887,7 +887,7 @@ header{
 textarea.form-control {
 	height: inherit!important;
 }
-.ftco-vh-100 {
+.vh-100 {
   height: 100vh;
   @include media-breakpoint-down(lg) {
   	height: inherit;
@@ -895,7 +895,7 @@ textarea.form-control {
   	padding-bottom: 5em;
   }
 }
-.ftco-vh-75 {
+.vh-75 {
   height: 75vh;
   min-height: 700px;
   @include media-breakpoint-down(lg) {
@@ -907,7 +907,7 @@ textarea.form-control {
 }
 
 
-.ftco-tab-nav {
+.tab-nav {
 	padding: 0;
 	margin: 0;
 	display: inline-block!important;
@@ -950,8 +950,8 @@ textarea.form-control {
 .bg-primary {
 	background: $primary!important;
 }
-.ftco-section {
-	.ftco-sub-title {
+.section {
+	.sub-title {
 		font-size: 16px;
 		text-transform: uppercase;
 		letter-spacing: .5em;
@@ -959,7 +959,7 @@ textarea.form-control {
 		font-family: $font-family-sans-serif;
 		font-weight: 300;
 	}
-	.ftco-primary-title {
+	.primary-title {
 		margin-top: 0;
 		margin-bottom: 30px;
 	}
@@ -995,24 +995,24 @@ textarea.form-control {
 }
 
 
-.ftco-section {
+.section {
 	padding: 7em 0;
 }
 
-.ftco-bg-dark {
+.bg-dark {
 	background: #3c312e;
 }
 
 
-.ftco-footer {
+.footer {
 	font-size: 16px;
 	background: $black;
 	padding: 8em 0;
-	.ftco-footer-logo {
+	.footer-logo {
 		text-transform: uppercase;
 		letter-spacing: .1em;
 	}
-	.ftco-footer-widget {
+	.footer-widget {
 		h2, h4 {
 			font-weight: normal;
 			color: rgba(255,255,255,.9);
@@ -1035,10 +1035,10 @@ textarea.form-control {
 			color: $white;
 		}
 	}
-	.ftco-heading {
+	.heading {
 		font-size: 24px;
 	}
-	.ftco-heading-2 {
+	.heading-2 {
 		font-size: 18px;
 		font-weight: bold;
 		color: $black;
@@ -1046,7 +1046,7 @@ textarea.form-control {
 }
 
 
-.ftco-footer-social {
+.footer-social {
 	li {
 		list-style: none;
 		margin: 0 10px 10px 0;
@@ -1085,20 +1085,20 @@ textarea.form-control {
 	}
 }
 .media {
-	.ftco-icon {
+	.icon {
 		width: 100px;
 		span {
 			color: $primary;
 		}
 	}
 }
-.ftco-media {
+.media {
 	background: $white;
 	border-radius: 0px;
 	.heading {
 		font-weight: normal;
 	}
-	&.ftco-media-shadow {
+	&.media-shadow {
 		padding: 40px;
 		background: $white;
 		box-shadow: 0 10px 50px -15px rgba(0,0,0,.3);
@@ -1116,12 +1116,12 @@ textarea.form-control {
 		color: $primary;
 	}
 	&.text-center {
-		.ftco-icon {
+		.icon {
 			margin: 0 auto;
 		}
 	}
 }
-.ftco-overflow-hidden {
+.overflow-hidden {
 	overflow: hidden;
 }
 
@@ -1155,8 +1155,8 @@ textarea.form-control {
 
 //COVER BG
 .img,
-.author-img,
-.logo-img,
+.img-fluid,
+.img-fluid,
 .user-img{
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -1192,7 +1192,7 @@ textarea.form-control {
   opacity: 0;
 }
 
-.ftco-counter {
+.counter {
 	.icon{
 		span{
 		}
@@ -1218,7 +1218,7 @@ textarea.form-control {
 			padding-left: 4em;
 		}
 	}
-	.ftco-label {
+	.label {
 		font-size: 18px;
 		text-transform: uppercase;
 		letter-spacing: .1em;
@@ -1808,7 +1808,7 @@ textarea.form-control {
 
 
 
-#ftco-loader {
+#loader {
 	position: fixed;
 	width:  96px;
 	height: 96px;
@@ -1824,7 +1824,7 @@ textarea.form-control {
 	z-index:1000;
 }
 
-#ftco-loader.fullscreen {
+#loader.fullscreen {
 	padding:  0;
 	left:  0;
 	top:  0;
@@ -1836,13 +1836,13 @@ textarea.form-control {
 	box-shadow: none;
 }
 
-#ftco-loader.show {
+#loader.show {
 	transition: opacity .4s ease-out, visibility 0s linear 0s;
 	visibility: visible;
 	opacity: 1;
 }
 
-#ftco-loader .circular {
+#loader .circular {
   animation: loader-rotate 2s linear infinite;
   position: absolute;
   left:  calc(50% - 24px);
@@ -1851,7 +1851,7 @@ textarea.form-control {
   transform: rotate(0deg);
 }
 
-#ftco-loader .path {
+#loader .path {
   stroke-dasharray: 1, 200;
   stroke-dashoffset: 0;
   animation: loader-dash 1.5s ease-in-out infinite;
