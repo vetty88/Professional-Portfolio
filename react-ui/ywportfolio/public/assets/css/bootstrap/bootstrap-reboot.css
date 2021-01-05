@@ -14,13 +14,10 @@
 html {
   font-family: sans-serif;
   line-height: 1.15;
-  text-size-adjust: 100%;
-  text-size-adjust: 100%;
-  
+ 
    }
 
-@viewport {
-  width: device-width; }
+
 
 article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block; }
@@ -113,7 +110,7 @@ a {
   color: #79efb4;
   text-decoration: none;
   background-color: transparent;
-  text-decoration-skip: objects; }
+   }
   a:hover {
     color: #35e78e;
     text-decoration: underline; }
@@ -191,18 +188,7 @@ button,
 select {
   text-transform: none; }
 
-button,
-html [type="button"],
-[type="reset"],
-[type="submit"] {
-  appearance: button; }
 
-button::focus-inner,
-[type="button"]::focus-inner,
-[type="reset"]::focus-inner,
-[type="submit"]::focus-inner {
-  padding: 0;
-  border-style: none; }
 
 input[type="radio"],
 input[type="checkbox"] {
@@ -240,21 +226,12 @@ legend {
 progress {
   vertical-align: baseline; }
 
-[type="number"]::inner-spin-button,
-[type="number"]::outer-spin-button {
-  height: auto; }
+
 
 [type="search"] {
   outline-offset: -2px;
   appearance: none; }
 
-[type="search"]::search-cancel-button,
-[type="search"]::search-decoration {
-  appearance: none; }
-
-::file-upload-button {
-  font: inherit;
-  appearance: button; }
 
 output {
   display: inline-block; }

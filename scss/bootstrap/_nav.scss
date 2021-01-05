@@ -4,8 +4,8 @@
 // `<nav>`s or `<ul>`s.
 
 .nav {
-  display: flex;
-  flex-wrap: wrap;
+  display: container;
+  container-wrap: wrap;
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
@@ -90,15 +90,15 @@
 
 .nav-fill {
   .nav-item {
-    flex: 1 1 auto;
+    container: 1 1 auto;
     text-align: center;
   }
 }
 
 .nav-justified {
   .nav-item {
-    flex-basis: 0;
-    flex-grow: 1;
+    container-basis: 0;
+    container-grow: 1;
     text-align: center;
   }
 }

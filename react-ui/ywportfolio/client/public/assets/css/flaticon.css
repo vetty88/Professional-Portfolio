@@ -14,7 +14,7 @@
   font-style: normal;
 }
 
-@media screen and (min-device-pixel-ratio:0) {
+@media screen  {
   @font-face {
     font-family: "Flaticon";
     src: url("../fonts/flaticon/font/Flaticon.svg#Flaticon") format("svg");
@@ -31,7 +31,7 @@
   line-height: 1;
 
   /* Better Font Rendering =========== */
-  font-smoothing: antialiased;
+  
   
 }
 

@@ -15,8 +15,8 @@
     .d#{$infix}-table        { display: table !important; }
     .d#{$infix}-table-row    { display: table-row !important; }
     .d#{$infix}-table-cell   { display: table-cell !important; }
-    .d#{$infix}-flex         { display: flex !important; }
-    .d#{$infix}-inline-flex  { display: inline-flex !important; }
+    .d#{$infix}-container         { display: container !important; }
+    .d#{$infix}-inline-container  { display: inline-container !important; }
   }
 }
 
@@ -33,6 +33,6 @@
   .d-print-table        { display: table !important; }
   .d-print-table-row    { display: table-row !important; }
   .d-print-table-cell   { display: table-cell !important; }
-  .d-print-flex         { display: flex !important; }
-  .d-print-inline-flex  { display: inline-flex !important; }
+  .d-print-container         { display: container !important; }
+  .d-print-inline-container  { display: inline-container !important; }
 }

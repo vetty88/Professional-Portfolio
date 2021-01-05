@@ -28,14 +28,14 @@
     }
 
     @include media-breakpoint-up($breakpoint, $breakpoints) {
-      // Provide basic `.col-{bp}` classes for equal-width flexbox columns
+      // Provide basic `.col-{bp}` classes for equal-width container columns
       .col#{$infix} {
-        flex-basis: 0;
-        flex-grow: 1;
+        container-basis: 0;
+        container-grow: 1;
         max-width: 100%;
       }
       .col#{$infix}-auto {
-        flex: 0 0 auto;
+        container: 0 0 auto;
         width: auto;
         max-width: none; // Reset earlier grid tiers
       }

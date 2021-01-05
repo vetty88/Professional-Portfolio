@@ -242,7 +242,7 @@ button:not(:disabled),
   cursor: pointer;
 }
 
-button::focus-inner,
+
 [type="button"]::focus-inner,
 [type="reset"]::focus-inner,
 [type="submit"]::focus-inner {

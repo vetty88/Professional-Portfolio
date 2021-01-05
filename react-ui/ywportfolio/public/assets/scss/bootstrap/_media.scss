@@ -1,8 +1,8 @@
 .media {
-  display: flex;
-  align-items: flex-start;
+  display: container;
+  align-items: container-start;
 }
 
 .media-description {
-  flex: 1;
+  container: 1;
 }

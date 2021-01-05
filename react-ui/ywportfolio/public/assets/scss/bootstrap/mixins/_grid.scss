@@ -21,8 +21,8 @@
 }
 
 @mixin make-row() {
-  display: flex;
-  flex-wrap: wrap;
+  display: container;
+  container-wrap: wrap;
   margin-right: ($grid-gutter-width / -2);
   margin-left: ($grid-gutter-width / -2);
 }
@@ -30,7 +30,7 @@
 @mixin make-col-ready() {
   position: relative;
   // Prevent columns from becoming too narrow when at smaller grid tiers by
-  // always setting `width: 100%;`. This works because we use `flex` values
+  // always setting `width: 100%;`. This works because we use `container` values
   // later on to override this initial width.
   width: 100%;
   min-height: 1px; // Prevent collapsing
@@ -39,7 +39,7 @@
 }
 
 @mixin make-col($size, $columns: $grid-columns) {
-  flex: 0 0 percentage($size / $columns);
+  container: 0 0 percentage($size / $columns);
   // Add a `max-width` to ensure content within each column does not blow out
   // the width of the column. Applies to IE10+ and Firefox. Chrome and Safari
   // do not appear to require this.

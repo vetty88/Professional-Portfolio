@@ -14,7 +14,7 @@
   font-style: normal;
 }
 
-@media screen and (min-device-pixel-ratio:0) {
+@media screen  {
   @font-face {
     font-family: "Flaticon";
     src: url("./Flaticon.svg#Flaticon") format("svg");
@@ -32,8 +32,8 @@
   text-rendering: optimizeLegibility;
   text-transform: none;
   
-  font-smoothing: antialiased;
-  font-smoothing: antialiased;
+  
+  
     }
 
     .flaticon-yoga:before { content: "\f100"; }

@@ -56,10 +56,10 @@ html {
 }
 
 .row {
-  display: flexbox;
-  display: flex;
-  flex-wrap: wrap;
-  flex-wrap: wrap;
+  display: container;
+  display: container;
+  container-wrap: wrap;
+  container-wrap: wrap;
   margin-right: -15px;
   margin-left: -15px;
 }
@@ -89,88 +89,88 @@ html {
 
 .col {
   
-  flex-basis: 0;
+  container-basis: 0;
   
-  flex-grow: 1;
+  container-grow: 1;
   max-width: 100%;
 }
 
 .col-auto {
-  flex: 0 0 auto;
-  flex: 0 0 auto;
+  container: 0 0 auto;
+  container: 0 0 auto;
   width: auto;
   max-width: 100%;
 }
 
 .col-1 {
-  flex: 0 0 8.333333%;
-  flex: 0 0 8.333333%;
+  container: 0 0 8.333333%;
+  container: 0 0 8.333333%;
   max-width: 8.333333%;
 }
 
 .col-2 {
-  flex: 0 0 16.666667%;
-  flex: 0 0 16.666667%;
+  container: 0 0 16.666667%;
+  container: 0 0 16.666667%;
   max-width: 16.666667%;
 }
 
 .col-3 {
-  flex: 0 0 25%;
-  flex: 0 0 25%;
+  container: 0 0 25%;
+  container: 0 0 25%;
   max-width: 25%;
 }
 
 .col-4 {
-  flex: 0 0 33.333333%;
-  flex: 0 0 33.333333%;
+  container: 0 0 33.333333%;
+  container: 0 0 33.333333%;
   max-width: 33.333333%;
 }
 
 .col-5 {
-  flex: 0 0 41.666667%;
-  flex: 0 0 41.666667%;
+  container: 0 0 41.666667%;
+  container: 0 0 41.666667%;
   max-width: 41.666667%;
 }
 
 .col-6 {
-  flex: 0 0 50%;
-  flex: 0 0 50%;
+  container: 0 0 50%;
+  container: 0 0 50%;
   max-width: 50%;
 }
 
 .col-7 {
-  flex: 0 0 58.333333%;
-  flex: 0 0 58.333333%;
+  container: 0 0 58.333333%;
+  container: 0 0 58.333333%;
   max-width: 58.333333%;
 }
 
 .col-8 {
-  flex: 0 0 66.666667%;
-  flex: 0 0 66.666667%;
+  container: 0 0 66.666667%;
+  container: 0 0 66.666667%;
   max-width: 66.666667%;
 }
 
 .col-9 {
-  flex: 0 0 75%;
-  flex: 0 0 75%;
+  container: 0 0 75%;
+  container: 0 0 75%;
   max-width: 75%;
 }
 
 .col-10 {
-  flex: 0 0 83.333333%;
-  flex: 0 0 83.333333%;
+  container: 0 0 83.333333%;
+  container: 0 0 83.333333%;
   max-width: 83.333333%;
 }
 
 .col-11 {
-  flex: 0 0 91.666667%;
-  flex: 0 0 91.666667%;
+  container: 0 0 91.666667%;
+  container: 0 0 91.666667%;
   max-width: 91.666667%;
 }
 
 .col-12 {
-  flex: 0 0 100%;
-  flex: 0 0 100%;
+  container: 0 0 100%;
+  container: 0 0 100%;
   max-width: 100%;
 }
 
@@ -296,75 +296,75 @@ html {
 @media (min-width: 576px) {
   .col-sm {
     
-    flex-basis: 0;
+    container-basis: 0;
     
-    flex-grow: 1;
+    container-grow: 1;
     max-width: 100%;
   }
   .col-sm-auto {
-    flex: 0 0 auto;
-    flex: 0 0 auto;
+    container: 0 0 auto;
+    container: 0 0 auto;
     width: auto;
     max-width: 100%;
   }
   .col-sm-1 {
-    flex: 0 0 8.333333%;
-    flex: 0 0 8.333333%;
+    container: 0 0 8.333333%;
+    container: 0 0 8.333333%;
     max-width: 8.333333%;
   }
   .col-sm-2 {
-    flex: 0 0 16.666667%;
-    flex: 0 0 16.666667%;
+    container: 0 0 16.666667%;
+    container: 0 0 16.666667%;
     max-width: 16.666667%;
   }
   .col-sm-3 {
-    flex: 0 0 25%;
-    flex: 0 0 25%;
+    container: 0 0 25%;
+    container: 0 0 25%;
     max-width: 25%;
   }
   .col-sm-4 {
-    flex: 0 0 33.333333%;
-    flex: 0 0 33.333333%;
+    container: 0 0 33.333333%;
+    container: 0 0 33.333333%;
     max-width: 33.333333%;
   }
   .col-sm-5 {
-    flex: 0 0 41.666667%;
-    flex: 0 0 41.666667%;
+    container: 0 0 41.666667%;
+    container: 0 0 41.666667%;
     max-width: 41.666667%;
   }
   .col-sm-6 {
-    flex: 0 0 50%;
-    flex: 0 0 50%;
+    container: 0 0 50%;
+    container: 0 0 50%;
     max-width: 50%;
   }
   .col-sm-7 {
-    flex: 0 0 58.333333%;
-    flex: 0 0 58.333333%;
+    container: 0 0 58.333333%;
+    container: 0 0 58.333333%;
     max-width: 58.333333%;
   }
   .col-sm-8 {
-    flex: 0 0 66.666667%;
-    flex: 0 0 66.666667%;
+    container: 0 0 66.666667%;
+    container: 0 0 66.666667%;
     max-width: 66.666667%;
   }
   .col-sm-9 {
-    flex: 0 0 75%;
-    flex: 0 0 75%;
+    container: 0 0 75%;
+    container: 0 0 75%;
     max-width: 75%;
   }
   .col-sm-10 {
-    flex: 0 0 83.333333%;
-    flex: 0 0 83.333333%;
+    container: 0 0 83.333333%;
+    container: 0 0 83.333333%;
     max-width: 83.333333%;
   }
   .col-sm-11 {
-    flex: 0 0 91.666667%;
-    flex: 0 0 91.666667%;
+    container: 0 0 91.666667%;
+    container: 0 0 91.666667%;
     max-width: 91.666667%;
   }
   .col-sm-12 {
-    flex: 0 0 100%;
-    flex: 0 0 100%;
+    container: 0 0 100%;
+    container: 0 0 100%;
     max-width: 100%;
   }
   .order-sm-first {
@@ -468,75 +468,75 @@ html {
 @media (min-width: 768px) {
   .col-md {
     
-    flex-basis: 0;
+    container-basis: 0;
     
-    flex-grow: 1;
+    container-grow: 1;
     max-width: 100%;
   }
   .col-md-auto {
-    flex: 0 0 auto;
-    flex: 0 0 auto;
+    container: 0 0 auto;
+    container: 0 0 auto;
     width: auto;
     max-width: 100%;
   }
   .col-md-1 {
-    flex: 0 0 8.333333%;
-    flex: 0 0 8.333333%;
+    container: 0 0 8.333333%;
+    container: 0 0 8.333333%;
     max-width: 8.333333%;
   }
   .col-md-2 {
-    flex: 0 0 16.666667%;
-    flex: 0 0 16.666667%;
+    container: 0 0 16.666667%;
+    container: 0 0 16.666667%;
     max-width: 16.666667%;
   }
   .col-md-3 {
-    flex: 0 0 25%;
-    flex: 0 0 25%;
+    container: 0 0 25%;
+    container: 0 0 25%;
     max-width: 25%;
   }
   .col-md-4 {
-    flex: 0 0 33.333333%;
-    flex: 0 0 33.333333%;
+    container: 0 0 33.333333%;
+    container: 0 0 33.333333%;
     max-width: 33.333333%;
   }
   .col-md-5 {
-    flex: 0 0 41.666667%;
-    flex: 0 0 41.666667%;
+    container: 0 0 41.666667%;
+    container: 0 0 41.666667%;
     max-width: 41.666667%;
   }
   .col-md-6 {
-    flex: 0 0 50%;
-    flex: 0 0 50%;
+    container: 0 0 50%;
+    container: 0 0 50%;
     max-width: 50%;
   }
   .col-md-7 {
-    flex: 0 0 58.333333%;
-    flex: 0 0 58.333333%;
+    container: 0 0 58.333333%;
+    container: 0 0 58.333333%;
     max-width: 58.333333%;
   }
   .col-md-8 {
-    flex: 0 0 66.666667%;
-    flex: 0 0 66.666667%;
+    container: 0 0 66.666667%;
+    container: 0 0 66.666667%;
     max-width: 66.666667%;
   }
   .col-md-9 {
-    flex: 0 0 75%;
-    flex: 0 0 75%;
+    container: 0 0 75%;
+    container: 0 0 75%;
     max-width: 75%;
   }
   .col-md-10 {
-    flex: 0 0 83.333333%;
-    flex: 0 0 83.333333%;
+    container: 0 0 83.333333%;
+    container: 0 0 83.333333%;
     max-width: 83.333333%;
   }
   .col-md-11 {
-    flex: 0 0 91.666667%;
-    flex: 0 0 91.666667%;
+    container: 0 0 91.666667%;
+    container: 0 0 91.666667%;
     max-width: 91.666667%;
   }
   .col-md-12 {
-    flex: 0 0 100%;
-    flex: 0 0 100%;
+    container: 0 0 100%;
+    container: 0 0 100%;
     max-width: 100%;
   }
   .order-md-first {
@@ -640,75 +640,75 @@ html {
 @media (min-width: 992px) {
   .col-lg {
     
-    flex-basis: 0;
+    container-basis: 0;
     
-    flex-grow: 1;
+    container-grow: 1;
     max-width: 100%;
   }
   .col-lg-auto {
-    flex: 0 0 auto;
-    flex: 0 0 auto;
+    container: 0 0 auto;
+    container: 0 0 auto;
     width: auto;
     max-width: 100%;
   }
   .col-lg-1 {
-    flex: 0 0 8.333333%;
-    flex: 0 0 8.333333%;
+    container: 0 0 8.333333%;
+    container: 0 0 8.333333%;
     max-width: 8.333333%;
   }
   .col-lg-2 {
-    flex: 0 0 16.666667%;
-    flex: 0 0 16.666667%;
+    container: 0 0 16.666667%;
+    container: 0 0 16.666667%;
     max-width: 16.666667%;
   }
   .col-lg-3 {
-    flex: 0 0 25%;
-    flex: 0 0 25%;
+    container: 0 0 25%;
+    container: 0 0 25%;
     max-width: 25%;
   }
   .col-lg-4 {
-    flex: 0 0 33.333333%;
-    flex: 0 0 33.333333%;
+    container: 0 0 33.333333%;
+    container: 0 0 33.333333%;
     max-width: 33.333333%;
   }
   .col-lg-5 {
-    flex: 0 0 41.666667%;
-    flex: 0 0 41.666667%;
+    container: 0 0 41.666667%;
+    container: 0 0 41.666667%;
     max-width: 41.666667%;
   }
   .col-lg-6 {
-    flex: 0 0 50%;
-    flex: 0 0 50%;
+    container: 0 0 50%;
+    container: 0 0 50%;
     max-width: 50%;
   }
   .col-lg-7 {
-    flex: 0 0 58.333333%;
-    flex: 0 0 58.333333%;
+    container: 0 0 58.333333%;
+    container: 0 0 58.333333%;
     max-width: 58.333333%;
   }
   .col-lg-8 {
-    flex: 0 0 66.666667%;
-    flex: 0 0 66.666667%;
+    container: 0 0 66.666667%;
+    container: 0 0 66.666667%;
     max-width: 66.666667%;
   }
   .col-lg-9 {
-    flex: 0 0 75%;
-    flex: 0 0 75%;
+    container: 0 0 75%;
+    container: 0 0 75%;
     max-width: 75%;
   }
   .col-lg-10 {
-    flex: 0 0 83.333333%;
-    flex: 0 0 83.333333%;
+    container: 0 0 83.333333%;
+    container: 0 0 83.333333%;
     max-width: 83.333333%;
   }
   .col-lg-11 {
-    flex: 0 0 91.666667%;
-    flex: 0 0 91.666667%;
+    container: 0 0 91.666667%;
+    container: 0 0 91.666667%;
     max-width: 91.666667%;
   }
   .col-lg-12 {
-    flex: 0 0 100%;
-    flex: 0 0 100%;
+    container: 0 0 100%;
+    container: 0 0 100%;
     max-width: 100%;
   }
   .order-lg-first {
@@ -812,75 +812,75 @@ html {
 @media (min-width: 1200px) {
   .col-xl {
     
-    flex-basis: 0;
+    container-basis: 0;
     
-    flex-grow: 1;
+    container-grow: 1;
     max-width: 100%;
   }
   .col-xl-auto {
-    flex: 0 0 auto;
-    flex: 0 0 auto;
+    container: 0 0 auto;
+    container: 0 0 auto;
     width: auto;
     max-width: 100%;
   }
   .col-xl-1 {
-    flex: 0 0 8.333333%;
-    flex: 0 0 8.333333%;
+    container: 0 0 8.333333%;
+    container: 0 0 8.333333%;
     max-width: 8.333333%;
   }
   .col-xl-2 {
-    flex: 0 0 16.666667%;
-    flex: 0 0 16.666667%;
+    container: 0 0 16.666667%;
+    container: 0 0 16.666667%;
     max-width: 16.666667%;
   }
   .col-xl-3 {
-    flex: 0 0 25%;
-    flex: 0 0 25%;
+    container: 0 0 25%;
+    container: 0 0 25%;
     max-width: 25%;
   }
   .col-xl-4 {
-    flex: 0 0 33.333333%;
-    flex: 0 0 33.333333%;
+    container: 0 0 33.333333%;
+    container: 0 0 33.333333%;
     max-width: 33.333333%;
   }
   .col-xl-5 {
-    flex: 0 0 41.666667%;
-    flex: 0 0 41.666667%;
+    container: 0 0 41.666667%;
+    container: 0 0 41.666667%;
     max-width: 41.666667%;
   }
   .col-xl-6 {
-    flex: 0 0 50%;
-    flex: 0 0 50%;
+    container: 0 0 50%;
+    container: 0 0 50%;
     max-width: 50%;
   }
   .col-xl-7 {
-    flex: 0 0 58.333333%;
-    flex: 0 0 58.333333%;
+    container: 0 0 58.333333%;
+    container: 0 0 58.333333%;
     max-width: 58.333333%;
   }
   .col-xl-8 {
-    flex: 0 0 66.666667%;
-    flex: 0 0 66.666667%;
+    container: 0 0 66.666667%;
+    container: 0 0 66.666667%;
     max-width: 66.666667%;
   }
   .col-xl-9 {
-    flex: 0 0 75%;
-    flex: 0 0 75%;
+    container: 0 0 75%;
+    container: 0 0 75%;
     max-width: 75%;
   }
   .col-xl-10 {
-    flex: 0 0 83.333333%;
-    flex: 0 0 83.333333%;
+    container: 0 0 83.333333%;
+    container: 0 0 83.333333%;
     max-width: 83.333333%;
   }
   .col-xl-11 {
-    flex: 0 0 91.666667%;
-    flex: 0 0 91.666667%;
+    container: 0 0 91.666667%;
+    container: 0 0 91.666667%;
     max-width: 91.666667%;
   }
   .col-xl-12 {
-    flex: 0 0 100%;
-    flex: 0 0 100%;
+    container: 0 0 100%;
+    container: 0 0 100%;
     max-width: 100%;
   }
   .order-xl-first {
@@ -1009,14 +1009,14 @@ html {
   display: table-cell !important;
 }
 
-.flex {
-  display: flexbox !important;
-  display: flex !important;
+.container {
+  display: container !important;
+  display: container !important;
 }
 
-.d-inline-flex {
-  display: inline-flexbox !important;
-  display: inline-flex !important;
+.d-inline-container {
+  display: inline-container !important;
+  display: inline-container !important;
 }
 
 @media (min-width: 576px) {
@@ -1041,13 +1041,13 @@ html {
   .d-sm-table-cell {
     display: table-cell !important;
   }
-  .d-sm-flex {
-    display: flexbox !important;
-    display: flex !important;
+  .d-sm-container {
+    display: container !important;
+    display: container !important;
   }
-  .d-sm-inline-flex {
-    display: inline-flexbox !important;
-    display: inline-flex !important;
+  .d-sm-inline-container {
+    display: inline-container !important;
+    display: inline-container !important;
   }
 }
 
@@ -1073,13 +1073,13 @@ html {
   .d-md-table-cell {
     display: table-cell !important;
   }
-  .flex {
-    display: flexbox !important;
-    display: flex !important;
+  .container {
+    display: container !important;
+    display: container !important;
   }
-  .d-md-inline-flex {
-    display: inline-flexbox !important;
-    display: inline-flex !important;
+  .d-md-inline-container {
+    display: inline-container !important;
+    display: inline-container !important;
   }
 }
 
@@ -1105,13 +1105,13 @@ html {
   .d-lg-table-cell {
     display: table-cell !important;
   }
-  .d-lg-flex {
-    display: flexbox !important;
-    display: flex !important;
+  .d-lg-container {
+    display: container !important;
+    display: container !important;
   }
-  .d-lg-inline-flex {
-    display: inline-flexbox !important;
-    display: inline-flex !important;
+  .d-lg-inline-container {
+    display: inline-container !important;
+    display: inline-container !important;
   }
 }
 
@@ -1137,13 +1137,13 @@ html {
   .d-xl-table-cell {
     display: table-cell !important;
   }
-  .d-xl-flex {
-    display: flexbox !important;
-    display: flex !important;
+  .d-xl-container {
+    display: container !important;
+    display: container !important;
   }
-  .d-xl-inline-flex {
-    display: inline-flexbox !important;
-    display: inline-flex !important;
+  .d-xl-inline-container {
+    display: inline-container !important;
+    display: inline-container !important;
   }
 }
 
@@ -1169,84 +1169,84 @@ html {
   .d-print-table-cell {
     display: table-cell !important;
   }
-  .d-print-flex {
-    display: flexbox !important;
-    display: flex !important;
+  .d-print-container {
+    display: container !important;
+    display: container !important;
   }
-  .d-print-inline-flex {
-    display: inline-flexbox !important;
-    display: inline-flex !important;
+  .d-print-inline-container {
+    display: inline-container !important;
+    display: inline-container !important;
   }
 }
 
-.flex-row {
-  flex-direction: row !important;
-  flex-direction: row !important;
+.container-row {
+  container-direction: row !important;
+  container-direction: row !important;
 }
 
-.flex-column {
-  flex-direction: column !important;
-  flex-direction: column !important;
+.container-column {
+  container-direction: column !important;
+  container-direction: column !important;
 }
 
-.flex-row-reverse {
-  flex-direction: row-reverse !important;
-  flex-direction: row-reverse !important;
+.container-row-reverse {
+  container-direction: row-reverse !important;
+  container-direction: row-reverse !important;
 }
 
-.flex-column-reverse {
-  flex-direction: column-reverse !important;
-  flex-direction: column-reverse !important;
+.container-column-reverse {
+  container-direction: column-reverse !important;
+  container-direction: column-reverse !important;
 }
 
-.flex-wrap {
-  flex-wrap: wrap !important;
-  flex-wrap: wrap !important;
+.container-wrap {
+  container-wrap: wrap !important;
+  container-wrap: wrap !important;
 }
 
-.flex-nowrap {
-  flex-wrap: nowrap !important;
-  flex-wrap: nowrap !important;
+.container-nowrap {
+  container-wrap: nowrap !important;
+  container-wrap: nowrap !important;
 }
 
-.flex-wrap-reverse {
-  flex-wrap: wrap-reverse !important;
-  flex-wrap: wrap-reverse !important;
+.container-wrap-reverse {
+  container-wrap: wrap-reverse !important;
+  container-wrap: wrap-reverse !important;
 }
 
-.flex-fill {
-  flex: 1 1 auto !important;
-  flex: 1 1 auto !important;
+.container-fill {
+  container: 1 1 auto !important;
+  container: 1 1 auto !important;
 }
 
-.flex-grow-0 {
+.container-grow-0 {
   
-  flex-grow: 0 !important;
+  container-grow: 0 !important;
 }
 
-.flex-grow-1 {
+.container-grow-1 {
   
-  flex-grow: 1 !important;
+  container-grow: 1 !important;
 }
 
-.flex-shrink-0 {
+.container-shrink-0 {
   
-  flex-shrink: 0 !important;
+  container-shrink: 0 !important;
 }
 
-.flex-shrink-1 {
+.container-shrink-1 {
   
-  flex-shrink: 1 !important;
+  container-shrink: 1 !important;
 }
 
 .justify-content-start {
   
-  justify-content: flex-start !important;
+  justify-content: container-start !important;
 }
 
 .justify-content-end {
   
-  justify-content: flex-end !important;
+  justify-content: container-end !important;
 }
 
 .justify-content-center {
@@ -1266,12 +1266,12 @@ html {
 
 .align-items-start {
   
-  align-items: flex-start !important;
+  align-items: container-start !important;
 }
 
 .align-items-end {
   
-  align-items: flex-end !important;
+  align-items: container-end !important;
 }
 
 .align-items-center {
@@ -1291,12 +1291,12 @@ html {
 
 .align-content-start {
   
-  align-content: flex-start !important;
+  align-content: container-start !important;
 }
 
 .align-content-end {
   
-  align-content: flex-end !important;
+  align-content: container-end !important;
 }
 
 .align-content-center {
@@ -1326,12 +1326,12 @@ html {
 
 .align-self-start {
   
-  align-self: flex-start !important;
+  align-self: container-start !important;
 }
 
 .align-self-end {
   
-  align-self: flex-end !important;
+  align-self: container-end !important;
 }
 
 .align-self-center {
@@ -1350,61 +1350,61 @@ html {
 }
 
 @media (min-width: 576px) {
-  .flex-sm-row {
-    flex-direction: row !important;
-    flex-direction: row !important;
+  .container-sm-row {
+    container-direction: row !important;
+    container-direction: row !important;
   }
-  .flex-sm-column {
-    flex-direction: column !important;
-    flex-direction: column !important;
+  .container-sm-column {
+    container-direction: column !important;
+    container-direction: column !important;
   }
-  .flex-sm-row-reverse {
-    flex-direction: row-reverse !important;
-    flex-direction: row-reverse !important;
+  .container-sm-row-reverse {
+    container-direction: row-reverse !important;
+    container-direction: row-reverse !important;
   }
-  .flex-sm-column-reverse {
-    flex-direction: column-reverse !important;
-    flex-direction: column-reverse !important;
+  .container-sm-column-reverse {
+    container-direction: column-reverse !important;
+    container-direction: column-reverse !important;
   }
-  .flex-sm-wrap {
-    flex-wrap: wrap !important;
-    flex-wrap: wrap !important;
+  .container-sm-wrap {
+    container-wrap: wrap !important;
+    container-wrap: wrap !important;
   }
-  .flex-sm-nowrap {
-    flex-wrap: nowrap !important;
-    flex-wrap: nowrap !important;
+  .container-sm-nowrap {
+    container-wrap: nowrap !important;
+    container-wrap: nowrap !important;
   }
-  .flex-sm-wrap-reverse {
-    flex-wrap: wrap-reverse !important;
-    flex-wrap: wrap-reverse !important;
+  .container-sm-wrap-reverse {
+    container-wrap: wrap-reverse !important;
+    container-wrap: wrap-reverse !important;
   }
-  .flex-sm-fill {
-    flex: 1 1 auto !important;
-    flex: 1 1 auto !important;
+  .container-sm-fill {
+    container: 1 1 auto !important;
+    container: 1 1 auto !important;
   }
-  .flex-sm-grow-0 {
+  .container-sm-grow-0 {
     
-    flex-grow: 0 !important;
+    container-grow: 0 !important;
   }
-  .flex-sm-grow-1 {
+  .container-sm-grow-1 {
     
-    flex-grow: 1 !important;
+    container-grow: 1 !important;
   }
-  .flex-sm-shrink-0 {
+  .container-sm-shrink-0 {
     
-    flex-shrink: 0 !important;
+    container-shrink: 0 !important;
   }
-  .flex-sm-shrink-1 {
+  .container-sm-shrink-1 {
     
-    flex-shrink: 1 !important;
+    container-shrink: 1 !important;
   }
   .justify-content-sm-start {
     
-    justify-content: flex-start !important;
+    justify-content: container-start !important;
   }
   .justify-content-sm-end {
     
-    justify-content: flex-end !important;
+    justify-content: container-end !important;
   }
   .justify-content-sm-center {
     
@@ -1420,11 +1420,11 @@ html {
   }
   .align-items-sm-start {
     
-    align-items: flex-start !important;
+    align-items: container-start !important;
   }
   .align-items-sm-end {
     
-    align-items: flex-end !important;
+    align-items: container-end !important;
   }
   .align-items-sm-center {
     
@@ -1440,11 +1440,11 @@ html {
   }
   .align-content-sm-start {
     
-    align-content: flex-start !important;
+    align-content: container-start !important;
   }
   .align-content-sm-end {
     
-    align-content: flex-end !important;
+    align-content: container-end !important;
   }
   .align-content-sm-center {
     
@@ -1468,11 +1468,11 @@ html {
   }
   .align-self-sm-start {
     
-    align-self: flex-start !important;
+    align-self: container-start !important;
   }
   .align-self-sm-end {
     
-    align-self: flex-end !important;
+    align-self: container-end !important;
   }
   .align-self-sm-center {
     
@@ -1489,61 +1489,61 @@ html {
 }
 
 @media (min-width: 768px) {
-  .flex-md-row {
-    flex-direction: row !important;
-    flex-direction: row !important;
+  .container-md-row {
+    container-direction: row !important;
+    container-direction: row !important;
   }
-  .flex-md-column {
-    flex-direction: column !important;
-    flex-direction: column !important;
+  .container-md-column {
+    container-direction: column !important;
+    container-direction: column !important;
   }
-  .flex-md-row-reverse {
-    flex-direction: row-reverse !important;
-    flex-direction: row-reverse !important;
+  .container-md-row-reverse {
+    container-direction: row-reverse !important;
+    container-direction: row-reverse !important;
   }
-  .flex-md-column-reverse {
-    flex-direction: column-reverse !important;
-    flex-direction: column-reverse !important;
+  .container-md-column-reverse {
+    container-direction: column-reverse !important;
+    container-direction: column-reverse !important;
   }
-  .flex-md-wrap {
-    flex-wrap: wrap !important;
-    flex-wrap: wrap !important;
+  .container-md-wrap {
+    container-wrap: wrap !important;
+    container-wrap: wrap !important;
   }
-  .flex-md-nowrap {
-    flex-wrap: nowrap !important;
-    flex-wrap: nowrap !important;
+  .container-md-nowrap {
+    container-wrap: nowrap !important;
+    container-wrap: nowrap !important;
   }
-  .flex-md-wrap-reverse {
-    flex-wrap: wrap-reverse !important;
-    flex-wrap: wrap-reverse !important;
+  .container-md-wrap-reverse {
+    container-wrap: wrap-reverse !important;
+    container-wrap: wrap-reverse !important;
   }
-  .flex-md-fill {
-    flex: 1 1 auto !important;
-    flex: 1 1 auto !important;
+  .container-md-fill {
+    container: 1 1 auto !important;
+    container: 1 1 auto !important;
   }
-  .flex-md-grow-0 {
+  .container-md-grow-0 {
     
-    flex-grow: 0 !important;
+    container-grow: 0 !important;
   }
-  .flex-md-grow-1 {
+  .container-md-grow-1 {
     
-    flex-grow: 1 !important;
+    container-grow: 1 !important;
   }
-  .flex-md-shrink-0 {
+  .container-md-shrink-0 {
     
-    flex-shrink: 0 !important;
+    container-shrink: 0 !important;
   }
-  .flex-md-shrink-1 {
+  .container-md-shrink-1 {
     
-    flex-shrink: 1 !important;
+    container-shrink: 1 !important;
   }
   .justify-content-md-start {
     
-    justify-content: flex-start !important;
+    justify-content: container-start !important;
   }
   .justify-content-md-end {
     
-    justify-content: flex-end !important;
+    justify-content: container-end !important;
   }
   .justify-content-md-center {
     
@@ -1559,11 +1559,11 @@ html {
   }
   .align-items-md-start {
     
-    align-items: flex-start !important;
+    align-items: container-start !important;
   }
   .align-items-md-end {
     
-    align-items: flex-end !important;
+    align-items: container-end !important;
   }
   .align-items-md-center {
     
@@ -1579,11 +1579,11 @@ html {
   }
   .align-content-md-start {
     
-    align-content: flex-start !important;
+    align-content: container-start !important;
   }
   .align-content-md-end {
     
-    align-content: flex-end !important;
+    align-content: container-end !important;
   }
   .align-content-md-center {
     
@@ -1607,11 +1607,11 @@ html {
   }
   .align-self-md-start {
     
-    align-self: flex-start !important;
+    align-self: container-start !important;
   }
   .align-self-md-end {
     
-    align-self: flex-end !important;
+    align-self: container-end !important;
   }
   .align-self-md-center {
     
@@ -1628,61 +1628,61 @@ html {
 }
 
 @media (min-width: 992px) {
-  .flex-lg-row {
-    flex-direction: row !important;
-    flex-direction: row !important;
+  .container-lg-row {
+    container-direction: row !important;
+    container-direction: row !important;
   }
-  .flex-lg-column {
-    flex-direction: column !important;
-    flex-direction: column !important;
+  .container-lg-column {
+    container-direction: column !important;
+    container-direction: column !important;
   }
-  .flex-lg-row-reverse {
-    flex-direction: row-reverse !important;
-    flex-direction: row-reverse !important;
+  .container-lg-row-reverse {
+    container-direction: row-reverse !important;
+    container-direction: row-reverse !important;
   }
-  .flex-lg-column-reverse {
-    flex-direction: column-reverse !important;
-    flex-direction: column-reverse !important;
+  .container-lg-column-reverse {
+    container-direction: column-reverse !important;
+    container-direction: column-reverse !important;
   }
-  .flex-lg-wrap {
-    flex-wrap: wrap !important;
-    flex-wrap: wrap !important;
+  .container-lg-wrap {
+    container-wrap: wrap !important;
+    container-wrap: wrap !important;
   }
-  .flex-lg-nowrap {
-    flex-wrap: nowrap !important;
-    flex-wrap: nowrap !important;
+  .container-lg-nowrap {
+    container-wrap: nowrap !important;
+    container-wrap: nowrap !important;
   }
-  .flex-lg-wrap-reverse {
-    flex-wrap: wrap-reverse !important;
-    flex-wrap: wrap-reverse !important;
+  .container-lg-wrap-reverse {
+    container-wrap: wrap-reverse !important;
+    container-wrap: wrap-reverse !important;
   }
-  .flex-lg-fill {
-    flex: 1 1 auto !important;
-    flex: 1 1 auto !important;
+  .container-lg-fill {
+    container: 1 1 auto !important;
+    container: 1 1 auto !important;
   }
-  .flex-lg-grow-0 {
+  .container-lg-grow-0 {
     
-    flex-grow: 0 !important;
+    container-grow: 0 !important;
   }
-  .flex-lg-grow-1 {
+  .container-lg-grow-1 {
     
-    flex-grow: 1 !important;
+    container-grow: 1 !important;
   }
-  .flex-lg-shrink-0 {
+  .container-lg-shrink-0 {
     
-    flex-shrink: 0 !important;
+    container-shrink: 0 !important;
   }
-  .flex-lg-shrink-1 {
+  .container-lg-shrink-1 {
     
-    flex-shrink: 1 !important;
+    container-shrink: 1 !important;
   }
   .justify-content-lg-start {
     
-    justify-content: flex-start !important;
+    justify-content: container-start !important;
   }
   .justify-content-lg-end {
     
-    justify-content: flex-end !important;
+    justify-content: container-end !important;
   }
   .justify-content-lg-center {
     
@@ -1698,11 +1698,11 @@ html {
   }
   .align-items-lg-start {
     
-    align-items: flex-start !important;
+    align-items: container-start !important;
   }
   .align-items-lg-end {
     
-    align-items: flex-end !important;
+    align-items: container-end !important;
   }
   .align-items-lg-center {
     
@@ -1718,11 +1718,11 @@ html {
   }
   .align-content-lg-start {
     
-    align-content: flex-start !important;
+    align-content: container-start !important;
   }
   .align-content-lg-end {
     
-    align-content: flex-end !important;
+    align-content: container-end !important;
   }
   .align-content-lg-center {
     
@@ -1746,11 +1746,11 @@ html {
   }
   .align-self-lg-start {
     
-    align-self: flex-start !important;
+    align-self: container-start !important;
   }
   .align-self-lg-end {
     
-    align-self: flex-end !important;
+    align-self: container-end !important;
   }
   .align-self-lg-center {
     
@@ -1767,61 +1767,61 @@ html {
 }
 
 @media (min-width: 1200px) {
-  .flex-xl-row {
-    flex-direction: row !important;
-    flex-direction: row !important;
+  .container-xl-row {
+    container-direction: row !important;
+    container-direction: row !important;
   }
-  .flex-xl-column {
-    flex-direction: column !important;
-    flex-direction: column !important;
+  .container-xl-column {
+    container-direction: column !important;
+    container-direction: column !important;
   }
-  .flex-xl-row-reverse {
-    flex-direction: row-reverse !important;
-    flex-direction: row-reverse !important;
+  .container-xl-row-reverse {
+    container-direction: row-reverse !important;
+    container-direction: row-reverse !important;
   }
-  .flex-xl-column-reverse {
-    flex-direction: column-reverse !important;
-    flex-direction: column-reverse !important;
+  .container-xl-column-reverse {
+    container-direction: column-reverse !important;
+    container-direction: column-reverse !important;
   }
-  .flex-xl-wrap {
-    flex-wrap: wrap !important;
-    flex-wrap: wrap !important;
+  .container-xl-wrap {
+    container-wrap: wrap !important;
+    container-wrap: wrap !important;
   }
-  .flex-xl-nowrap {
-    flex-wrap: nowrap !important;
-    flex-wrap: nowrap !important;
+  .container-xl-nowrap {
+    container-wrap: nowrap !important;
+    container-wrap: nowrap !important;
   }
-  .flex-xl-wrap-reverse {
-    flex-wrap: wrap-reverse !important;
-    flex-wrap: wrap-reverse !important;
+  .container-xl-wrap-reverse {
+    container-wrap: wrap-reverse !important;
+    container-wrap: wrap-reverse !important;
   }
-  .flex-xl-fill {
-    flex: 1 1 auto !important;
-    flex: 1 1 auto !important;
+  .container-xl-fill {
+    container: 1 1 auto !important;
+    container: 1 1 auto !important;
   }
-  .flex-xl-grow-0 {
+  .container-xl-grow-0 {
     
-    flex-grow: 0 !important;
+    container-grow: 0 !important;
   }
-  .flex-xl-grow-1 {
+  .container-xl-grow-1 {
     
-    flex-grow: 1 !important;
+    container-grow: 1 !important;
   }
-  .flex-xl-shrink-0 {
+  .container-xl-shrink-0 {
     
-    flex-shrink: 0 !important;
+    container-shrink: 0 !important;
   }
-  .flex-xl-shrink-1 {
+  .container-xl-shrink-1 {
     
-    flex-shrink: 1 !important;
+    container-shrink: 1 !important;
   }
   .justify-content-xl-start {
     
-    justify-content: flex-start !important;
+    justify-content: container-start !important;
   }
   .justify-content-xl-end {
     
-    justify-content: flex-end !important;
+    justify-content: container-end !important;
   }
   .justify-content-xl-center {
     
@@ -1837,11 +1837,11 @@ html {
   }
   .align-items-xl-start {
     
-    align-items: flex-start !important;
+    align-items: container-start !important;
   }
   .align-items-xl-end {
     
-    align-items: flex-end !important;
+    align-items: container-end !important;
   }
   .align-items-xl-center {
     
@@ -1857,11 +1857,11 @@ html {
   }
   .align-content-xl-start {
     
-    align-content: flex-start !important;
+    align-content: container-start !important;
   }
   .align-content-xl-end {
     
-    align-content: flex-end !important;
+    align-content: container-end !important;
   }
   .align-content-xl-center {
     
@@ -1885,11 +1885,11 @@ html {
   }
   .align-self-xl-start {
     
-    align-self: flex-start !important;
+    align-self: container-start !important;
   }
   .align-self-xl-end {
     
-    align-self: flex-end !important;
+    align-self: container-end !important;
   }
   .align-self-xl-center {
     

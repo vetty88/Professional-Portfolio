@@ -199,7 +199,7 @@ a {
   color: $link-color;
   text-decoration: $link-decoration;
   background-color: transparent; // Remove the gray background on active links in IE 10.
-  text-decoration-skip: objects; // Remove gaps in links underline in iOS 8+ and Safari 8+.
+   // Remove gaps in links underline in iOS 8+ and Safari 8+.
 
   @include hover {
     color: $link-hover-color;
@@ -359,7 +359,7 @@ html [type="button"], // 1
 }
 
 // Remove inner border and padding from Firefox, but don't restore the outline like Normalize.
-button::focus-inner,
+
 [type="button"]::focus-inner,
 [type="reset"]::focus-inner,
 [type="submit"]::focus-inner {
@@ -442,7 +442,7 @@ progress {
 // Remove the inner padding and cancel buttons in Chrome and Safari on macOS.
 //
 
-[type="search"]::search-cancel-button,
+
 [type="search"]::search-decoration {
   appearance: none;
 }

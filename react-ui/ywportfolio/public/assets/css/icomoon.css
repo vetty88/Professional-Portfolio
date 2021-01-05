@@ -20,7 +20,7 @@
   line-height: 1;
 
   /* Better Font Rendering =========== */
-  font-smoothing: antialiased;
+  
   
 }
 
@@ -2538,7 +2538,7 @@
 .icon-arrow_upward:before {
   content: "\e5d8";
 }
-.icon-art_track:before {
+.icon-art {
   content: "\e060";
 }
 .icon-aspect_ratio:before {
@@ -2580,7 +2580,7 @@
 .icon-attachment:before {
   content: "\e2bc";
 }
-.icon-audiotrack:before {
+.icon-audio {
   content: "\e3a1";
 }
 .icon-autorenew:before {

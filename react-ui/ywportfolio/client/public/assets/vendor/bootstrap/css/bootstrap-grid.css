@@ -56,7 +56,7 @@ html {
 }
 
 .row {
-  display: flexbox;
+  display: flex;
   display: flex;
   flex-wrap: wrap;
   flex-wrap: wrap;
@@ -1010,12 +1010,12 @@ html {
 }
 
 .flex {
-  display: flexbox !important;
+  display: flex !important;
   display: flex !important;
 }
 
 .d-inline-flex {
-  display: inline-flexbox !important;
+  display: inline-flex !important;
   display: inline-flex !important;
 }
 
@@ -1042,11 +1042,11 @@ html {
     display: table-cell !important;
   }
   .d-sm-flex {
-    display: flexbox !important;
+    display: flex !important;
     display: flex !important;
   }
   .d-sm-inline-flex {
-    display: inline-flexbox !important;
+    display: inline-flex !important;
     display: inline-flex !important;
   }
 }
@@ -1074,11 +1074,11 @@ html {
     display: table-cell !important;
   }
   .flex {
-    display: flexbox !important;
+    display: flex !important;
     display: flex !important;
   }
   .d-md-inline-flex {
-    display: inline-flexbox !important;
+    display: inline-flex !important;
     display: inline-flex !important;
   }
 }
@@ -1106,11 +1106,11 @@ html {
     display: table-cell !important;
   }
   .d-lg-flex {
-    display: flexbox !important;
+    display: flex !important;
     display: flex !important;
   }
   .d-lg-inline-flex {
-    display: inline-flexbox !important;
+    display: inline-flex !important;
     display: inline-flex !important;
   }
 }
@@ -1138,11 +1138,11 @@ html {
     display: table-cell !important;
   }
   .d-xl-flex {
-    display: flexbox !important;
+    display: flex !important;
     display: flex !important;
   }
   .d-xl-inline-flex {
-    display: inline-flexbox !important;
+    display: inline-flex !important;
     display: inline-flex !important;
   }
 }
@@ -1170,11 +1170,11 @@ html {
     display: table-cell !important;
   }
   .d-print-flex {
-    display: flexbox !important;
+    display: flex !important;
     display: flex !important;
   }
   .d-print-inline-flex {
-    display: inline-flexbox !important;
+    display: inline-flex !important;
     display: inline-flex !important;
   }
 }
