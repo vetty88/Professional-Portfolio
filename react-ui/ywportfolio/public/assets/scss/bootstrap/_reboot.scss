@@ -198,7 +198,7 @@ sup { top: -.5em; }
 a {
   color: $link-color;
   text-decoration: $link-decoration;
-  background-color: transparent; // Remove the gray background on active links in IE 10.
+   // Remove the gray background on active links in IE 10.
    // Remove gaps in links underline in iOS 8+ and Safari 8+.
 
   @include hover {
