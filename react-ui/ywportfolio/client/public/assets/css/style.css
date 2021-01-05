@@ -7245,8 +7245,7 @@ a.text-dark:hover, a.text-dark:focus {
   h2,
   h3 {
     page-break-after: avoid; }
-  @page {
-    size: a3; }
+ 
   description {
     min-width: 992px !important; }
   .container {

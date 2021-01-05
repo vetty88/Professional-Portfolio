@@ -32,7 +32,7 @@
 
   /* Better Font Rendering =========== */
   font-smoothing: antialiased;
-  osx-font-smoothing: grayscale;
+  
 }
 
 .flaticon-yoga:before { content: "\f100"; }
